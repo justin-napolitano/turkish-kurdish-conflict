@@ -1,23 +1,17 @@
-.. topic:: What is Sphinx and the RST syntax ?
+.. topic:: What is The Turkish-Kurdish Event Database ?
 
 
-    `Sphinx <http://sphinx.pocoo.org/>`_ is a tool that ease the creation of
-    documentation for software written in **Python**. Nevertheless, it can be 
-    used for other languages and more general documentation such as this document. 
-    Sphinx is widely used within the Python community and there are already many 
-    good tutorials and documentation about it. This tutorial was started
-    a while ago when Sphinx project started. I've been using sphinx professionally 
-    and for my own purpose. Since I've taken quite a few notes, 
-    I put them together and put it online, hoping it could be of interest for some of you.
+    `The Turkish-Kurdish Event Database is an agnostic arhchive of the human rights abuses commited in Anatolia by any group or agent.
+ 
 
-In the `Starting with Sphinx`_ section, the sub-sections :ref:`introduction` and :ref:`quickstart` provide will guide you on starting your own Sphinx project. If you want to see the RST and Sphinx syntax, jump directly to the :ref:`rst_tutorial` section.
+The documentation will present to you the first version of a paper written by Dr. Demet Mousseau and Justin Napolitano, both of the University of Central Florida.  
 
-Finally, if you are using Sphinx to document a Python project, have a look at the sections :ref:`docstring_python` and :ref:`doctest`.
+It was presented at the Hague in 2019 during the The Peace Economics Conference.  
 
-This tutorial is not covering all Sphinx possibilities and I would strongly recommend anyone willing to use sphinx to look at the sphinx homepage for latests updates and especially the multitude of add-ons (**directives**) that are added all the time (e.g. LaTeX can be included, plots, ...).
+A follow up is currenlty in production which will migrate the data to a Graph DB that strictly adheres to the person, object, location, event (POLE) schema.  It will also implement an NLP algorithm to parse event data in real time.
 
-Starting with Sphinx Test
-######################
+Introduction
+############
 
 .. toctree::
     :maxdepth: 1
