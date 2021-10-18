@@ -57,7 +57,7 @@ html_static_path = ['_static']
 
 # Theme Configuration
 html_theme_options = {
-"repository_url": "github.com/jusitn-napolitano/turkish-kurdish-conflict",
+"repository_url": "github.com/justin-napolitano/turkish-kurdish-conflict",
 "use_repository_button": True,
 "use_download_button": True,
 "home_page_in_toc": True,
