@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Data-Journal'
+project = 'An Event Database of the Turkish-Kurdish Conflict from 1984 to 2018'
 copyright = '2021, Justin Napolitano'
 author = 'Justin Napolitano'
 
@@ -48,6 +48,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'sphinx_book_theme'
+html_title = "Justin Napolitano's Portfolio Testing"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -56,8 +57,8 @@ html_static_path = ['_static']
 
 # Theme Configuration
 html_theme_options = {
-"repository_url": "github.com/jusitn-napolitano/data-journal",
-"use_respository_button": True,
+"repository_url": "github.com/jusitn-napolitano/turkish-kurdish-conflict",
+"use_repository_button": True,
 "use_download_button": True,
 "home_page_in_toc": True,
 "use_fullscreen_button": True
