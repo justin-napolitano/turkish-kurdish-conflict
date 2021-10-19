@@ -14,7 +14,7 @@ Introduction
 
 
     :Date: |today|
-    :Author: **Justin Napolitano*
+    :Author: **Justin Napolitano**
 
 
 

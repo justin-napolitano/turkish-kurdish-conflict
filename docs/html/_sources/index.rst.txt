@@ -18,4 +18,5 @@ Contents
     :numbered:
 
     introduction
+    documentation
     
