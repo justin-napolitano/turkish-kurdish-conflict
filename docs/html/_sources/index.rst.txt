@@ -19,6 +19,6 @@ Contents
 
     introduction
     search_procedure
-    variables_and_features
+    schema_tables
     documentation
     
