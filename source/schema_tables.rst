@@ -1,17 +1,17 @@
-.. _schema_tables:
+.. _coding_procedure:
 
 
 
 
 
 
-#############
-Schema Tables
-#############
+################
+Database Schema
+################
 
 .. topic:: Overview
 
-    This section contains reference tables for variables coded numerically in the Turkish-Kurdish Conflict Event Database
+    This section documents the schema of the DB.  You will find the `Reference Tables`_ and the variable level documentation within.  
 
 
     :Date: |today|
@@ -21,6 +21,16 @@ Schema Tables
 .. contents:: 
     :depth: 3
 
+
+Reference Tables
+################
+.. topic:: Overview
+
+    This section contains reference tables for variables coded numerically in the Turkish-Kurdish Conflict Event Database
+
+
+    :Date: |today|
+    :Author: **Justin Napolitano**
 
 Analysis Coding View
 ====================
