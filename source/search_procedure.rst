@@ -24,29 +24,19 @@ Search Procedure
 
 Primary Search Procedure
 ========================
-    
- .. highlights:: 
- 
-    Paste the following into the search bar on the Nexis Uni home page:
 
-2. hlead(turkey) and women or rape or slavery or sexual or trafficking or child labor or child soldier or children or violence and publication(Agence France Presse - English or associated press international )
+1. Paste the following into the search bar on the Nexis Uni home page:
 
-3. Select the filter results drop down menu.   
+    * hlead(turkey) and women or rape or slavery or sexual or trafficking or child labor or child soldier or children or violence and publication(Agence France Presse - English or associated press international )
 
-4. Select appropriate date ranges
+2. Select the filter results drop down menu.   
+
+3. Select appropriate date ranges
    
-Secondary Search Procedure
-==========================
-.. highlights::
-
-    As much of the historical event data relating to Kurdish political movements cannot be found in the news-wires or newspapers of record some events may derive from:
-
-1. Book
-    
-2. Journal Articles
 
 Sorting Procedure
 =================	
+
 1. Begin with the oldest listed resulted.  Then proceed chronologically.  For each story, determine if the information is relevant to the data project.  If not, discard the story. 
 
 2. During periods of civil conflict, defined by the start and end dates in the Uppsala Armed Conflict Database, code violent events associated with the civil conflicts.
