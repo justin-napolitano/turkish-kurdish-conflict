@@ -19,5 +19,6 @@ Contents
 
     introduction
     search_procedure
+    variables_and_features
     documentation
     
