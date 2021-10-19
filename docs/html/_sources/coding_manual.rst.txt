@@ -1,15 +1,25 @@
-.. _coding_manual:
+.. _search_procedure:
 
 
-#############
-Coding Manual
-#############
 
 
+
+
+##################
 Search Methodology
 ##################
 
-This section describes the search procedures used to query the Lexis-Nexis database.  
+.. topic:: Overview
+
+    This section describes the search procedures used to query the Lexis-Nexis database.  
+
+
+    :Date: |today|
+    :Author: **Justin Napolitano**
+
+
+.. contents:: 
+    :depth: 3
 
 Search Procedure
 ================
