@@ -18,5 +18,6 @@ Contents
     :numbered:
 
     introduction
+    coding_manual
     documentation
     
