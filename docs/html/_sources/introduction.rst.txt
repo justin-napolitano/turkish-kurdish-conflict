@@ -35,7 +35,7 @@ The Turkish Issue
 The Turkish state is not only a target, but also victim of the conflict. Despite being signatories to several human rights agreements -- including the United Nations Declaration of Human Rights -- Turkey has passed controversial government orders to restrict the basic rights of their Kurdish population. These include, but are not limited to, the manipulation of local elections, the implementation of state guards, and curfews in primarily Kurdish areas. As a consequence of the fighting between the two groups, human rights violations have been plentiful.  Innocent civilians of all ethnicities are the true victims.
 
 
-Intent of Reasearch
+Intent of Research
 ===================
 
 The primary intent of our research is to provide evidence of the social impact of the ongoing Kurdish national movement.  A special emphasis is placed upon events relating to women and to children. Secondarily, we strive to capture the human rights abuses committed by all parties involved.  

@@ -18,6 +18,6 @@ Contents
     :numbered:
 
     introduction
-    coding_manual
+    search_procedure
     documentation
     

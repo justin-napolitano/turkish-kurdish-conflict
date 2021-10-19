@@ -29,8 +29,7 @@ Primary Search Procedure
     2. hlead(turkey) and women or rape or slavery or sexual or trafficking or child labor or child soldier or children or violence and publication(Agence France Presse - English or associated press international )
     3. Select the filter results drop down menu.   
     4. Select appropriate date ranges
-
-
+   
 Secondary Search Procedure
 ==========================
 
@@ -38,8 +37,6 @@ As much of the historical event data relating to Kurdish political movements can
 
     1. Book
     2. Journal Articles
-
-
 
 Sorting Procedure
 =================	
