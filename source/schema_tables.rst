@@ -60,7 +60,7 @@ Human Rights Offense Table
 
 .. csv-table:: Human Rights Offense Table
    :file: /csv/human_rights_offense_table.csv
-   :widths: 10, 10, 10, 10, 10
+   :widths: 1, 10, 1, 1, 10, 15
    :header-rows: 1   
 
 Region Table
