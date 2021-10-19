@@ -1,0 +1,36 @@
+,,,,
+Category,Category Name,Categorical ID,Unique ID,Offense
+1, Crimes Against Humanity,1,1,Murder
+1, Crimes Against Humanity,2,2,Enslavement
+1, Crimes Against Humanity,3,3,Deportation / Forcible transportation
+1, Crimes Against Humanity,4,4,Illegal imprisonment (Political Imprisonment)
+1, Crimes Against Humanity,5,5,Torture
+1, Crimes Against Humanity,6,6,Targeted persecution
+1, Crimes Against Humanity,7,7,Apartheid
+1, Crimes Against Humanity,8,8,Genocide
+2,Women Political Rights,1,9,Right to vote
+2,Women Political Rights,2,10,Right to run for political office
+2,Women Political Rights,3,11,Right to hold elected and appointed government positions
+2,Women Political Rights,4,12,The Right to participate in non-governmental organizations
+2,Women Political Rights,5,13,The right to participate in public and political associations
+3,Crimes Against  Women,1,14,Rape
+3,Crimes Against  Women,2,15,Sexual slavery
+3,Crimes Against  Women,3,16,Forced prostitution
+3,Crimes Against  Women,4,17,Forced pregnancy
+3,Crimes Against  Women,5,18,Forced sterilization
+3,Crimes Against  Women,6,19,Other forms of sexual violence of comparable gravity
+3,Crimes Against  Women,7,20,Trafficking
+4,Crimes Against Children,1,21,Child labor
+4,Crimes Against Children,2,22,Child soldiering
+4,Crimes Against Children,3,23,Sexual slavery
+4,Crimes Against Children,4,24,Trafficking
+4,Crimes Against Children,5,25,Trial as adults
+5,Socioeconomic,1,26,Right to education
+5,Socioeconomic,2,27,Right to housing
+5,Socioeconomic,3,28,Right to fair work and wages
+5,Socioeconomic,4,29,Right to adequate living standards
+6,Collective Developmental,1,30,Right to self-determination
+6,Collective Developmental,2,31,Right to freedom of expression
+6,Collective Developmental,3,32,Right to freedom of thought and religion
+6,Collective Developmental,4,33,Rights of ethnic and religious minorities
+6,Collective Developmental,5,34,Right to freedom of peaceful assembly and association

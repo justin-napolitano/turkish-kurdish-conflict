@@ -177,8 +177,38 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#schema-table">
-   3.1. Schema Table
+  <a class="reference internal nav-link" href="#schema-table-overview">
+   3.1. Schema Table Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#agressor-table">
+   3.2. Agressor Table
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#victim-table">
+   3.3. Victim Table
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#human-rights-category-table">
+   3.4. Human Rights Category Table
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#human-rights-offense-table">
+   3.5. Human Rights Offense Table
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#region-table">
+   3.6. Region Table
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#province-table">
+   3.7. Province Table
   </a>
  </li>
 </ul>
@@ -193,7 +223,7 @@
               <div>
                 
   <div class="section" id="schema-tables">
-<span id="schema-tablles"></span><h1><a class="toc-backref" href="#id2"><span class="section-number">3. </span>Schema Tables</a><a class="headerlink" href="#schema-tables" title="Permalink to this headline">¶</a></h1>
+<span id="id1"></span><h1><a class="toc-backref" href="#id8"><span class="section-number">3. </span>Schema Tables</a><a class="headerlink" href="#schema-tables" title="Permalink to this headline">¶</a></h1>
 <div class="topic">
 <p class="topic-title">Overview</p>
 <p>This section documents the schema of the Turkish-Kurdish Conflict Event Database</p>
@@ -209,17 +239,23 @@
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#schema-tables" id="id2">Schema Tables</a></p>
+<li><p><a class="reference internal" href="#schema-tables" id="id8">Schema Tables</a></p>
 <ul>
-<li><p><a class="reference internal" href="#schema-table" id="id3">Schema Table</a></p></li>
+<li><p><a class="reference internal" href="#schema-table-overview" id="id9">Schema Table Overview</a></p></li>
+<li><p><a class="reference internal" href="#agressor-table" id="id10">Agressor Table</a></p></li>
+<li><p><a class="reference internal" href="#victim-table" id="id11">Victim Table</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-category-table" id="id12">Human Rights Category Table</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-offense-table" id="id13">Human Rights Offense Table</a></p></li>
+<li><p><a class="reference internal" href="#region-table" id="id14">Region Table</a></p></li>
+<li><p><a class="reference internal" href="#province-table" id="id15">Province Table</a></p></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="section" id="schema-table">
-<h2><a class="toc-backref" href="#id3"><span class="section-number">3.1. </span>Schema Table</a><a class="headerlink" href="#schema-table" title="Permalink to this headline">¶</a></h2>
-<table class="colwidths-given table" id="id1">
-<caption><span class="caption-text">Schema Table Test 2</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<div class="section" id="schema-table-overview">
+<h2><a class="toc-backref" href="#id9"><span class="section-number">3.1. </span>Schema Table Overview</a><a class="headerlink" href="#schema-table-overview" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given table" id="id2">
+<caption><span class="caption-text">Schema Table Overview</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 18%" />
 <col style="width: 64%" />
@@ -242,7 +278,7 @@
 </tr>
 <tr class="row-even"><td><p>Side_A</p></td>
 <td><p>The name of the aggressor in an event.</p></td>
-<td><p>Categorical String</p></td>
+<td><p>String</p></td>
 </tr>
 <tr class="row-odd"><td><p>Side_B_Id</p></td>
 <td><p>The unique identifier of the Victim of an event.</p></td>
@@ -250,7 +286,7 @@
 </tr>
 <tr class="row-even"><td><p>Side_B</p></td>
 <td><p>The class of the victim an event.</p></td>
-<td><p>Categorical String</p></td>
+<td><p>String</p></td>
 </tr>
 <tr class="row-odd"><td><p>Source_Article</p></td>
 <td><p>Reference to the names, dates, and titles of the source material from which information on the event is gathered</p></td>
@@ -270,7 +306,7 @@
 </tr>
 <tr class="row-odd"><td><p>Kurdish Region</p></td>
 <td><p>Designates whether a region contains a sizable Kurdish population.</p></td>
-<td><p>String</p></td>
+<td><p>Boolean</p></td>
 </tr>
 <tr class="row-even"><td><p>Region_Code</p></td>
 <td><p>Region in Turkey where the event took place.</p></td>
@@ -278,7 +314,7 @@
 </tr>
 <tr class="row-odd"><td><p>Province_Name</p></td>
 <td><p>The name of the Turkish Province in which an event took place.</p></td>
-<td><p>Categorical String</p></td>
+<td><p>String</p></td>
 </tr>
 <tr class="row-even"><td><p>Province_Code</p></td>
 <td><p>Province in which the event in the event occurred.</p></td>
@@ -346,7 +382,7 @@
 </tr>
 <tr class="row-even"><td><p>Is_Women_Event</p></td>
 <td></td>
-<td><p>String</p></td>
+<td><p>Boolean</p></td>
 </tr>
 <tr class="row-odd"><td><p>Is_Children_Event_Code</p></td>
 <td></td>
@@ -354,7 +390,7 @@
 </tr>
 <tr class="row-even"><td><p>Is_Children_Event</p></td>
 <td></td>
-<td><p>String</p></td>
+<td><p>Boolean</p></td>
 </tr>
 <tr class="row-odd"><td><p>Description</p></td>
 <td><p>A description of an event that may contain information that could not be relayed in the coding.</p></td>
@@ -363,6 +399,613 @@
 <tr class="row-even"><td><p>ID</p></td>
 <td><p>A unique identifier for a coded event.</p></td>
 <td><p>Integer</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="agressor-table">
+<h2><a class="toc-backref" href="#id10"><span class="section-number">3.2. </span>Agressor Table</a><a class="headerlink" href="#agressor-table" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given table" id="id3">
+<caption><span class="caption-text">Agressor Table</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ID</p></th>
+<th class="head"><p>Aggressor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>Unknown</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Turkish Government</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>PKK</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="victim-table">
+<h2><a class="toc-backref" href="#id11"><span class="section-number">3.3. </span>Victim Table</a><a class="headerlink" href="#victim-table" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given table" id="id4">
+<caption><span class="caption-text">Victim Table</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ID</p></th>
+<th class="head"><p>Victim</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Children</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Women</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Civillian</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Turkish Police</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Turkish Soldiers</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="human-rights-category-table">
+<h2><a class="toc-backref" href="#id12"><span class="section-number">3.4. </span>Human Rights Category Table</a><a class="headerlink" href="#human-rights-category-table" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="human-rights-offense-table">
+<h2><a class="toc-backref" href="#id13"><span class="section-number">3.5. </span>Human Rights Offense Table</a><a class="headerlink" href="#human-rights-offense-table" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given table" id="id5">
+<caption><span class="caption-text">Human Rights Offense Table</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Category</p></td>
+<td><p>Category Name</p></td>
+<td><p>Categorical ID</p></td>
+<td><p>Unique ID</p></td>
+<td><p>Offense</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>Murder</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>Enslavement</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>Deportation / Forcible transportation</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>Illegal imprisonment (Political Imprisonment)</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>Torture</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>Targeted persecution</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>Apartheid</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Crimes Against Humanity</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>Genocide</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Women Political Rights</p></td>
+<td><p>1</p></td>
+<td><p>9</p></td>
+<td><p>Right to vote</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>Women Political Rights</p></td>
+<td><p>2</p></td>
+<td><p>10</p></td>
+<td><p>Right to run for political office</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Women Political Rights</p></td>
+<td><p>3</p></td>
+<td><p>11</p></td>
+<td><p>Right to hold elected and appointed government positions</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>Women Political Rights</p></td>
+<td><p>4</p></td>
+<td><p>12</p></td>
+<td><p>The Right to participate in non-governmental organizations</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Women Political Rights</p></td>
+<td><p>5</p></td>
+<td><p>13</p></td>
+<td><p>The right to participate in public and political associations</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>1</p></td>
+<td><p>14</p></td>
+<td><p>Rape</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>2</p></td>
+<td><p>15</p></td>
+<td><p>Sexual slavery</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>3</p></td>
+<td><p>16</p></td>
+<td><p>Forced prostitution</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>4</p></td>
+<td><p>17</p></td>
+<td><p>Forced pregnancy</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>5</p></td>
+<td><p>18</p></td>
+<td><p>Forced sterilization</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>6</p></td>
+<td><p>19</p></td>
+<td><p>Other forms of sexual violence of comparable gravity</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Crimes Against  Women</p></td>
+<td><p>7</p></td>
+<td><p>20</p></td>
+<td><p>Trafficking</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Crimes Against Children</p></td>
+<td><p>1</p></td>
+<td><p>21</p></td>
+<td><p>Child labor</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>Crimes Against Children</p></td>
+<td><p>2</p></td>
+<td><p>22</p></td>
+<td><p>Child soldiering</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Crimes Against Children</p></td>
+<td><p>3</p></td>
+<td><p>23</p></td>
+<td><p>Sexual slavery</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>Crimes Against Children</p></td>
+<td><p>4</p></td>
+<td><p>24</p></td>
+<td><p>Trafficking</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Crimes Against Children</p></td>
+<td><p>5</p></td>
+<td><p>25</p></td>
+<td><p>Trial as adults</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Socioeconomic</p></td>
+<td><p>1</p></td>
+<td><p>26</p></td>
+<td><p>Right to education</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Socioeconomic</p></td>
+<td><p>2</p></td>
+<td><p>27</p></td>
+<td><p>Right to housing</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Socioeconomic</p></td>
+<td><p>3</p></td>
+<td><p>28</p></td>
+<td><p>Right to fair work and wages</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Socioeconomic</p></td>
+<td><p>4</p></td>
+<td><p>29</p></td>
+<td><p>Right to adequate living standards</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>Collective Developmental</p></td>
+<td><p>1</p></td>
+<td><p>30</p></td>
+<td><p>Right to self-determination</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Collective Developmental</p></td>
+<td><p>2</p></td>
+<td><p>31</p></td>
+<td><p>Right to freedom of expression</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>Collective Developmental</p></td>
+<td><p>3</p></td>
+<td><p>32</p></td>
+<td><p>Right to freedom of thought and religion</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Collective Developmental</p></td>
+<td><p>4</p></td>
+<td><p>33</p></td>
+<td><p>Rights of ethnic and religious minorities</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>Collective Developmental</p></td>
+<td><p>5</p></td>
+<td><p>34</p></td>
+<td><p>Right to freedom of peaceful assembly and association</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="region-table">
+<h2><a class="toc-backref" href="#id14"><span class="section-number">3.6. </span>Region Table</a><a class="headerlink" href="#region-table" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given table" id="id6">
+<caption><span class="caption-text">Region Table</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ID</p></th>
+<th class="head"><p>Name</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Istanbul</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>West Marmara</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Aegean</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>East Marmara</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>West Anatolia</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Mediterranean</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Central Anatolio</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>West Black Sea</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>East Black Sea</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Northeast Anatolio</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>Central East Anatolia</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>Southeast Anatolia</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="province-table">
+<h2><a class="toc-backref" href="#id15"><span class="section-number">3.7. </span>Province Table</a><a class="headerlink" href="#province-table" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given table" id="id7">
+<caption><span class="caption-text">Province Table</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>id</p></th>
+<th class="head"><p>Name</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Adana</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Adıyaman</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Afyonkarahisar</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Ağrı</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Amasya</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Ankara</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Antalya</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Artvin</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>Aydın</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Balıkesir</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>Bilecik</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>Bingöl</p></td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>Bitlis</p></td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>Bolu</p></td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>Burdur</p></td>
+</tr>
+<tr class="row-odd"><td><p>16</p></td>
+<td><p>Bursa</p></td>
+</tr>
+<tr class="row-even"><td><p>17</p></td>
+<td><p>Çanakkale</p></td>
+</tr>
+<tr class="row-odd"><td><p>18</p></td>
+<td><p>Çankırı</p></td>
+</tr>
+<tr class="row-even"><td><p>19</p></td>
+<td><p>Çorum</p></td>
+</tr>
+<tr class="row-odd"><td><p>20</p></td>
+<td><p>Denizli</p></td>
+</tr>
+<tr class="row-even"><td><p>21</p></td>
+<td><p>Diyarbakır</p></td>
+</tr>
+<tr class="row-odd"><td><p>22</p></td>
+<td><p>Edirne</p></td>
+</tr>
+<tr class="row-even"><td><p>23</p></td>
+<td><p>Elâzığ</p></td>
+</tr>
+<tr class="row-odd"><td><p>24</p></td>
+<td><p>Erzincan</p></td>
+</tr>
+<tr class="row-even"><td><p>25</p></td>
+<td><p>Erzurum</p></td>
+</tr>
+<tr class="row-odd"><td><p>26</p></td>
+<td><p>Eskişehir</p></td>
+</tr>
+<tr class="row-even"><td><p>27</p></td>
+<td><p>Gaziantep</p></td>
+</tr>
+<tr class="row-odd"><td><p>28</p></td>
+<td><p>Giresun</p></td>
+</tr>
+<tr class="row-even"><td><p>29</p></td>
+<td><p>Gümüşhane</p></td>
+</tr>
+<tr class="row-odd"><td><p>30</p></td>
+<td><p>Hakkâri</p></td>
+</tr>
+<tr class="row-even"><td><p>31</p></td>
+<td><p>Hatay</p></td>
+</tr>
+<tr class="row-odd"><td><p>32</p></td>
+<td><p>Isparta</p></td>
+</tr>
+<tr class="row-even"><td><p>33</p></td>
+<td><p>Mersin</p></td>
+</tr>
+<tr class="row-odd"><td><p>34</p></td>
+<td><p>Istanbul</p></td>
+</tr>
+<tr class="row-even"><td><p>35</p></td>
+<td><p>İzmir</p></td>
+</tr>
+<tr class="row-odd"><td><p>36</p></td>
+<td><p>Kars</p></td>
+</tr>
+<tr class="row-even"><td><p>37</p></td>
+<td><p>Kastamonu</p></td>
+</tr>
+<tr class="row-odd"><td><p>38</p></td>
+<td><p>Kayseri</p></td>
+</tr>
+<tr class="row-even"><td><p>39</p></td>
+<td><p>Kırklareli</p></td>
+</tr>
+<tr class="row-odd"><td><p>40</p></td>
+<td><p>Kırşehir</p></td>
+</tr>
+<tr class="row-even"><td><p>41</p></td>
+<td><p>Kocaeli</p></td>
+</tr>
+<tr class="row-odd"><td><p>42</p></td>
+<td><p>Konya</p></td>
+</tr>
+<tr class="row-even"><td><p>43</p></td>
+<td><p>Kütahya</p></td>
+</tr>
+<tr class="row-odd"><td><p>44</p></td>
+<td><p>Malatya</p></td>
+</tr>
+<tr class="row-even"><td><p>45</p></td>
+<td><p>Manisa</p></td>
+</tr>
+<tr class="row-odd"><td><p>46</p></td>
+<td><p>Kahramanmaraş</p></td>
+</tr>
+<tr class="row-even"><td><p>47</p></td>
+<td><p>Mardin</p></td>
+</tr>
+<tr class="row-odd"><td><p>48</p></td>
+<td><p>Muğla</p></td>
+</tr>
+<tr class="row-even"><td><p>49</p></td>
+<td><p>Muş</p></td>
+</tr>
+<tr class="row-odd"><td><p>50</p></td>
+<td><p>Nevşehir</p></td>
+</tr>
+<tr class="row-even"><td><p>51</p></td>
+<td><p>Niğde</p></td>
+</tr>
+<tr class="row-odd"><td><p>52</p></td>
+<td><p>Ordu</p></td>
+</tr>
+<tr class="row-even"><td><p>53</p></td>
+<td><p>Rize</p></td>
+</tr>
+<tr class="row-odd"><td><p>54</p></td>
+<td><p>Sakarya</p></td>
+</tr>
+<tr class="row-even"><td><p>55</p></td>
+<td><p>Samsun</p></td>
+</tr>
+<tr class="row-odd"><td><p>56</p></td>
+<td><p>Siirt</p></td>
+</tr>
+<tr class="row-even"><td><p>57</p></td>
+<td><p>Sinop</p></td>
+</tr>
+<tr class="row-odd"><td><p>58</p></td>
+<td><p>Sivas</p></td>
+</tr>
+<tr class="row-even"><td><p>59</p></td>
+<td><p>Tekirdağ</p></td>
+</tr>
+<tr class="row-odd"><td><p>60</p></td>
+<td><p>Tokat</p></td>
+</tr>
+<tr class="row-even"><td><p>61</p></td>
+<td><p>Trabzon</p></td>
+</tr>
+<tr class="row-odd"><td><p>62</p></td>
+<td><p>Tunceli</p></td>
+</tr>
+<tr class="row-even"><td><p>63</p></td>
+<td><p>Şanlıurfa</p></td>
+</tr>
+<tr class="row-odd"><td><p>64</p></td>
+<td><p>Uşak</p></td>
+</tr>
+<tr class="row-even"><td><p>65</p></td>
+<td><p>Van</p></td>
+</tr>
+<tr class="row-odd"><td><p>66</p></td>
+<td><p>Yozgat</p></td>
+</tr>
+<tr class="row-even"><td><p>67</p></td>
+<td><p>Zonguldak</p></td>
+</tr>
+<tr class="row-odd"><td><p>68</p></td>
+<td><p>Aksaray</p></td>
+</tr>
+<tr class="row-even"><td><p>69</p></td>
+<td><p>Bayburt</p></td>
+</tr>
+<tr class="row-odd"><td><p>70</p></td>
+<td><p>Karaman</p></td>
+</tr>
+<tr class="row-even"><td><p>71</p></td>
+<td><p>Kırıkkale</p></td>
+</tr>
+<tr class="row-odd"><td><p>72</p></td>
+<td><p>Batman</p></td>
+</tr>
+<tr class="row-even"><td><p>73</p></td>
+<td><p>Şırnak</p></td>
+</tr>
+<tr class="row-odd"><td><p>74</p></td>
+<td><p>Bartın</p></td>
+</tr>
+<tr class="row-even"><td><p>75</p></td>
+<td><p>Ardahan</p></td>
+</tr>
+<tr class="row-odd"><td><p>76</p></td>
+<td><p>Iğdır</p></td>
+</tr>
+<tr class="row-even"><td><p>77</p></td>
+<td><p>Yalova</p></td>
+</tr>
+<tr class="row-odd"><td><p>78</p></td>
+<td><p>Karabük</p></td>
+</tr>
+<tr class="row-even"><td><p>79</p></td>
+<td><p>Kilis</p></td>
+</tr>
+<tr class="row-odd"><td><p>80</p></td>
+<td><p>Osmaniye</p></td>
+</tr>
+<tr class="row-even"><td><p>81</p></td>
+<td><p>Düzce</p></td>
 </tr>
 </tbody>
 </table>
