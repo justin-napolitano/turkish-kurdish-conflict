@@ -646,6 +646,7 @@ Definition
 Data Type
 ---------
 
-  ::
 
-    String
+.. container:: Data Type
+  
+        String.
