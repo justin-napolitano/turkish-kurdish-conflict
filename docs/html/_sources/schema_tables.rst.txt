@@ -32,7 +32,7 @@ Reference Tables
     :Date: |today|
     :Author: **Justin Napolitano**
 
-.. contents:: 
+.. contents:: :local:
     :depth: 3
 
 Analysis Coding View
@@ -104,46 +104,46 @@ Definitions
     :Date: |today|
     :Author: **Justin Napolitano**
 
-.. contents:: 
+.. contents:: :local:
     :depth: 3
 
 
 Year
 ====
     
-    :definition: Records the Year the event occurs.
+    :Definition:: Records the Year the event occurs.
 
 Aggressor_ID
 ============
 
-    :definition: Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
+    :Definition:: Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
 
-    :table: `Aggressor Table`_ for reference.
+    :Table:: `Aggressor Table`_ for reference.
 
 Aggressor_Name
 ==============
     
-    :definition: Records the name of the aggressor of an event; the agent or group that commits a human right violation.
+    :Definition:: Records the name of the aggressor of an event; the agent or group that commits a human right violation.
 
-    :table: `Aggressor Table`_ for reference.
+    :Table:: `Aggressor Table`_ for reference.
 
 Victim_ID
 =========
     
-    :definition: Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
+    :Definition:: Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
 
-    :table: `Victim Table`_ for reference.
+    :Table:: `Victim Table`_ for reference.
 
 Victim_Name
 ===========
-    :definition: Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
+    :Definition:: Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
 
-    :table: `Victim Table`_ for reference.
+    :Table:: `Victim Table`_ for reference.
 
 Source_Article
 ==============
 
-    :definition: A record of the name, data, and title of the source from which information on an event is gathered.
+    :Definition:: A record of the name, data, and title of the source from which information on an event is gathered.
 
     
 
