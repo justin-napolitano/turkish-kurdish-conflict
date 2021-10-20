@@ -279,8 +279,9 @@ The state (country) where an event is recorded.
 
 Data Type
 ---------
+  ::
 
-Integer
+    Integer.
 
 Date_Start
 ==========
