@@ -118,12 +118,14 @@ Aggressor_ID
 
     :Definition:: Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
 
+
     :Table:: `Aggressor Table`_ for reference.
 
 Aggressor_Name
 ==============
     
     :Definition:: Records the name of the aggressor of an event; the agent or group that commits a human right violation.
+
 
     :Table:: `Aggressor Table`_ for reference.
 
@@ -132,11 +134,13 @@ Victim_ID
     
     :Definition:: Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
 
+
     :Table:: `Victim Table`_ for reference.
 
 Victim_Name
 ===========
     :Definition:: Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
+    
 
     :Table:: `Victim Table`_ for reference.
 
