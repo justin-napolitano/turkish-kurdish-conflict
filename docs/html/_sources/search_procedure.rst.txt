@@ -11,7 +11,7 @@ Search Procedure
 
 .. topic:: Overview
 
-    This section describes the search procedures used to query the Lexis-Nexis database.  
+    This section explaines the search procedures used to query the Lexis-Nexis database. It can be used by research assistants to code events.  
 
 
     :Date: |today|

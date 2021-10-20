@@ -10,7 +10,7 @@ Introduction
 
 .. topic:: Overview
 
-    This is a placeholder block for the time being.  I do not know if will introduce the introduction or leave it as is. 
+    This Section introduces the background of the Kurdish-Turkish Conflict and describes the intent of the research. 
 
 
     :Date: |today|
