@@ -35,10 +35,10 @@ Reference Tables
 .. contents:: :local:
     :depth: 3
 
-Analysis Coding View
-====================
+Overview Table
+==============
 
-.. csv-table:: Analysis Coding View
+.. csv-table:: Overview Table
    :file: /csv/schema_overview.csv
    :widths: 20, 70, 20
    :header-rows: 1
@@ -116,6 +116,17 @@ Definition
   
     Records the Year the event occurs.
 
+Data Type
+---------
+    
+    Integer.
+
+
+Reference Table
+---------------
+
+    `Overview Table`_
+
 Aggressor_ID
 ============
 
@@ -124,10 +135,16 @@ Definition
   
     Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
 
-Table
------
+Data Type
+---------
+    
+    Categorical Integer.
 
-    `Aggressor Table`_ for reference.
+
+Reference Table
+---------------
+
+    `Aggressor Table`_ 
 
 Aggressor_Name
 ==============
@@ -137,10 +154,15 @@ Definition
   
     Records the name of the aggressor of an event; the agent or group that commits a human right violation.
 
-Table
------
+Data Type
+---------
+    
+    String.
 
-    `Aggressor Table`_ for reference.
+Reference Table
+---------------
+
+    `Aggressor Table`_
 
 Victim_ID
 =========
@@ -150,8 +172,13 @@ Definition
   
     Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
 
-Table
------
+Data Type
+---------
+    
+    Categorical integer.
+
+Reference Table
+---------------
 
     `Victim Table`_ for reference.
 
@@ -163,8 +190,14 @@ Definition
   
     Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
 
-Table
------
+Data Type
+---------
+    
+    String.
+
+
+Reference Table
+---------------
 
     `Victim Table`_ for reference.
 
@@ -177,6 +210,16 @@ Definition
 
     A record of the name, data, and title of the source from which information on an event is gathered.
 
+Data Type
+---------
+    
+    String.
+
+
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Source_Date
 ===========
@@ -186,6 +229,16 @@ Definition
   
     The date the source material containing the information of an event record.
 
+Data Type
+---------
+    
+    DateStamp
+
+
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Source_Headline
 ===============
@@ -194,6 +247,16 @@ Definition
 ----------
   
     The title of the source material containing the information of an event record. 
+
+Data Type
+---------
+    
+    String
+
+Reference Table
+---------------
+
+    `Overview Table`_
 
 
 Region_Name
@@ -204,8 +267,13 @@ Defintion
   
     The name of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.
 
-Table
------
+Data Type
+---------
+    
+    String
+
+Reference Table
+---------------
 
     `Region Table`_
 
@@ -218,8 +286,14 @@ Definition
   
     The code of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.
 
-Table
------
+Data Type
+---------
+    
+    Categorical Integer.
+
+
+Reference Table
+---------------
 
     `Region Table`_
 
@@ -231,11 +305,15 @@ Definition
   
     A boolean variable that indicates whether a region is predominantly Kurdish by population.
 
-Type
-----
+Data Type
+---------
     
     Boolean
 
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Province_Name
 =============
@@ -245,8 +323,8 @@ Definition
     
     The name of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
 
-Type
-----
+Data Type
+---------
   
     String
 
@@ -264,10 +342,11 @@ Definition
     
     The code of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
 
-Type
+Data Type
 ----
     
     Categorical Integer
+
 
 Reference Table
 ---------------
@@ -288,6 +367,13 @@ Data Type
 
     Integer.
 
+Reference Table
+---------------
+
+    `Overview Table`_
+
+
+
 Date_Start
 ==========
 
@@ -303,6 +389,10 @@ Data Type
 
     DateStamp DD/MM/YYYY.
 
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Date_End
 ========
@@ -318,6 +408,11 @@ Data Type
     DateStamp DD/MM/YYYY
 
 
+Reference Table
+---------------
+
+    `Overview Table`_
+
 Women_Killed
 =============
 
@@ -331,6 +426,10 @@ Data Type
 
     Integer
 
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Children_Killed
 ===============
@@ -344,6 +443,11 @@ Data Type
 ---------
 
     Integer
+
+Reference Table
+---------------
+
+    `Overview Table`_
 
 
 Total_Killed
@@ -359,6 +463,12 @@ Data Type
 
     Integer
 
+
+Reference Table
+---------------
+
+    `Overview Table`_
+
 Women_Raped
 ===============
 
@@ -371,6 +481,11 @@ Data Type
 ---------
 
     Integer
+
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Illegal_Imprisonments
 =====================
@@ -385,6 +500,11 @@ Data Type
 
     Integer
 
+Reference Table
+---------------
+
+    `Overview Table`_
+
 Illegal_Detentions
 ==================
 
@@ -398,6 +518,10 @@ Data Type
 
     Integer
 
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Illegal_Imprisonments
 =====================
@@ -413,6 +537,11 @@ Data Type
 
     Integer
 
+Reference Table
+---------------
+
+    `Overview Table`_
+
 
 Human_Rights_Category_Code
 ==========================
@@ -427,6 +556,10 @@ Data Type
 
     Categorical Integer.
 
+Reference Table
+---------------
+
+    `Overview Table`_
 
 Reference Table
 ---------------
@@ -517,6 +650,12 @@ Data Type
 
     Boolean
 
+Reference Table
+---------------
+
+    `Overview Table`_
+
+
 Is_Children_Event
 =================
 
@@ -537,6 +676,11 @@ Data Type
 
     Boolean
 
+Reference Table
+---------------
+
+    `Overview Table`_
+
 
 Description
 ===========
@@ -553,6 +697,11 @@ Data Type
 
     String
 
+
+Reference Table
+---------------
+
+    `Overview Table`_
 
 ID
 ===
@@ -580,3 +729,7 @@ Data Type
 
     String
 
+Reference Table
+---------------
+
+    `Overview Table`_
