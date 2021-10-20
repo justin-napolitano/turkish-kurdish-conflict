@@ -633,16 +633,17 @@ ID
 
 
 
-    A unique identifier for a coded event
+A unique identifier for a coded event
 
-    It is constructed by appending the values of: 
-    # year
-    # Aggressor_ID
-    # Victim_ID
-    # Human_Rights_Category_Code 
-    # Human_Rights_Offense_Code
+It is constructed by appending the values of: 
+    #. year
+    #. Aggressor_ID
+    #. Victim_ID
+    #. Human_Rights_Category_Code 
+    #. Human_Rights_Offense_Code
 
-    For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association
+
+For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association
 
 
 
@@ -650,7 +651,7 @@ ID
 * Data Type
 
 
-    ``For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association``
+``For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association``
 
 .. code-block:: text
   
