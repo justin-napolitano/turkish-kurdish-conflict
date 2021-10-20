@@ -287,6 +287,7 @@ Date_Start
 
 Definition
 ----------
+testing....
 ::
 
     A record of the day, month, and year in the DD/MM/YYYY format of when the event takes place.
@@ -295,9 +296,10 @@ Definition
 
 Data Type
 ---------
+testing..
 ::
 
-    DateStamp DD/MM/YYYY
+    DateStamp DD/MM/YYYY.
 
 
 
