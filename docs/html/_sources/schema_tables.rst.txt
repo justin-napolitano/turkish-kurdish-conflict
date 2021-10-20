@@ -111,60 +111,60 @@ Definitions
 Year
 ====
     
-Definition:
------------
+Definition
+----------
 
 Records the Year the event occurs.
 
 Aggressor_ID
 ============
 
-Definition: 
------------
+Definition 
+----------
 
 Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
 
-Table: 
-------
+Table
+-----
 
 `Aggressor Table`_ for reference.
 
 Aggressor_Name
 ==============
     
-Definition: 
------------
+Definition 
+----------
 
 Records the name of the aggressor of an event; the agent or group that commits a human right violation.
 
-Table: 
-------
+Table
+-----
 
 `Aggressor Table`_ for reference.
 
 Victim_ID
 =========
     
-Definition:   
------------
+Definition   
+----------
 
 Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
 
-Table: 
-------
+Table
+-----
 
 `Victim Table`_ for reference.
 
 Victim_Name
 ===========
 
-Definition:  
------------
+Definition  
+----------
 
 Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
 
-Table: 
-------
+Table
+-----
 
 `Victim Table`_ for reference.
 
@@ -172,12 +172,132 @@ Table:
 Source_Article
 ==============
 
-Definition: 
------------
+Definition 
+----------
 
 A record of the name, data, and title of the source from which information on an event is gathered.
 
-    
+
+Source_Date
+===========
+
+Definition
+----------
+
+The date the source material containing the information of an event record.
+
+
+Source_Headline
+===============
+
+Definition
+----------
+
+The title of the source material containing the information of an event record. 
+
+
+Region_Name
+===========
+
+Defintion
+---------
+
+The name of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.
+
+Table
+-----
+
+`Region Table`_
+
+
+Region_Code
+===========
+
+The code of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.
+
+Table
+-----
+
+`Region Table`_
+
+Kurdish_Region
+==============
+
+Definition
+----------
+
+A boolean variable that indicates whether a region is predominantly Kurdish by population.
+
+Type
+----
+
+Boolean
+
+
+Province_Name
+=============
+
+Definition
+----------
+
+The name of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
+
+Type
+----
+
+String
+
+Reference Table
+---------------
+
+`Province Table`_
+
+
+Province Code
+=============
+
+The code of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
+
+Type
+----
+
+Categorical Integer
+
+Reference Table
+---------------
+
+`Province Table`_
+
+
+Country
+=======
+
+Definition
+----------
+
+The state (country) where an event is recorded.
+
+Data Type
+---------
+
+Integer
+
+Date_Start
+==========
+
+Definition
+----------
+
+    A record of the day, month, and year in the DD/MM/YYYY format of when the event takes place.
+
+    If the exact datastamp cannot be determined the best possible date is estimated.
+
+Data Type
+---------
+
+    DateStamp DD/MM/YYYY
+
+
 
 
 
