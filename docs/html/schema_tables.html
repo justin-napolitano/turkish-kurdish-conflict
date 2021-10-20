@@ -747,18 +747,6 @@
     <a class="reference internal nav-link" href="#id">
      3.2.31. ID
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#id60">
-       3.2.31.1. Definition
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#id61">
-       3.2.31.2. Data Type
-      </a>
-     </li>
-    </ul>
    </li>
   </ul>
  </li>
@@ -774,7 +762,7 @@
               <div>
                 
   <div class="section" id="database-schema">
-<span id="coding-procedure"></span><h1><a class="toc-backref" href="#id69"><span class="section-number">3. </span>Database Schema</a><a class="headerlink" href="#database-schema" title="Permalink to this headline">¶</a></h1>
+<span id="coding-procedure"></span><h1><a class="toc-backref" href="#id71"><span class="section-number">3. </span>Database Schema</a><a class="headerlink" href="#database-schema" title="Permalink to this headline">¶</a></h1>
 <div class="topic">
 <p class="topic-title">Overview</p>
 <p>This section documents the schema of the DB.  You will find the <a class="reference internal" href="#reference-tables">Reference Tables</a> and the variable level documentation within.</p>
@@ -790,52 +778,52 @@
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#database-schema" id="id69">Database Schema</a></p>
+<li><p><a class="reference internal" href="#database-schema" id="id71">Database Schema</a></p>
 <ul>
-<li><p><a class="reference internal" href="#reference-tables" id="id70">Reference Tables</a></p>
+<li><p><a class="reference internal" href="#reference-tables" id="id72">Reference Tables</a></p>
 <ul>
-<li><p><a class="reference internal" href="#analysis-coding-view" id="id71">Analysis Coding View</a></p></li>
-<li><p><a class="reference internal" href="#aggressor-table" id="id72">Aggressor Table</a></p></li>
-<li><p><a class="reference internal" href="#victim-table" id="id73">Victim Table</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-category-table" id="id74">Human Rights Category Table</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-offense-table" id="id75">Human Rights Offense Table</a></p></li>
-<li><p><a class="reference internal" href="#region-table" id="id76">Region Table</a></p></li>
-<li><p><a class="reference internal" href="#province-table" id="id77">Province Table</a></p></li>
+<li><p><a class="reference internal" href="#analysis-coding-view" id="id73">Analysis Coding View</a></p></li>
+<li><p><a class="reference internal" href="#aggressor-table" id="id74">Aggressor Table</a></p></li>
+<li><p><a class="reference internal" href="#victim-table" id="id75">Victim Table</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-category-table" id="id76">Human Rights Category Table</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-offense-table" id="id77">Human Rights Offense Table</a></p></li>
+<li><p><a class="reference internal" href="#region-table" id="id78">Region Table</a></p></li>
+<li><p><a class="reference internal" href="#province-table" id="id79">Province Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#definitions" id="id78">Definitions</a></p>
+<li><p><a class="reference internal" href="#definitions" id="id80">Definitions</a></p>
 <ul>
-<li><p><a class="reference internal" href="#year" id="id79">Year</a></p></li>
-<li><p><a class="reference internal" href="#aggressor-id" id="id80">Aggressor_ID</a></p></li>
-<li><p><a class="reference internal" href="#aggressor-name" id="id81">Aggressor_Name</a></p></li>
-<li><p><a class="reference internal" href="#victim-id" id="id82">Victim_ID</a></p></li>
-<li><p><a class="reference internal" href="#victim-name" id="id83">Victim_Name</a></p></li>
-<li><p><a class="reference internal" href="#source-article" id="id84">Source_Article</a></p></li>
-<li><p><a class="reference internal" href="#source-date" id="id85">Source_Date</a></p></li>
-<li><p><a class="reference internal" href="#source-headline" id="id86">Source_Headline</a></p></li>
-<li><p><a class="reference internal" href="#region-name" id="id87">Region_Name</a></p></li>
-<li><p><a class="reference internal" href="#region-code" id="id88">Region_Code</a></p></li>
-<li><p><a class="reference internal" href="#kurdish-region" id="id89">Kurdish_Region</a></p></li>
-<li><p><a class="reference internal" href="#province-name" id="id90">Province_Name</a></p></li>
-<li><p><a class="reference internal" href="#province-code" id="id91">Province Code</a></p></li>
-<li><p><a class="reference internal" href="#country" id="id92">Country</a></p></li>
-<li><p><a class="reference internal" href="#date-start" id="id93">Date_Start</a></p></li>
-<li><p><a class="reference internal" href="#date-end" id="id94">Date_End</a></p></li>
-<li><p><a class="reference internal" href="#women-killed" id="id95">Women_Killed</a></p></li>
-<li><p><a class="reference internal" href="#children-killed" id="id96">Children_Killed</a></p></li>
-<li><p><a class="reference internal" href="#total-killed" id="id97">Total_Killed</a></p></li>
-<li><p><a class="reference internal" href="#women-raped" id="id98">Women_Raped</a></p></li>
-<li><p><a class="reference internal" href="#illegal-imprisonments" id="id99">Illegal_Imprisonments</a></p></li>
-<li><p><a class="reference internal" href="#illegal-detentions" id="id100">Illegal_Detentions</a></p></li>
-<li><p><a class="reference internal" href="#id39" id="id101">Illegal_Imprisonments</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-category-code" id="id102">Human_Rights_Category_Code</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-category-name" id="id103">Human_Rights_Category_Name</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-offense-code" id="id104">Human_Rights_Offense_Code</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-offense-name" id="id105">Human_Rights_Offense_Name</a></p></li>
-<li><p><a class="reference internal" href="#is-women-event" id="id106">Is_Women_Event</a></p></li>
-<li><p><a class="reference internal" href="#is-children-event" id="id107">Is_Children_Event</a></p></li>
-<li><p><a class="reference internal" href="#description" id="id108">Description</a></p></li>
-<li><p><a class="reference internal" href="#id" id="id109">ID</a></p></li>
+<li><p><a class="reference internal" href="#year" id="id81">Year</a></p></li>
+<li><p><a class="reference internal" href="#aggressor-id" id="id82">Aggressor_ID</a></p></li>
+<li><p><a class="reference internal" href="#aggressor-name" id="id83">Aggressor_Name</a></p></li>
+<li><p><a class="reference internal" href="#victim-id" id="id84">Victim_ID</a></p></li>
+<li><p><a class="reference internal" href="#victim-name" id="id85">Victim_Name</a></p></li>
+<li><p><a class="reference internal" href="#source-article" id="id86">Source_Article</a></p></li>
+<li><p><a class="reference internal" href="#source-date" id="id87">Source_Date</a></p></li>
+<li><p><a class="reference internal" href="#source-headline" id="id88">Source_Headline</a></p></li>
+<li><p><a class="reference internal" href="#region-name" id="id89">Region_Name</a></p></li>
+<li><p><a class="reference internal" href="#region-code" id="id90">Region_Code</a></p></li>
+<li><p><a class="reference internal" href="#kurdish-region" id="id91">Kurdish_Region</a></p></li>
+<li><p><a class="reference internal" href="#province-name" id="id92">Province_Name</a></p></li>
+<li><p><a class="reference internal" href="#province-code" id="id93">Province Code</a></p></li>
+<li><p><a class="reference internal" href="#country" id="id94">Country</a></p></li>
+<li><p><a class="reference internal" href="#date-start" id="id95">Date_Start</a></p></li>
+<li><p><a class="reference internal" href="#date-end" id="id96">Date_End</a></p></li>
+<li><p><a class="reference internal" href="#women-killed" id="id97">Women_Killed</a></p></li>
+<li><p><a class="reference internal" href="#children-killed" id="id98">Children_Killed</a></p></li>
+<li><p><a class="reference internal" href="#total-killed" id="id99">Total_Killed</a></p></li>
+<li><p><a class="reference internal" href="#women-raped" id="id100">Women_Raped</a></p></li>
+<li><p><a class="reference internal" href="#illegal-imprisonments" id="id101">Illegal_Imprisonments</a></p></li>
+<li><p><a class="reference internal" href="#illegal-detentions" id="id102">Illegal_Detentions</a></p></li>
+<li><p><a class="reference internal" href="#id39" id="id103">Illegal_Imprisonments</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-category-code" id="id104">Human_Rights_Category_Code</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-category-name" id="id105">Human_Rights_Category_Name</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-offense-code" id="id106">Human_Rights_Offense_Code</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-offense-name" id="id107">Human_Rights_Offense_Name</a></p></li>
+<li><p><a class="reference internal" href="#is-women-event" id="id108">Is_Women_Event</a></p></li>
+<li><p><a class="reference internal" href="#is-children-event" id="id109">Is_Children_Event</a></p></li>
+<li><p><a class="reference internal" href="#description" id="id110">Description</a></p></li>
+<li><p><a class="reference internal" href="#id" id="id111">ID</a></p></li>
 </ul>
 </li>
 </ul>
@@ -843,7 +831,7 @@
 </ul>
 </div>
 <div class="section" id="reference-tables">
-<h2><a class="toc-backref" href="#id70"><span class="section-number">3.1. </span>Reference Tables</a><a class="headerlink" href="#reference-tables" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id72"><span class="section-number">3.1. </span>Reference Tables</a><a class="headerlink" href="#reference-tables" title="Permalink to this headline">¶</a></h2>
 <div class="topic">
 <p class="topic-title">Overview</p>
 <p>This section contains reference tables for variables coded numerically in the Turkish-Kurdish Conflict Event Database</p>
@@ -858,19 +846,19 @@
 </div>
 <div class="contents local topic" id="id1">
 <ul class="simple">
-<li><p><a class="reference internal" href="#analysis-coding-view" id="id110">Analysis Coding View</a></p></li>
-<li><p><a class="reference internal" href="#aggressor-table" id="id111">Aggressor Table</a></p></li>
-<li><p><a class="reference internal" href="#victim-table" id="id112">Victim Table</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-category-table" id="id113">Human Rights Category Table</a></p></li>
-<li><p><a class="reference internal" href="#human-rights-offense-table" id="id114">Human Rights Offense Table</a></p></li>
-<li><p><a class="reference internal" href="#region-table" id="id115">Region Table</a></p></li>
-<li><p><a class="reference internal" href="#province-table" id="id116">Province Table</a></p></li>
+<li><p><a class="reference internal" href="#analysis-coding-view" id="id112">Analysis Coding View</a></p></li>
+<li><p><a class="reference internal" href="#aggressor-table" id="id113">Aggressor Table</a></p></li>
+<li><p><a class="reference internal" href="#victim-table" id="id114">Victim Table</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-category-table" id="id115">Human Rights Category Table</a></p></li>
+<li><p><a class="reference internal" href="#human-rights-offense-table" id="id116">Human Rights Offense Table</a></p></li>
+<li><p><a class="reference internal" href="#region-table" id="id117">Region Table</a></p></li>
+<li><p><a class="reference internal" href="#province-table" id="id118">Province Table</a></p></li>
 </ul>
 </div>
 <div class="section" id="analysis-coding-view">
-<h3><a class="toc-backref" href="#id110"><span class="section-number">3.1.1. </span>Analysis Coding View</a><a class="headerlink" href="#analysis-coding-view" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id62">
-<caption><span class="caption-text">Analysis Coding View</span><a class="headerlink" href="#id62" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id112"><span class="section-number">3.1.1. </span>Analysis Coding View</a><a class="headerlink" href="#analysis-coding-view" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id64">
+<caption><span class="caption-text">Analysis Coding View</span><a class="headerlink" href="#id64" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 18%" />
 <col style="width: 64%" />
@@ -1019,9 +1007,9 @@
 </table>
 </div>
 <div class="section" id="aggressor-table">
-<h3><a class="toc-backref" href="#id111"><span class="section-number">3.1.2. </span>Aggressor Table</a><a class="headerlink" href="#aggressor-table" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id63">
-<caption><span class="caption-text">Aggressor Table</span><a class="headerlink" href="#id63" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id113"><span class="section-number">3.1.2. </span>Aggressor Table</a><a class="headerlink" href="#aggressor-table" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id65">
+<caption><span class="caption-text">Aggressor Table</span><a class="headerlink" href="#id65" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1045,9 +1033,9 @@
 </table>
 </div>
 <div class="section" id="victim-table">
-<h3><a class="toc-backref" href="#id112"><span class="section-number">3.1.3. </span>Victim Table</a><a class="headerlink" href="#victim-table" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id64">
-<caption><span class="caption-text">Victim Table</span><a class="headerlink" href="#id64" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id114"><span class="section-number">3.1.3. </span>Victim Table</a><a class="headerlink" href="#victim-table" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id66">
+<caption><span class="caption-text">Victim Table</span><a class="headerlink" href="#id66" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1077,9 +1065,9 @@
 </table>
 </div>
 <div class="section" id="human-rights-category-table">
-<h3><a class="toc-backref" href="#id113"><span class="section-number">3.1.4. </span>Human Rights Category Table</a><a class="headerlink" href="#human-rights-category-table" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id65">
-<caption><span class="caption-text">Human Rights Category Table</span><a class="headerlink" href="#id65" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id115"><span class="section-number">3.1.4. </span>Human Rights Category Table</a><a class="headerlink" href="#human-rights-category-table" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id67">
+<caption><span class="caption-text">Human Rights Category Table</span><a class="headerlink" href="#id67" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1112,9 +1100,9 @@
 </table>
 </div>
 <div class="section" id="human-rights-offense-table">
-<h3><a class="toc-backref" href="#id114"><span class="section-number">3.1.5. </span>Human Rights Offense Table</a><a class="headerlink" href="#human-rights-offense-table" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id66">
-<caption><span class="caption-text">Human Rights Offense Table</span><a class="headerlink" href="#id66" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id116"><span class="section-number">3.1.5. </span>Human Rights Offense Table</a><a class="headerlink" href="#human-rights-offense-table" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id68">
+<caption><span class="caption-text">Human Rights Offense Table</span><a class="headerlink" href="#id68" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 3%" />
 <col style="width: 26%" />
@@ -1382,9 +1370,9 @@
 </table>
 </div>
 <div class="section" id="region-table">
-<h3><a class="toc-backref" href="#id115"><span class="section-number">3.1.6. </span>Region Table</a><a class="headerlink" href="#region-table" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id67">
-<caption><span class="caption-text">Region Table</span><a class="headerlink" href="#id67" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id117"><span class="section-number">3.1.6. </span>Region Table</a><a class="headerlink" href="#region-table" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id69">
+<caption><span class="caption-text">Region Table</span><a class="headerlink" href="#id69" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1435,9 +1423,9 @@
 </table>
 </div>
 <div class="section" id="province-table">
-<h3><a class="toc-backref" href="#id116"><span class="section-number">3.1.7. </span>Province Table</a><a class="headerlink" href="#province-table" title="Permalink to this headline">¶</a></h3>
-<table class="colwidths-given table" id="id68">
-<caption><span class="caption-text">Province Table</span><a class="headerlink" href="#id68" title="Permalink to this table">¶</a></caption>
+<h3><a class="toc-backref" href="#id118"><span class="section-number">3.1.7. </span>Province Table</a><a class="headerlink" href="#province-table" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given table" id="id70">
+<caption><span class="caption-text">Province Table</span><a class="headerlink" href="#id70" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1696,7 +1684,7 @@
 </div>
 </div>
 <div class="section" id="definitions">
-<h2><a class="toc-backref" href="#id78"><span class="section-number">3.2. </span>Definitions</a><a class="headerlink" href="#definitions" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id80"><span class="section-number">3.2. </span>Definitions</a><a class="headerlink" href="#definitions" title="Permalink to this headline">¶</a></h2>
 <div class="topic">
 <p class="topic-title">Overview</p>
 <p>This section contains the definitions and descriptions for every variable recorded in the data set.</p>
@@ -1711,200 +1699,195 @@
 </div>
 <div class="contents local topic" id="id2">
 <ul class="simple">
-<li><p><a class="reference internal" href="#year" id="id117">Year</a></p>
+<li><p><a class="reference internal" href="#year" id="id119">Year</a></p>
 <ul>
-<li><p><a class="reference internal" href="#definition" id="id118">Definition</a></p></li>
+<li><p><a class="reference internal" href="#definition" id="id120">Definition</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#aggressor-id" id="id119">Aggressor_ID</a></p>
+<li><p><a class="reference internal" href="#aggressor-id" id="id121">Aggressor_ID</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id3" id="id120">Definition</a></p></li>
-<li><p><a class="reference internal" href="#table" id="id121">Table</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id122">Definition</a></p></li>
+<li><p><a class="reference internal" href="#table" id="id123">Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#aggressor-name" id="id122">Aggressor_Name</a></p>
+<li><p><a class="reference internal" href="#aggressor-name" id="id124">Aggressor_Name</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id4" id="id123">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id5" id="id124">Table</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id125">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id126">Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#victim-id" id="id125">Victim_ID</a></p>
+<li><p><a class="reference internal" href="#victim-id" id="id127">Victim_ID</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id6" id="id126">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id7" id="id127">Table</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id128">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id129">Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#victim-name" id="id128">Victim_Name</a></p>
+<li><p><a class="reference internal" href="#victim-name" id="id130">Victim_Name</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id8" id="id129">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id9" id="id130">Table</a></p></li>
+<li><p><a class="reference internal" href="#id8" id="id131">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id9" id="id132">Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#source-article" id="id131">Source_Article</a></p>
+<li><p><a class="reference internal" href="#source-article" id="id133">Source_Article</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id10" id="id132">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id10" id="id134">Definition</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#source-date" id="id133">Source_Date</a></p>
+<li><p><a class="reference internal" href="#source-date" id="id135">Source_Date</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id11" id="id134">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id11" id="id136">Definition</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#source-headline" id="id135">Source_Headline</a></p>
+<li><p><a class="reference internal" href="#source-headline" id="id137">Source_Headline</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id12" id="id136">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id12" id="id138">Definition</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#region-name" id="id137">Region_Name</a></p>
+<li><p><a class="reference internal" href="#region-name" id="id139">Region_Name</a></p>
 <ul>
-<li><p><a class="reference internal" href="#defintion" id="id138">Defintion</a></p></li>
-<li><p><a class="reference internal" href="#id13" id="id139">Table</a></p></li>
+<li><p><a class="reference internal" href="#defintion" id="id140">Defintion</a></p></li>
+<li><p><a class="reference internal" href="#id13" id="id141">Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#region-code" id="id140">Region_Code</a></p>
+<li><p><a class="reference internal" href="#region-code" id="id142">Region_Code</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id14" id="id141">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id15" id="id142">Table</a></p></li>
+<li><p><a class="reference internal" href="#id14" id="id143">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id15" id="id144">Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#kurdish-region" id="id143">Kurdish_Region</a></p>
+<li><p><a class="reference internal" href="#kurdish-region" id="id145">Kurdish_Region</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id16" id="id144">Definition</a></p></li>
-<li><p><a class="reference internal" href="#type" id="id145">Type</a></p></li>
+<li><p><a class="reference internal" href="#id16" id="id146">Definition</a></p></li>
+<li><p><a class="reference internal" href="#type" id="id147">Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#province-name" id="id146">Province_Name</a></p>
+<li><p><a class="reference internal" href="#province-name" id="id148">Province_Name</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id17" id="id147">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id18" id="id148">Type</a></p></li>
-<li><p><a class="reference internal" href="#reference-table" id="id149">Reference Table</a></p></li>
+<li><p><a class="reference internal" href="#id17" id="id149">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id18" id="id150">Type</a></p></li>
+<li><p><a class="reference internal" href="#reference-table" id="id151">Reference Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#province-code" id="id150">Province Code</a></p>
+<li><p><a class="reference internal" href="#province-code" id="id152">Province Code</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id19" id="id151">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id20" id="id152">Type</a></p></li>
-<li><p><a class="reference internal" href="#id21" id="id153">Reference Table</a></p></li>
+<li><p><a class="reference internal" href="#id19" id="id153">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id20" id="id154">Type</a></p></li>
+<li><p><a class="reference internal" href="#id21" id="id155">Reference Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#country" id="id154">Country</a></p>
+<li><p><a class="reference internal" href="#country" id="id156">Country</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id22" id="id155">Definition</a></p></li>
-<li><p><a class="reference internal" href="#data-type" id="id156">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id22" id="id157">Definition</a></p></li>
+<li><p><a class="reference internal" href="#data-type" id="id158">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#date-start" id="id157">Date_Start</a></p>
+<li><p><a class="reference internal" href="#date-start" id="id159">Date_Start</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id23" id="id158">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id24" id="id159">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id23" id="id160">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id24" id="id161">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#date-end" id="id160">Date_End</a></p>
+<li><p><a class="reference internal" href="#date-end" id="id162">Date_End</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id25" id="id161">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id26" id="id162">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id25" id="id163">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id26" id="id164">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#women-killed" id="id163">Women_Killed</a></p>
+<li><p><a class="reference internal" href="#women-killed" id="id165">Women_Killed</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id27" id="id164">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id28" id="id165">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id27" id="id166">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id28" id="id167">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#children-killed" id="id166">Children_Killed</a></p>
+<li><p><a class="reference internal" href="#children-killed" id="id168">Children_Killed</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id29" id="id167">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id30" id="id168">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id29" id="id169">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id30" id="id170">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#total-killed" id="id169">Total_Killed</a></p>
+<li><p><a class="reference internal" href="#total-killed" id="id171">Total_Killed</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id31" id="id170">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id32" id="id171">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id31" id="id172">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id32" id="id173">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#women-raped" id="id172">Women_Raped</a></p>
+<li><p><a class="reference internal" href="#women-raped" id="id174">Women_Raped</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id33" id="id173">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id34" id="id174">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id33" id="id175">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id34" id="id176">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#illegal-imprisonments" id="id175">Illegal_Imprisonments</a></p>
+<li><p><a class="reference internal" href="#illegal-imprisonments" id="id177">Illegal_Imprisonments</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id35" id="id176">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id36" id="id177">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id35" id="id178">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id36" id="id179">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#illegal-detentions" id="id178">Illegal_Detentions</a></p>
+<li><p><a class="reference internal" href="#illegal-detentions" id="id180">Illegal_Detentions</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id37" id="id179">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id38" id="id180">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id37" id="id181">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id38" id="id182">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#id39" id="id181">Illegal_Imprisonments</a></p>
+<li><p><a class="reference internal" href="#id39" id="id183">Illegal_Imprisonments</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id40" id="id182">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id41" id="id183">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id40" id="id184">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id41" id="id185">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#human-rights-category-code" id="id184">Human_Rights_Category_Code</a></p>
+<li><p><a class="reference internal" href="#human-rights-category-code" id="id186">Human_Rights_Category_Code</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id42" id="id185">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id43" id="id186">Data Type</a></p></li>
-<li><p><a class="reference internal" href="#id44" id="id187">Reference Table</a></p></li>
+<li><p><a class="reference internal" href="#id42" id="id187">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id43" id="id188">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id44" id="id189">Reference Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#human-rights-category-name" id="id188">Human_Rights_Category_Name</a></p>
+<li><p><a class="reference internal" href="#human-rights-category-name" id="id190">Human_Rights_Category_Name</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id45" id="id189">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id46" id="id190">Data Type</a></p></li>
-<li><p><a class="reference internal" href="#id47" id="id191">Reference Table</a></p></li>
+<li><p><a class="reference internal" href="#id45" id="id191">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id46" id="id192">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id47" id="id193">Reference Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#human-rights-offense-code" id="id192">Human_Rights_Offense_Code</a></p>
+<li><p><a class="reference internal" href="#human-rights-offense-code" id="id194">Human_Rights_Offense_Code</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id48" id="id193">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id49" id="id194">Data Type</a></p></li>
-<li><p><a class="reference internal" href="#id50" id="id195">Reference Table</a></p></li>
+<li><p><a class="reference internal" href="#id48" id="id195">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id49" id="id196">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id50" id="id197">Reference Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#human-rights-offense-name" id="id196">Human_Rights_Offense_Name</a></p>
+<li><p><a class="reference internal" href="#human-rights-offense-name" id="id198">Human_Rights_Offense_Name</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id51" id="id197">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id52" id="id198">Data Type</a></p></li>
-<li><p><a class="reference internal" href="#id53" id="id199">Reference Table</a></p></li>
+<li><p><a class="reference internal" href="#id51" id="id199">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id52" id="id200">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id53" id="id201">Reference Table</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#is-women-event" id="id200">Is_Women_Event</a></p>
+<li><p><a class="reference internal" href="#is-women-event" id="id202">Is_Women_Event</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id54" id="id201">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id55" id="id202">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id54" id="id203">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id55" id="id204">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#is-children-event" id="id203">Is_Children_Event</a></p>
+<li><p><a class="reference internal" href="#is-children-event" id="id205">Is_Children_Event</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id56" id="id204">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id57" id="id205">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id56" id="id206">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id57" id="id207">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#description" id="id206">Description</a></p>
+<li><p><a class="reference internal" href="#description" id="id208">Description</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id58" id="id207">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id59" id="id208">Data Type</a></p></li>
+<li><p><a class="reference internal" href="#id58" id="id209">Definition</a></p></li>
+<li><p><a class="reference internal" href="#id59" id="id210">Data Type</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#id" id="id209">ID</a></p>
-<ul>
-<li><p><a class="reference internal" href="#id60" id="id210">Definition</a></p></li>
-<li><p><a class="reference internal" href="#id61" id="id211">Data Type</a></p></li>
-</ul>
-</li>
+<li><p><a class="reference internal" href="#id" id="id211">ID</a></p></li>
 </ul>
 </div>
 <div class="section" id="year">
-<h3><a class="toc-backref" href="#id117"><span class="section-number">3.2.1. </span>Year</a><a class="headerlink" href="#year" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id119"><span class="section-number">3.2.1. </span>Year</a><a class="headerlink" href="#year" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="definition">
-<h4><a class="toc-backref" href="#id118"><span class="section-number">3.2.1.1. </span>Definition</a><a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id120"><span class="section-number">3.2.1.1. </span>Definition</a><a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Records</span> <span class="n">the</span> <span class="n">Year</span> <span class="n">the</span> <span class="n">event</span> <span class="n">occurs</span><span class="o">.</span>
 </pre></div>
@@ -1913,9 +1896,9 @@
 </div>
 </div>
 <div class="section" id="aggressor-id">
-<h3><a class="toc-backref" href="#id119"><span class="section-number">3.2.2. </span>Aggressor_ID</a><a class="headerlink" href="#aggressor-id" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id121"><span class="section-number">3.2.2. </span>Aggressor_ID</a><a class="headerlink" href="#aggressor-id" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id3">
-<h4><a class="toc-backref" href="#id120"><span class="section-number">3.2.2.1. </span>Definition</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id122"><span class="section-number">3.2.2.1. </span>Definition</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Records</span> <span class="n">the</span> <span class="n">ID</span> <span class="n">of</span> <span class="n">the</span> <span class="n">aggressor</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span><span class="p">;</span> <span class="n">the</span> <span class="n">agent</span> <span class="ow">or</span> <span class="n">group</span> <span class="n">that</span> <span class="n">commits</span> <span class="n">a</span> <span class="n">human</span> <span class="n">right</span> <span class="n">violation</span><span class="o">.</span>
 </pre></div>
@@ -1923,16 +1906,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="table">
-<h4><a class="toc-backref" href="#id121"><span class="section-number">3.2.2.2. </span>Table</a><a class="headerlink" href="#table" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id123"><span class="section-number">3.2.2.2. </span>Table</a><a class="headerlink" href="#table" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#aggressor-table">Aggressor Table</a> for reference.</p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="aggressor-name">
-<h3><a class="toc-backref" href="#id122"><span class="section-number">3.2.3. </span>Aggressor_Name</a><a class="headerlink" href="#aggressor-name" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id124"><span class="section-number">3.2.3. </span>Aggressor_Name</a><a class="headerlink" href="#aggressor-name" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id4">
-<h4><a class="toc-backref" href="#id123"><span class="section-number">3.2.3.1. </span>Definition</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id125"><span class="section-number">3.2.3.1. </span>Definition</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Records</span> <span class="n">the</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">aggressor</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span><span class="p">;</span> <span class="n">the</span> <span class="n">agent</span> <span class="ow">or</span> <span class="n">group</span> <span class="n">that</span> <span class="n">commits</span> <span class="n">a</span> <span class="n">human</span> <span class="n">right</span> <span class="n">violation</span><span class="o">.</span>
 </pre></div>
@@ -1940,16 +1923,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id5">
-<h4><a class="toc-backref" href="#id124"><span class="section-number">3.2.3.2. </span>Table</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id126"><span class="section-number">3.2.3.2. </span>Table</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#aggressor-table">Aggressor Table</a> for reference.</p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="victim-id">
-<h3><a class="toc-backref" href="#id125"><span class="section-number">3.2.4. </span>Victim_ID</a><a class="headerlink" href="#victim-id" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id127"><span class="section-number">3.2.4. </span>Victim_ID</a><a class="headerlink" href="#victim-id" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id6">
-<h4><a class="toc-backref" href="#id126"><span class="section-number">3.2.4.1. </span>Definition</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id128"><span class="section-number">3.2.4.1. </span>Definition</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Records</span> <span class="n">the</span> <span class="n">ID</span> <span class="n">of</span> <span class="n">the</span> <span class="n">victim</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span><span class="p">;</span> <span class="n">the</span> <span class="n">agent</span> <span class="ow">or</span> <span class="n">group</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">victim</span> <span class="n">to</span> <span class="n">a</span> <span class="n">human</span> <span class="n">right</span> <span class="n">violation</span> <span class="n">commited</span> <span class="n">by</span> <span class="n">the</span> <span class="n">aggressor</span><span class="o">.</span>
 </pre></div>
@@ -1957,16 +1940,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id7">
-<h4><a class="toc-backref" href="#id127"><span class="section-number">3.2.4.2. </span>Table</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id129"><span class="section-number">3.2.4.2. </span>Table</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#victim-table">Victim Table</a> for reference.</p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="victim-name">
-<h3><a class="toc-backref" href="#id128"><span class="section-number">3.2.5. </span>Victim_Name</a><a class="headerlink" href="#victim-name" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id130"><span class="section-number">3.2.5. </span>Victim_Name</a><a class="headerlink" href="#victim-name" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id8">
-<h4><a class="toc-backref" href="#id129"><span class="section-number">3.2.5.1. </span>Definition</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id131"><span class="section-number">3.2.5.1. </span>Definition</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Records</span> <span class="n">the</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">victim</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span><span class="p">;</span> <span class="n">the</span> <span class="n">agent</span> <span class="ow">or</span> <span class="n">group</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">victim</span> <span class="n">to</span> <span class="n">a</span> <span class="n">human</span> <span class="n">right</span> <span class="n">violation</span> <span class="n">commited</span> <span class="n">by</span> <span class="n">the</span> <span class="n">aggressor</span><span class="o">.</span>
 </pre></div>
@@ -1974,16 +1957,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id9">
-<h4><a class="toc-backref" href="#id130"><span class="section-number">3.2.5.2. </span>Table</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id132"><span class="section-number">3.2.5.2. </span>Table</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#victim-table">Victim Table</a> for reference.</p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="source-article">
-<h3><a class="toc-backref" href="#id131"><span class="section-number">3.2.6. </span>Source_Article</a><a class="headerlink" href="#source-article" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id133"><span class="section-number">3.2.6. </span>Source_Article</a><a class="headerlink" href="#source-article" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id10">
-<h4><a class="toc-backref" href="#id132"><span class="section-number">3.2.6.1. </span>Definition</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id134"><span class="section-number">3.2.6.1. </span>Definition</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">record</span> <span class="n">of</span> <span class="n">the</span> <span class="n">name</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="ow">and</span> <span class="n">title</span> <span class="n">of</span> <span class="n">the</span> <span class="n">source</span> <span class="kn">from</span> <span class="nn">which</span> <span class="n">information</span> <span class="n">on</span> <span class="n">an</span> <span class="n">event</span> <span class="ow">is</span> <span class="n">gathered</span><span class="o">.</span>
 </pre></div>
@@ -1992,9 +1975,9 @@
 </div>
 </div>
 <div class="section" id="source-date">
-<h3><a class="toc-backref" href="#id133"><span class="section-number">3.2.7. </span>Source_Date</a><a class="headerlink" href="#source-date" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id135"><span class="section-number">3.2.7. </span>Source_Date</a><a class="headerlink" href="#source-date" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id11">
-<h4><a class="toc-backref" href="#id134"><span class="section-number">3.2.7.1. </span>Definition</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id136"><span class="section-number">3.2.7.1. </span>Definition</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">date</span> <span class="n">the</span> <span class="n">source</span> <span class="n">material</span> <span class="n">containing</span> <span class="n">the</span> <span class="n">information</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span> <span class="n">record</span><span class="o">.</span>
 </pre></div>
@@ -2003,9 +1986,9 @@
 </div>
 </div>
 <div class="section" id="source-headline">
-<h3><a class="toc-backref" href="#id135"><span class="section-number">3.2.8. </span>Source_Headline</a><a class="headerlink" href="#source-headline" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id137"><span class="section-number">3.2.8. </span>Source_Headline</a><a class="headerlink" href="#source-headline" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id12">
-<h4><a class="toc-backref" href="#id136"><span class="section-number">3.2.8.1. </span>Definition</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id138"><span class="section-number">3.2.8.1. </span>Definition</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">title</span> <span class="n">of</span> <span class="n">the</span> <span class="n">source</span> <span class="n">material</span> <span class="n">containing</span> <span class="n">the</span> <span class="n">information</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span> <span class="n">record</span><span class="o">.</span>
 </pre></div>
@@ -2014,9 +1997,9 @@
 </div>
 </div>
 <div class="section" id="region-name">
-<h3><a class="toc-backref" href="#id137"><span class="section-number">3.2.9. </span>Region_Name</a><a class="headerlink" href="#region-name" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id139"><span class="section-number">3.2.9. </span>Region_Name</a><a class="headerlink" href="#region-name" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="defintion">
-<h4><a class="toc-backref" href="#id138"><span class="section-number">3.2.9.1. </span>Defintion</a><a class="headerlink" href="#defintion" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id140"><span class="section-number">3.2.9.1. </span>Defintion</a><a class="headerlink" href="#defintion" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">administrative</span> <span class="n">region</span> <span class="n">an</span> <span class="n">event</span> <span class="n">was</span> <span class="n">recorded</span><span class="o">.</span>  <span class="n">Regions</span> <span class="n">are</span> <span class="n">defined</span> <span class="n">according</span> <span class="n">the</span> <span class="n">offical</span> <span class="n">provincial</span> <span class="ow">and</span> <span class="n">administrative</span> <span class="n">regions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Turkish</span> <span class="n">State</span><span class="o">.</span>
 </pre></div>
@@ -2024,16 +2007,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id13">
-<h4><a class="toc-backref" href="#id139"><span class="section-number">3.2.9.2. </span>Table</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id141"><span class="section-number">3.2.9.2. </span>Table</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#region-table">Region Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="region-code">
-<h3><a class="toc-backref" href="#id140"><span class="section-number">3.2.10. </span>Region_Code</a><a class="headerlink" href="#region-code" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id142"><span class="section-number">3.2.10. </span>Region_Code</a><a class="headerlink" href="#region-code" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id14">
-<h4><a class="toc-backref" href="#id141"><span class="section-number">3.2.10.1. </span>Definition</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id143"><span class="section-number">3.2.10.1. </span>Definition</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">code</span> <span class="n">of</span> <span class="n">the</span> <span class="n">administrative</span> <span class="n">region</span> <span class="n">an</span> <span class="n">event</span> <span class="n">was</span> <span class="n">recorded</span><span class="o">.</span>  <span class="n">Regions</span> <span class="n">are</span> <span class="n">defined</span> <span class="n">according</span> <span class="n">the</span> <span class="n">offical</span> <span class="n">provincial</span> <span class="ow">and</span> <span class="n">administrative</span> <span class="n">regions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Turkish</span> <span class="n">State</span><span class="o">.</span>
 </pre></div>
@@ -2041,16 +2024,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id15">
-<h4><a class="toc-backref" href="#id142"><span class="section-number">3.2.10.2. </span>Table</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id144"><span class="section-number">3.2.10.2. </span>Table</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#region-table">Region Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="kurdish-region">
-<h3><a class="toc-backref" href="#id143"><span class="section-number">3.2.11. </span>Kurdish_Region</a><a class="headerlink" href="#kurdish-region" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id145"><span class="section-number">3.2.11. </span>Kurdish_Region</a><a class="headerlink" href="#kurdish-region" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id16">
-<h4><a class="toc-backref" href="#id144"><span class="section-number">3.2.11.1. </span>Definition</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id146"><span class="section-number">3.2.11.1. </span>Definition</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">boolean</span> <span class="n">variable</span> <span class="n">that</span> <span class="n">indicates</span> <span class="n">whether</span> <span class="n">a</span> <span class="n">region</span> <span class="ow">is</span> <span class="n">predominantly</span> <span class="n">Kurdish</span> <span class="n">by</span> <span class="n">population</span><span class="o">.</span>
 </pre></div>
@@ -2058,7 +2041,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="type">
-<h4><a class="toc-backref" href="#id145"><span class="section-number">3.2.11.2. </span>Type</a><a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id147"><span class="section-number">3.2.11.2. </span>Type</a><a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Boolean</span>
 </pre></div>
@@ -2067,9 +2050,9 @@
 </div>
 </div>
 <div class="section" id="province-name">
-<h3><a class="toc-backref" href="#id146"><span class="section-number">3.2.12. </span>Province_Name</a><a class="headerlink" href="#province-name" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id148"><span class="section-number">3.2.12. </span>Province_Name</a><a class="headerlink" href="#province-name" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id17">
-<h4><a class="toc-backref" href="#id147"><span class="section-number">3.2.12.1. </span>Definition</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id149"><span class="section-number">3.2.12.1. </span>Definition</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">provincial</span> <span class="n">level</span> <span class="n">administrative</span> <span class="n">region</span> <span class="n">an</span> <span class="n">event</span> <span class="n">was</span> <span class="n">recorded</span><span class="o">.</span>  <span class="n">Provinces</span> <span class="n">are</span> <span class="n">defined</span> <span class="n">according</span> <span class="n">the</span> <span class="n">offical</span> <span class="n">provincial</span> <span class="ow">and</span> <span class="n">administrative</span> <span class="n">regions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Turkish</span> <span class="n">State</span><span class="o">.</span>
 </pre></div>
@@ -2077,7 +2060,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id18">
-<h4><a class="toc-backref" href="#id148"><span class="section-number">3.2.12.2. </span>Type</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id150"><span class="section-number">3.2.12.2. </span>Type</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">String</span>
 </pre></div>
@@ -2085,16 +2068,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="reference-table">
-<h4><a class="toc-backref" href="#id149"><span class="section-number">3.2.12.3. </span>Reference Table</a><a class="headerlink" href="#reference-table" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id151"><span class="section-number">3.2.12.3. </span>Reference Table</a><a class="headerlink" href="#reference-table" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#province-table">Province Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="province-code">
-<h3><a class="toc-backref" href="#id150"><span class="section-number">3.2.13. </span>Province Code</a><a class="headerlink" href="#province-code" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id152"><span class="section-number">3.2.13. </span>Province Code</a><a class="headerlink" href="#province-code" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id19">
-<h4><a class="toc-backref" href="#id151"><span class="section-number">3.2.13.1. </span>Definition</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id153"><span class="section-number">3.2.13.1. </span>Definition</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">code</span> <span class="n">of</span> <span class="n">the</span> <span class="n">provincial</span> <span class="n">level</span> <span class="n">administrative</span> <span class="n">region</span> <span class="n">an</span> <span class="n">event</span> <span class="n">was</span> <span class="n">recorded</span><span class="o">.</span>  <span class="n">Provinces</span> <span class="n">are</span> <span class="n">defined</span> <span class="n">according</span> <span class="n">the</span> <span class="n">offical</span> <span class="n">provincial</span> <span class="ow">and</span> <span class="n">administrative</span> <span class="n">regions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Turkish</span> <span class="n">State</span><span class="o">.</span>
 </pre></div>
@@ -2102,7 +2085,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id20">
-<h4><a class="toc-backref" href="#id152"><span class="section-number">3.2.13.2. </span>Type</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id154"><span class="section-number">3.2.13.2. </span>Type</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Categorical</span> <span class="n">Integer</span>
 </pre></div>
@@ -2110,16 +2093,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id21">
-<h4><a class="toc-backref" href="#id153"><span class="section-number">3.2.13.3. </span>Reference Table</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id155"><span class="section-number">3.2.13.3. </span>Reference Table</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#province-table">Province Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="country">
-<h3><a class="toc-backref" href="#id154"><span class="section-number">3.2.14. </span>Country</a><a class="headerlink" href="#country" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id156"><span class="section-number">3.2.14. </span>Country</a><a class="headerlink" href="#country" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id22">
-<h4><a class="toc-backref" href="#id155"><span class="section-number">3.2.14.1. </span>Definition</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id157"><span class="section-number">3.2.14.1. </span>Definition</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">state</span> <span class="p">(</span><span class="n">country</span><span class="p">)</span> <span class="n">where</span> <span class="n">an</span> <span class="n">event</span> <span class="ow">is</span> <span class="n">recorded</span><span class="o">.</span>
 </pre></div>
@@ -2127,7 +2110,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="data-type">
-<h4><a class="toc-backref" href="#id156"><span class="section-number">3.2.14.2. </span>Data Type</a><a class="headerlink" href="#data-type" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id158"><span class="section-number">3.2.14.2. </span>Data Type</a><a class="headerlink" href="#data-type" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span><span class="o">.</span>
 </pre></div>
@@ -2136,9 +2119,9 @@
 </div>
 </div>
 <div class="section" id="date-start">
-<h3><a class="toc-backref" href="#id157"><span class="section-number">3.2.15. </span>Date_Start</a><a class="headerlink" href="#date-start" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id159"><span class="section-number">3.2.15. </span>Date_Start</a><a class="headerlink" href="#date-start" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id23">
-<h4><a class="toc-backref" href="#id158"><span class="section-number">3.2.15.1. </span>Definition</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id160"><span class="section-number">3.2.15.1. </span>Definition</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">record</span> <span class="n">of</span> <span class="n">the</span> <span class="n">day</span><span class="p">,</span> <span class="n">month</span><span class="p">,</span> <span class="ow">and</span> <span class="n">year</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">DD</span><span class="o">/</span><span class="n">MM</span><span class="o">/</span><span class="n">YYYY</span> <span class="nb">format</span> <span class="n">of</span> <span class="n">when</span> <span class="n">an</span> <span class="n">event</span> <span class="n">takes</span> <span class="n">starts</span><span class="o">.</span>
 
@@ -2148,7 +2131,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id24">
-<h4><a class="toc-backref" href="#id159"><span class="section-number">3.2.15.2. </span>Data Type</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id161"><span class="section-number">3.2.15.2. </span>Data Type</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DateStamp</span> <span class="n">DD</span><span class="o">/</span><span class="n">MM</span><span class="o">/</span><span class="n">YYYY</span><span class="o">.</span>
 </pre></div>
@@ -2157,9 +2140,9 @@
 </div>
 </div>
 <div class="section" id="date-end">
-<h3><a class="toc-backref" href="#id160"><span class="section-number">3.2.16. </span>Date_End</a><a class="headerlink" href="#date-end" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id162"><span class="section-number">3.2.16. </span>Date_End</a><a class="headerlink" href="#date-end" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id25">
-<h4><a class="toc-backref" href="#id161"><span class="section-number">3.2.16.1. </span>Definition</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id163"><span class="section-number">3.2.16.1. </span>Definition</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">record</span> <span class="n">of</span> <span class="n">the</span> <span class="n">day</span><span class="p">,</span> <span class="n">month</span><span class="p">,</span> <span class="ow">and</span> <span class="n">yearn</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">DD</span><span class="o">/</span><span class="n">MM</span><span class="o">/</span><span class="n">YYYY</span> <span class="nb">format</span> <span class="n">of</span> <span class="n">when</span> <span class="n">an</span> <span class="n">event</span> <span class="n">ends</span><span class="o">.</span>
 </pre></div>
@@ -2167,7 +2150,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id26">
-<h4><a class="toc-backref" href="#id162"><span class="section-number">3.2.16.2. </span>Data Type</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id164"><span class="section-number">3.2.16.2. </span>Data Type</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DateStamp</span> <span class="n">DD</span><span class="o">/</span><span class="n">MM</span><span class="o">/</span><span class="n">YYYY</span>
 </pre></div>
@@ -2176,9 +2159,9 @@
 </div>
 </div>
 <div class="section" id="women-killed">
-<h3><a class="toc-backref" href="#id163"><span class="section-number">3.2.17. </span>Women_Killed</a><a class="headerlink" href="#women-killed" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id165"><span class="section-number">3.2.17. </span>Women_Killed</a><a class="headerlink" href="#women-killed" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id27">
-<h4><a class="toc-backref" href="#id164"><span class="section-number">3.2.17.1. </span>Definition</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id166"><span class="section-number">3.2.17.1. </span>Definition</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">best</span> <span class="n">estimate</span> <span class="n">of</span> <span class="n">deaths</span> <span class="n">of</span> <span class="n">women</span> <span class="n">recorded</span> <span class="k">for</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2186,7 +2169,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id28">
-<h4><a class="toc-backref" href="#id165"><span class="section-number">3.2.17.2. </span>Data Type</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id167"><span class="section-number">3.2.17.2. </span>Data Type</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2195,9 +2178,9 @@
 </div>
 </div>
 <div class="section" id="children-killed">
-<h3><a class="toc-backref" href="#id166"><span class="section-number">3.2.18. </span>Children_Killed</a><a class="headerlink" href="#children-killed" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id168"><span class="section-number">3.2.18. </span>Children_Killed</a><a class="headerlink" href="#children-killed" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id29">
-<h4><a class="toc-backref" href="#id167"><span class="section-number">3.2.18.1. </span>Definition</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id169"><span class="section-number">3.2.18.1. </span>Definition</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">best</span> <span class="n">estimate</span> <span class="n">of</span> <span class="n">the</span> <span class="n">number</span> <span class="n">of</span> <span class="n">deaths</span> <span class="n">of</span> <span class="n">children</span> <span class="n">recorded</span> <span class="k">for</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2205,7 +2188,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id30">
-<h4><a class="toc-backref" href="#id168"><span class="section-number">3.2.18.2. </span>Data Type</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id170"><span class="section-number">3.2.18.2. </span>Data Type</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2214,9 +2197,9 @@
 </div>
 </div>
 <div class="section" id="total-killed">
-<h3><a class="toc-backref" href="#id169"><span class="section-number">3.2.19. </span>Total_Killed</a><a class="headerlink" href="#total-killed" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id171"><span class="section-number">3.2.19. </span>Total_Killed</a><a class="headerlink" href="#total-killed" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id31">
-<h4><a class="toc-backref" href="#id170"><span class="section-number">3.2.19.1. </span>Definition</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id172"><span class="section-number">3.2.19.1. </span>Definition</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="nb">sum</span> <span class="n">of</span> <span class="n">Women_Killed</span><span class="p">,</span> <span class="n">Children_Killed</span><span class="p">,</span> <span class="ow">and</span> <span class="nb">any</span> <span class="n">other</span> <span class="n">deaths</span> <span class="n">recorded</span> <span class="k">for</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2224,7 +2207,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id32">
-<h4><a class="toc-backref" href="#id171"><span class="section-number">3.2.19.2. </span>Data Type</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id173"><span class="section-number">3.2.19.2. </span>Data Type</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2233,9 +2216,9 @@
 </div>
 </div>
 <div class="section" id="women-raped">
-<h3><a class="toc-backref" href="#id172"><span class="section-number">3.2.20. </span>Women_Raped</a><a class="headerlink" href="#women-raped" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id174"><span class="section-number">3.2.20. </span>Women_Raped</a><a class="headerlink" href="#women-raped" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id33">
-<h4><a class="toc-backref" href="#id173"><span class="section-number">3.2.20.1. </span>Definition</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id175"><span class="section-number">3.2.20.1. </span>Definition</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">recorded</span> <span class="n">number</span> <span class="n">of</span> <span class="n">women</span> <span class="n">during</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2243,7 +2226,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id34">
-<h4><a class="toc-backref" href="#id174"><span class="section-number">3.2.20.2. </span>Data Type</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id176"><span class="section-number">3.2.20.2. </span>Data Type</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2252,9 +2235,9 @@
 </div>
 </div>
 <div class="section" id="illegal-imprisonments">
-<h3><a class="toc-backref" href="#id175"><span class="section-number">3.2.21. </span>Illegal_Imprisonments</a><a class="headerlink" href="#illegal-imprisonments" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id177"><span class="section-number">3.2.21. </span>Illegal_Imprisonments</a><a class="headerlink" href="#illegal-imprisonments" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id35">
-<h4><a class="toc-backref" href="#id176"><span class="section-number">3.2.21.1. </span>Definition</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id178"><span class="section-number">3.2.21.1. </span>Definition</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">recorded</span> <span class="n">number</span> <span class="n">of</span> <span class="n">people</span> <span class="n">illegally</span> <span class="n">imprisoned</span> <span class="n">during</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2262,7 +2245,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id36">
-<h4><a class="toc-backref" href="#id177"><span class="section-number">3.2.21.2. </span>Data Type</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id179"><span class="section-number">3.2.21.2. </span>Data Type</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2271,9 +2254,9 @@
 </div>
 </div>
 <div class="section" id="illegal-detentions">
-<h3><a class="toc-backref" href="#id178"><span class="section-number">3.2.22. </span>Illegal_Detentions</a><a class="headerlink" href="#illegal-detentions" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id180"><span class="section-number">3.2.22. </span>Illegal_Detentions</a><a class="headerlink" href="#illegal-detentions" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id37">
-<h4><a class="toc-backref" href="#id179"><span class="section-number">3.2.22.1. </span>Definition</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id181"><span class="section-number">3.2.22.1. </span>Definition</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">recorded</span> <span class="n">number</span> <span class="n">of</span> <span class="n">people</span> <span class="n">illegally</span> <span class="n">detained</span> <span class="n">by</span> <span class="nb">any</span> <span class="n">non</span><span class="o">-</span><span class="n">governmental</span> <span class="n">agent</span> <span class="ow">or</span> <span class="n">organization</span> <span class="n">during</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2281,7 +2264,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id38">
-<h4><a class="toc-backref" href="#id180"><span class="section-number">3.2.22.2. </span>Data Type</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id182"><span class="section-number">3.2.22.2. </span>Data Type</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2290,9 +2273,9 @@
 </div>
 </div>
 <div class="section" id="id39">
-<h3><a class="toc-backref" href="#id181"><span class="section-number">3.2.23. </span>Illegal_Imprisonments</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id183"><span class="section-number">3.2.23. </span>Illegal_Imprisonments</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id40">
-<h4><a class="toc-backref" href="#id182"><span class="section-number">3.2.23.1. </span>Definition</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id184"><span class="section-number">3.2.23.1. </span>Definition</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">recorded</span> <span class="n">number</span> <span class="n">of</span> <span class="n">people</span> <span class="n">illegally</span> <span class="n">imprisoned</span> <span class="n">by</span> <span class="n">the</span> <span class="n">Turkish</span> <span class="n">State</span> <span class="n">during</span> <span class="n">an</span> <span class="n">event</span><span class="o">.</span>
 </pre></div>
@@ -2300,7 +2283,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id41">
-<h4><a class="toc-backref" href="#id183"><span class="section-number">3.2.23.2. </span>Data Type</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id185"><span class="section-number">3.2.23.2. </span>Data Type</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span>
 </pre></div>
@@ -2309,9 +2292,9 @@
 </div>
 </div>
 <div class="section" id="human-rights-category-code">
-<h3><a class="toc-backref" href="#id184"><span class="section-number">3.2.24. </span>Human_Rights_Category_Code</a><a class="headerlink" href="#human-rights-category-code" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id186"><span class="section-number">3.2.24. </span>Human_Rights_Category_Code</a><a class="headerlink" href="#human-rights-category-code" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id42">
-<h4><a class="toc-backref" href="#id185"><span class="section-number">3.2.24.1. </span>Definition</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id187"><span class="section-number">3.2.24.1. </span>Definition</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">code</span> <span class="n">of</span> <span class="n">the</span> <span class="n">category</span> <span class="n">of</span> <span class="n">Human</span> <span class="n">Rights</span> <span class="n">violation</span> <span class="k">as</span> <span class="n">defined</span> <span class="n">by</span> <span class="n">Justin</span> <span class="n">Napolitano</span> <span class="ow">and</span> <span class="n">Demet</span> <span class="n">Mousseau</span><span class="o">.</span> <span class="n">Insert</span> <span class="n">a</span> <span class="n">reference</span> <span class="n">here</span><span class="o">.</span>
 </pre></div>
@@ -2319,7 +2302,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id43">
-<h4><a class="toc-backref" href="#id186"><span class="section-number">3.2.24.2. </span>Data Type</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id188"><span class="section-number">3.2.24.2. </span>Data Type</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Categorical</span> <span class="n">Integer</span><span class="o">.</span>
 </pre></div>
@@ -2327,16 +2310,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id44">
-<h4><a class="toc-backref" href="#id187"><span class="section-number">3.2.24.3. </span>Reference Table</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id189"><span class="section-number">3.2.24.3. </span>Reference Table</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#human-rights-category-table">Human Rights Category Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="human-rights-category-name">
-<h3><a class="toc-backref" href="#id188"><span class="section-number">3.2.25. </span>Human_Rights_Category_Name</a><a class="headerlink" href="#human-rights-category-name" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id190"><span class="section-number">3.2.25. </span>Human_Rights_Category_Name</a><a class="headerlink" href="#human-rights-category-name" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id45">
-<h4><a class="toc-backref" href="#id189"><span class="section-number">3.2.25.1. </span>Definition</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id191"><span class="section-number">3.2.25.1. </span>Definition</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">category</span> <span class="n">of</span> <span class="n">Human</span> <span class="n">Rights</span> <span class="n">violation</span> <span class="k">as</span> <span class="n">defined</span> <span class="n">by</span> <span class="n">Justin</span> <span class="n">Napolitano</span> <span class="ow">and</span> <span class="n">Demet</span> <span class="n">Mousseau</span><span class="o">.</span> <span class="n">Insert</span> <span class="n">a</span> <span class="n">reference</span> <span class="n">here</span><span class="o">.</span>
 </pre></div>
@@ -2344,7 +2327,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id46">
-<h4><a class="toc-backref" href="#id190"><span class="section-number">3.2.25.2. </span>Data Type</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id192"><span class="section-number">3.2.25.2. </span>Data Type</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">String</span>
 </pre></div>
@@ -2352,16 +2335,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id47">
-<h4><a class="toc-backref" href="#id191"><span class="section-number">3.2.25.3. </span>Reference Table</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id193"><span class="section-number">3.2.25.3. </span>Reference Table</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#human-rights-category-table">Human Rights Category Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="human-rights-offense-code">
-<h3><a class="toc-backref" href="#id192"><span class="section-number">3.2.26. </span>Human_Rights_Offense_Code</a><a class="headerlink" href="#human-rights-offense-code" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id194"><span class="section-number">3.2.26. </span>Human_Rights_Offense_Code</a><a class="headerlink" href="#human-rights-offense-code" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id48">
-<h4><a class="toc-backref" href="#id193"><span class="section-number">3.2.26.1. </span>Definition</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id195"><span class="section-number">3.2.26.1. </span>Definition</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">code</span> <span class="n">of</span> <span class="n">the</span> <span class="n">offence</span> <span class="n">to</span> <span class="n">Human</span> <span class="n">Rights</span> <span class="k">as</span> <span class="n">defined</span> <span class="n">by</span> <span class="n">the</span> <span class="n">United</span> <span class="n">Nations</span> <span class="ow">or</span> <span class="n">Comparable</span> <span class="n">International</span> <span class="n">Treaty</span> <span class="n">Organization</span><span class="o">.</span>
 </pre></div>
@@ -2369,7 +2352,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id49">
-<h4><a class="toc-backref" href="#id194"><span class="section-number">3.2.26.2. </span>Data Type</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id196"><span class="section-number">3.2.26.2. </span>Data Type</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Categorical</span> <span class="n">Integer</span><span class="o">.</span>
 </pre></div>
@@ -2377,16 +2360,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id50">
-<h4><a class="toc-backref" href="#id195"><span class="section-number">3.2.26.3. </span>Reference Table</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id197"><span class="section-number">3.2.26.3. </span>Reference Table</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#human-rights-offense-table">Human Rights Offense Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="human-rights-offense-name">
-<h3><a class="toc-backref" href="#id196"><span class="section-number">3.2.27. </span>Human_Rights_Offense_Name</a><a class="headerlink" href="#human-rights-offense-name" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id198"><span class="section-number">3.2.27. </span>Human_Rights_Offense_Name</a><a class="headerlink" href="#human-rights-offense-name" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id51">
-<h4><a class="toc-backref" href="#id197"><span class="section-number">3.2.27.1. </span>Definition</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id199"><span class="section-number">3.2.27.1. </span>Definition</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">offence</span> <span class="n">to</span> <span class="n">Human</span> <span class="n">Rights</span> <span class="k">as</span> <span class="n">defined</span> <span class="n">by</span> <span class="n">the</span> <span class="n">United</span> <span class="n">Nations</span> <span class="ow">or</span> <span class="n">Comparable</span> <span class="n">International</span> <span class="n">Treaty</span> <span class="n">Organization</span><span class="o">.</span>
 </pre></div>
@@ -2394,7 +2377,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id52">
-<h4><a class="toc-backref" href="#id198"><span class="section-number">3.2.27.2. </span>Data Type</a><a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id200"><span class="section-number">3.2.27.2. </span>Data Type</a><a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">String</span>
 </pre></div>
@@ -2402,16 +2385,16 @@
 </div></blockquote>
 </div>
 <div class="section" id="id53">
-<h4><a class="toc-backref" href="#id199"><span class="section-number">3.2.27.3. </span>Reference Table</a><a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id201"><span class="section-number">3.2.27.3. </span>Reference Table</a><a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p><a class="reference internal" href="#human-rights-offense-table">Human Rights Offense Table</a></p>
 </div></blockquote>
 </div>
 </div>
 <div class="section" id="is-women-event">
-<h3><a class="toc-backref" href="#id200"><span class="section-number">3.2.28. </span>Is_Women_Event</a><a class="headerlink" href="#is-women-event" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id202"><span class="section-number">3.2.28. </span>Is_Women_Event</a><a class="headerlink" href="#is-women-event" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id54">
-<h4><a class="toc-backref" href="#id201"><span class="section-number">3.2.28.1. </span>Definition</a><a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id203"><span class="section-number">3.2.28.1. </span>Definition</a><a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">boolean</span> <span class="n">variable</span> <span class="n">that</span> <span class="n">designates</span> <span class="k">if</span> <span class="n">an</span> <span class="n">event</span> <span class="n">primarily</span> <span class="n">affects</span> <span class="n">males</span> <span class="ow">or</span> <span class="n">females</span><span class="o">.</span>
 
@@ -2423,7 +2406,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id55">
-<h4><a class="toc-backref" href="#id202"><span class="section-number">3.2.28.2. </span>Data Type</a><a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id204"><span class="section-number">3.2.28.2. </span>Data Type</a><a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Boolean</span>
 </pre></div>
@@ -2432,9 +2415,9 @@
 </div>
 </div>
 <div class="section" id="is-children-event">
-<h3><a class="toc-backref" href="#id203"><span class="section-number">3.2.29. </span>Is_Children_Event</a><a class="headerlink" href="#is-children-event" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id205"><span class="section-number">3.2.29. </span>Is_Children_Event</a><a class="headerlink" href="#is-children-event" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id56">
-<h4><a class="toc-backref" href="#id204"><span class="section-number">3.2.29.1. </span>Definition</a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id206"><span class="section-number">3.2.29.1. </span>Definition</a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">boolean</span> <span class="n">variable</span> <span class="n">that</span> <span class="n">designates</span> <span class="k">if</span> <span class="n">an</span> <span class="n">event</span> <span class="n">primarily</span> <span class="n">affects</span> <span class="n">adults</span> <span class="ow">or</span> <span class="n">children</span><span class="o">.</span>
 
@@ -2446,7 +2429,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id57">
-<h4><a class="toc-backref" href="#id205"><span class="section-number">3.2.29.2. </span>Data Type</a><a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id207"><span class="section-number">3.2.29.2. </span>Data Type</a><a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Boolean</span>
 </pre></div>
@@ -2455,9 +2438,9 @@
 </div>
 </div>
 <div class="section" id="description">
-<h3><a class="toc-backref" href="#id206"><span class="section-number">3.2.30. </span>Description</a><a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id208"><span class="section-number">3.2.30. </span>Description</a><a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id58">
-<h4><a class="toc-backref" href="#id207"><span class="section-number">3.2.30.1. </span>Definition</a><a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id209"><span class="section-number">3.2.30.1. </span>Definition</a><a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">description</span> <span class="n">of</span> <span class="n">an</span> <span class="n">event</span> <span class="n">that</span> <span class="n">may</span> <span class="n">contain</span> <span class="n">information</span> <span class="n">that</span> <span class="n">could</span> <span class="ow">not</span> <span class="n">be</span> <span class="n">relayed</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">coding</span><span class="o">.</span>
 </pre></div>
@@ -2465,7 +2448,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="id59">
-<h4><a class="toc-backref" href="#id208"><span class="section-number">3.2.30.2. </span>Data Type</a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id210"><span class="section-number">3.2.30.2. </span>Data Type</a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">String</span>
 </pre></div>
@@ -2474,9 +2457,8 @@
 </div>
 </div>
 <div class="section" id="id">
-<h3><a class="toc-backref" href="#id209"><span class="section-number">3.2.31. </span>ID</a><a class="headerlink" href="#id" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id60">
-<h4><a class="toc-backref" href="#id210"><span class="section-number">3.2.31.1. </span>Definition</a><a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h4>
+<h3><a class="toc-backref" href="#id211"><span class="section-number">3.2.31. </span>ID</a><a class="headerlink" href="#id" title="Permalink to this headline">¶</a></h3>
+<p><a href="#id60"><span class="problematic" id="id61">*</span></a>Definition</p>
 <blockquote>
 <div><p>A unique identifier for a coded event</p>
 <p>It is constructed by appending the values of:
@@ -2487,15 +2469,12 @@
 # Human_Rights_Offense_Code</p>
 <p>For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association</p>
 </div></blockquote>
-</div>
-<div class="section" id="id61">
-<h4><a class="toc-backref" href="#id211"><span class="section-number">3.2.31.2. </span>Data Type</a><a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h4>
+<p><a href="#id62"><span class="problematic" id="id63">*</span></a>Data Type</p>
 <blockquote>
 <div><p><code class="docutils literal notranslate"><span class="pre">For</span> <span class="pre">instance,</span> <span class="pre">id</span> <span class="pre">19981265</span> <span class="pre">is</span> <span class="pre">an</span> <span class="pre">event</span> <span class="pre">that</span> <span class="pre">occurred</span> <span class="pre">in</span> <span class="pre">1998</span> <span class="pre">committed</span> <span class="pre">by</span> <span class="pre">the</span> <span class="pre">Turkish</span> <span class="pre">government</span> <span class="pre">against</span> <span class="pre">women.</span>&#160; <span class="pre">It</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">broad</span> <span class="pre">violation</span> <span class="pre">of</span> <span class="pre">Collective</span> <span class="pre">Developmental</span> <span class="pre">rights.</span>&#160; <span class="pre">Specifically,</span> <span class="pre">the</span> <span class="pre">right</span> <span class="pre">to</span> <span class="pre">freedom</span> <span class="pre">of</span> <span class="pre">peaceful</span> <span class="pre">assembly</span> <span class="pre">and</span> <span class="pre">association</span></code></p>
 </div></blockquote>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>String.
 </pre></div>
-</div>
 </div>
 </div>
 </div>
