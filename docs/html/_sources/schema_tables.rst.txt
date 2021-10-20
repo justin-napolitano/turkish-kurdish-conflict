@@ -111,43 +111,71 @@ Definitions
 Year
 ====
     
-    :Definition:: Records the Year the event occurs.
+    Definition:
+    -----------
+    
+    Records the Year the event occurs.
 
 Aggressor_ID
 ============
 
-    :Definition:: Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
+    Definition: 
+    -----------
 
+    Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
 
-    :Table:: `Aggressor Table`_ for reference.
+    Table: 
+    ------
+
+    `Aggressor Table`_ for reference.
 
 Aggressor_Name
 ==============
     
-    :Definition:: Records the name of the aggressor of an event; the agent or group that commits a human right violation.
+    Definition: 
+    -----------
 
+    Records the name of the aggressor of an event; the agent or group that commits a human right violation.
 
-    :Table:: `Aggressor Table`_ for reference.
+    Table: 
+    ------
+
+    `Aggressor Table`_ for reference.
 
 Victim_ID
 =========
     
-    :Definition:: Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
+    Definition:   
+    -----------
 
+    Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
 
-    :Table:: `Victim Table`_ for reference.
+    Table: 
+    ------
+
+    `Victim Table`_ for reference.
 
 Victim_Name
 ===========
-    :Definition:: Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.  
-    
 
-    :Table:: `Victim Table`_ for reference.
+    Definition:  
+    -----------
+
+    Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
+    
+    Table: 
+    ------
+
+    `Victim Table`_ for reference.
+
 
 Source_Article
 ==============
 
-    :Definition:: A record of the name, data, and title of the source from which information on an event is gathered.
+    Definition: 
+    -----------
+    
+    A record of the name, data, and title of the source from which information on an event is gathered.
 
     
 
