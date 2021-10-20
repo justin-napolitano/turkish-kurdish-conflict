@@ -591,13 +591,8 @@ Is_Children_Event
 Definition
 ----------
 
-  ::
 
-    A boolean variable that designates if an event primarily affects adults or children.
-
-    0 designates an event as affecting adults.
-
-    1 designates an event as affecting children.
+    ``A boolean variable that designates if an event primarily affects adults or children.  0 designates an event as affecting adults. 1 designates an event as affecting children.``
 
 Data Type
 ---------
@@ -613,7 +608,6 @@ Description
 Definition
 ----------
 
-  ::
 
     A description of an event that may contain information that could not be relayed in the coding. 
 
@@ -631,9 +625,7 @@ ID
 
 Definition
 
-
-
-    * A unique identifier for a coded event
+    A unique identifier for a coded event
 
 
     It is constructed by appending the values of: 
