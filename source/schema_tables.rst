@@ -629,11 +629,12 @@ Data Type
 ID
 ===
 
-* Definition
+Definition
 
 
 
-    A unique identifier for a coded event
+    * A unique identifier for a coded event
+
 
     It is constructed by appending the values of: 
         #. year
@@ -647,8 +648,7 @@ ID
 
 
 
-
-* Data Type
+Data Type
 
 
     ``For instance, id 19981265 is an event that occurred in 1998 committed by the Turkish government against women.  It is a broad violation of Collective Developmental rights.  Specifically, the right to freedom of peaceful assembly and association``
