@@ -483,10 +483,6 @@ Data Type
 
     Categorical Integer.
 
-Reference Table
----------------
-
-    `Overview Table`_
 
 Reference Table
 ---------------
