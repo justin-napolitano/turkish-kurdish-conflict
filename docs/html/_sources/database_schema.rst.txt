@@ -471,7 +471,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 
 Human_Rights_Category_Code
@@ -512,7 +512,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Human Rights Category Table`_
+    `Human Rights Category Table`_.
 
 
 
@@ -557,7 +557,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Human Rights Offense Table`_
+    `Human Rights Offense Table`_.
 
 
 Is_Women_Event
