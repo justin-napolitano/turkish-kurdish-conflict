@@ -274,7 +274,7 @@ Definition
     The code of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
 
 Data Type
-----
+---------
     
     Categorical Integer.
 

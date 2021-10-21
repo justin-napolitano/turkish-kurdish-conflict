@@ -13,8 +13,8 @@ Variable Name,Description,Data Type
 `Province_Name`_,The name of the Turkish Province in which an event took place. ,"String"
 `Province_Code`_,Province in which the event in the event occurred. ,"Categorical Integer"
 `Country`_,The state (country) where the event took place.,String
-`Date_Start`_,Lists the day, month, and year in DD/MM/YYYY format for when the event begins. If the exact day cannot be identified, this is the best approximation of the start date.,String
-`Date_End`_,Lists the day, month, and year in DD/MM/YYYY format for when the event ends. If the exact day cannot be identified, this is the best approximation of the start date.,String
+`Date_Start`_,"Lists the day, month, and year in DD/MM/YYYY format for when the event begins. If the exact day cannot be identified, this is the best approximation of the start date.",String
+`Date_End`_,"Lists the day, month, and year in DD/MM/YYYY format for when the event ends. If the exact day cannot be identified, this is the best approximation of the start date.",String
 `Women_Killed`_,The best estimate of deaths of women.,Integer
 `Children_Killed`_,The best estimate of deaths of children.,Integer
 `Total_Killed`_,Always the sum of the Women_Killed and Children_Killed.,Integer
@@ -28,5 +28,5 @@ Variable Name,Description,Data Type
 `Human_Right_Offense_Name`_,Subcategory of human rights violation. See table 2,String
 `Is_Women_Event`_,,Boolean
 `Is_Children_Event`_,,Boolean
-`Description`_,A description of an event that may contain information that could not be relayed in the coding.,String
+`Description`_,,A description of an event that may contain information that could not be relayed in the coding.,String
 `ID`_,A unique identifier for a coded event.,Integer
