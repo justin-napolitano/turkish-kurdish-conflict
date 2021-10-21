@@ -689,7 +689,9 @@ Aggressor Table
 
 .. csv-table:: Aggressor Table
    :file: /csv/side_a_table.csv
-   :widths: 20, 20:numbered:
+   :widths: 20, 20
+
+Victim Table
 ============
 
 .. csv-table:: Victim Table

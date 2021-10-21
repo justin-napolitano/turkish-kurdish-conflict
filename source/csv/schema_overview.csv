@@ -1,32 +1,32 @@
 Variable Name,Description,Data Type
 `Year`_,Records the year of the event.,Integer
-Aggressor_Id,The unique identifier of the aggressor in an event.,Categorical Integer
-Aggressor_Name,The name of the aggressor in an event.,String
-Victim_ID,The unique identifier of the Victim of an event.,Categorical Integer
-Victim_Name,The class of the victim an event.,String
-Source_Article,"Reference to the names, dates, and titles of the source material from which information on the event is gathered",String
-Source_Date,The date the source material was published.,DateString: DD/MM/YYYY
-Source_Headline,The titles of the source materials.,String
-Region_Name,The name of the Turkish region in which an event took place.,String
-Kurdish Region,Designates whether a region contains a sizable Kurdish population.,Boolean
-Region_Code,Region in Turkey where the event took place.,Categorical Integer
-Province_Name,The name of the Turkish Province in which an event took place. ,"String"
-Province_Code,Province in which the event in the event occurred. ,"Categorical Integer"
-Country,The state (country) where the event took place.,String
-Date_Start,"Lists the day, month, and year in DD/MM/YYYY format for when the event begins. If the exact day cannot be identified, this is the best approximation of the start date.",String
-Date_End,"Lists the day, month, and year in DD/MM/YYYY format for when the event ends. If the exact day cannot be identified, this is the best approximation of the start date.",String
-Women_Killed,The best estimate of deaths of women.,Integer
-Children_Killed,The best estimate of deaths of children.,Integer
-Total_Killed,Always the sum of the Women_Killed and Children_Killed.,Integer
-Women_Raped,The number of women raped in a event.,Integer
-Illegal Imprisonments,The number of people illegally imprisoned by the Turkish Government.,Integer
-Illegal Arrests,The number of illegal arrests committed by the Turkish Government in a single event.,Integer
-Illegal Detentions,The number of illegal detentions committed by the PKK or non-governmental organization in a single event.,Integer
-Human_Right_Category_Code,Overarching human rights violation. See table 2.,Categorical Integer
-Human_Right_Category_Name,Overarching human rights violation. See table 2.,String
-Human_Right_Offense_Code,Subcategory of human rights violation. See table 2,Categorical Integer
-Human_Right_Offense_Name,Subcategory of human rights violation. See table 2,String
-Is_Women_Event,,Boolean
-Is_Children_Event,,Boolean
-Description,A description of an event that may contain information that could not be relayed in the coding.,String
-ID,A unique identifier for a coded event.,Integer
+`Aggressor_Id`_,The unique identifier of the aggressor in an event.,Categorical Integer
+`Aggressor_Name`_,The name of the aggressor in an event.,String
+`Victim_ID`_,The unique identifier of the Victim of an event.,Categorical Integer
+`Victim_Name`_,The class of the victim an event.,String
+`Source_Article`_,"Reference to the names, dates, and titles of the source material from which information on the event is gathered",String
+`Source_Date`_,The date the source material was published.,DateString: DD/MM/YYYY
+`Source_Headline`_,The titles of the source materials.,String
+`Region_Name`_,The name of the Turkish region in which an event took place.,String
+`Kurdish Region`_,Designates whether a region contains a sizable Kurdish population.,Boolean
+`Region_Code`_,Region in Turkey where the event took place.,Categorical Integer
+`Province_Name`_,The name of the Turkish Province in which an event took place. ,"String"
+`Province_Code`_,Province in which the event in the event occurred. ,"Categorical Integer"
+`Country`_,The state (country) where the event took place.,String
+`Date_Start`_,Lists the day, month, and year in DD/MM/YYYY format for when the event begins. If the exact day cannot be identified, this is the best approximation of the start date.,String
+`Date_End`_,Lists the day, month, and year in DD/MM/YYYY format for when the event ends. If the exact day cannot be identified, this is the best approximation of the start date.,String
+`Women_Killed`_,The best estimate of deaths of women.,Integer
+`Children_Killed`_,The best estimate of deaths of children.,Integer
+`Total_Killed`_,Always the sum of the Women_Killed and Children_Killed.,Integer
+`Women_Raped`_,The number of women raped in a event.,Integer
+`Illegal Imprisonments`_,The number of people illegally imprisoned by the Turkish Government.,Integer
+`Illegal Arrests`_,The number of illegal arrests committed by the Turkish Government in a single event.,Integer
+`Illegal Detentions`_,The number of illegal detentions committed by the PKK or non-governmental organization in a single event.,Integer
+`Human_Right_Category_Code`_,Overarching human rights violation. See table 2.,Categorical Integer
+`Human_Right_Category_Name`_,Overarching human rights violation. See table 2.,String
+`Human_Right_Offense_Code`_,Subcategory of human rights violation. See table 2,Categorical Integer
+`Human_Right_Offense_Name`_,Subcategory of human rights violation. See table 2,String
+`Is_Women_Event`_,,Boolean
+`Is_Children_Event`_,,Boolean
+`Description`_,A description of an event that may contain information that could not be relayed in the coding.,String
+`ID`_,A unique identifier for a coded event.,Integer
