@@ -265,7 +265,7 @@ Reference Table
     `Province Table`_.
 
 
-Province Code
+Province_Code
 =============
 
 Definition
@@ -418,13 +418,13 @@ Reference Table
 
     `Overview Table`_.
 
-Illegal_Imprisonments
+Illegal_Arrests
 =====================
 
 Definition
 ----------
 
-    The recorded number of people illegally imprisoned during an event.  
+    The recorded number of people illegally arrested during an event.  
 
 Data Type
 ---------

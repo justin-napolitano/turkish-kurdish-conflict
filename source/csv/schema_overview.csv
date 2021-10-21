@@ -8,7 +8,7 @@ Variable Name,Description,Data Type
 `Source_Date`_,The date the source material was published.,DateString: DD/MM/YYYY
 `Source_Headline`_,The titles of the source materials.,String
 `Region_Name`_,The name of the Turkish region in which an event took place.,String
-`Kurdish Region`_,Designates whether a region contains a sizable Kurdish population.,Boolean
+`Kurdish_Region`_,Designates whether a region contains a sizable Kurdish population.,Boolean
 `Region_Code`_,Region in Turkey where the event took place.,Categorical Integer
 `Province_Name`_,The name of the Turkish Province in which an event took place. ,"String"
 `Province_Code`_,Province in which the event in the event occurred. ,"Categorical Integer"
@@ -19,14 +19,14 @@ Variable Name,Description,Data Type
 `Children_Killed`_,The best estimate of deaths of children.,Integer
 `Total_Killed`_,Always the sum of the Women_Killed and Children_Killed.,Integer
 `Women_Raped`_,The number of women raped in a event.,Integer
-`Illegal Imprisonments`_,The number of people illegally imprisoned by the Turkish Government.,Integer
-`Illegal Arrests`_,The number of illegal arrests committed by the Turkish Government in a single event.,Integer
-`Illegal Detentions`_,The number of illegal detentions committed by the PKK or non-governmental organization in a single event.,Integer
-`Human_Right_Category_Code`_,Overarching human rights violation. See table 2.,Categorical Integer
-`Human_Right_Category_Name`_,Overarching human rights violation. See table 2.,String
-`Human_Right_Offense_Code`_,Subcategory of human rights violation. See table 2,Categorical Integer
-`Human_Right_Offense_Name`_,Subcategory of human rights violation. See table 2,String
+`Illegal_Imprisonments`_,The number of people illegally imprisoned by the Turkish Government.,Integer
+`Illegal_Arrests`_,The number of illegal arrests committed by the Turkish Government in a single event.,Integer
+`Illegal_Detentions`_,The number of illegal detentions committed by the PKK or non-governmental organization in a single event.,Integer
+`Human_Rights_Category_Code`_,Overarching human rights violation. See table 2.,Categorical Integer
+`Human_Rights_Category_Name`_,Overarching human rights violation. See table 2.,String
+`Human_Rights_Offense_Code`_,Subcategory of human rights violation. See table 2,Categorical Integer
+`Human_Rights_Offense_Name`_,Subcategory of human rights violation. See table 2,String
 `Is_Women_Event`_,,Boolean
 `Is_Children_Event`_,,Boolean
-`Description`_,,A description of an event that may contain information that could not be relayed in the coding.,String
+`Description`_,A description of an event that may contain information that could not be relayed in the coding.,String
 `ID`_,A unique identifier for a coded event.,Integer
