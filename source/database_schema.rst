@@ -467,11 +467,7 @@ Data Type
 Reference Table
 ---------------
 
-<<<<<<< HEAD
-    `Overview Table`_
-=======
     `Overview Table`_.
->>>>>>> gh-pages
 
 
 Human_Rights_Category_Code
@@ -512,11 +508,7 @@ Data Type
 Reference Table
 ---------------
 
-<<<<<<< HEAD
-    `Human Rights Category Table`_
-=======
     `Human Rights Category Table`_.
->>>>>>> gh-pages
 
 
 
@@ -561,11 +553,7 @@ Data Type
 Reference Table
 ---------------
 
-<<<<<<< HEAD
-    `Human Rights Offense Table`_
-=======
     `Human Rights Offense Table`_.
->>>>>>> gh-pages
 
 
 Is_Women_Event
@@ -737,8 +725,4 @@ Province Table
 .. csv-table:: Province Table
    :file: /csv/province_code_table.csv
    :widths: 3, 15
-<<<<<<< HEAD
    :header-rows: 1
-=======
-   :header-rows: 1
->>>>>>> gh-pages
