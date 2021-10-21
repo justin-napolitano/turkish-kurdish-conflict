@@ -21,11 +21,7 @@ Database Schema
 
 
 .. contents::
-<<<<<<< HEAD
-    :depth: 2
-=======
-    :depth: 3
->>>>>>> gh-pages
+    :depth: 
 
 
 Schema Definitions
@@ -40,13 +36,6 @@ Schema Definitions
     :Author: **Justin Napolitano**
 
 
-<<<<<<< HEAD
-=======
-.. contents::
-    :depth: 3
-
-
->>>>>>> gh-pages
 Year
 ====
     
