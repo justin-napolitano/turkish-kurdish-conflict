@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  20 OCT 2021 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  20 OCT 2021 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,17 +804,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1730--1732
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1736--1738
-[]|\T1/qtm/m/n/10 Cat-
+[]|\T1/qtm/m/n/10 H_R
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1736--1738
-\T1/qtm/m/n/10 e-gor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1736--1738
-\T1/qtm/m/n/10 i-cal
+\T1/qtm/m/n/10 Cat-e-
  []
 
 
@@ -1062,7 +1057,7 @@ onts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gy
 re/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/
 texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on aneventdatabaseoftheturkish-kurdishconflictfrom1984to2018.pdf
- (33 pages, 214661 bytes).
+ (33 pages, 214648 bytes).
 PDF statistics:
  1044 PDF objects out of 1200 (max. 8388607)
  988 compressed objects within 10 object streams

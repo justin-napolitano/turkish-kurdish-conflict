@@ -676,7 +676,7 @@ Overview Table
 
 .. csv-table:: Overview Table
    :file: /csv/schema_overview.csv
-   :widths: 20, 10
+   :widths: 10, 10
    :header-rows: 1
 
 
