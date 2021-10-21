@@ -22,7 +22,7 @@ Database Schema
 
 .. contents:: 
     :depth: 3
-    :numbered:
+
 
 Schema Definitions
 ##################
@@ -37,7 +37,7 @@ Schema Definitions
 
 .. contents:: :local:
     :depth: 3
-    :numbered:
+
 
 
 Year
@@ -57,7 +57,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Aggressor_ID
 ============
@@ -76,7 +76,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Aggressor Table`_ 
+    `Aggressor Table`_ .
 
 Aggressor_Name
 ==============
@@ -94,7 +94,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Aggressor Table`_
+    `Aggressor Table`_.
 
 Victim_ID
 =========
@@ -112,7 +112,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Victim Table`_
+    `Victim Table`_.
 
 Victim_Name
 ===========
@@ -131,7 +131,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Victim Table`_
+    `Victim Table`_.
 
 Source_Article
 ==============
@@ -150,7 +150,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Source_Date
 ===========
@@ -169,7 +169,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Source_Headline
 ===============
@@ -187,7 +187,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 
 Region_Name
@@ -206,7 +206,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Region Table`_
+    `Region Table`_.
 
 
 Region_Code
@@ -226,7 +226,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Region Table`_
+    `Region Table`_.
 
 Kurdish_Region
 ==============
@@ -244,7 +244,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Province_Name
 =============
@@ -262,7 +262,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Province Table`_
+    `Province Table`_.
 
 
 Province Code
@@ -282,7 +282,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Province Table`_
+    `Province Table`_.
 
 
 Country
@@ -301,7 +301,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 
 
@@ -323,7 +323,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Date_End
 ========
@@ -342,7 +342,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Women_Killed
 =============
@@ -360,7 +360,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Children_Killed
 ===============
@@ -378,7 +378,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 
 Total_Killed
@@ -398,7 +398,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Women_Raped
 ===============
@@ -416,7 +416,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Illegal_Imprisonments
 =====================
@@ -434,7 +434,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Illegal_Detentions
 ==================
@@ -452,7 +452,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 Illegal_Imprisonments
 =====================
@@ -491,7 +491,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Human Rights Category Table`_
+    `Human Rights Category Table`_.
 
 
 
@@ -535,7 +535,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Human Rights Offense Table`_
+    `Human Rights Offense Table`_.
 
 
 
@@ -580,7 +580,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 
 Is_Children_Event
@@ -626,7 +626,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 ID
 ===
@@ -657,7 +657,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Overview Table`_
+    `Overview Table`_.
 
 
 
@@ -674,7 +674,6 @@ Reference Tables
 
 .. contents:: :local:
     :depth: 3
-    :numbered:
 
 Overview Table
 ==============
