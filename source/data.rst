@@ -27,7 +27,7 @@ Data
 Current Data
 ============
 
-:Excel Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/main/FinalDataAugust21.xlsm
+:Excel Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/2480c62b4e7e947adb346e938e28532e36d848b0/FinalDataAugust21.xlsm
 
 
 
@@ -37,4 +37,4 @@ Archived Data
 
 2019
 ----
-    :Excel Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/main/FinalDataAugust21.xlsm
+    :Excel Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/2480c62b4e7e947adb346e938e28532e36d848b0/FinalDataAugust21.xlsm

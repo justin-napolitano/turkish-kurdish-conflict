@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  20 OCT 2021 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.20)  20 OCT 2021 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,6 +1012,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3155--3158
 []kurdish-[]con^^]ict / blob /
  []
 
+
+Overfull \hbox (32.24501pt too wide) in paragraph at lines 3155--3158
+\T1/qtm/m/n/10 2480c62b4e7e947adb346e938e28532e36d848b0 / turkish-[]kurdish-[]c
+on^^]ict-[]event-[]databse-[]manual .
+ []
+
 [27] [28
 
 ]
@@ -1019,7 +1025,7 @@ Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3217--3220
 [][][]$\T1/qtm/m/n/10 https : / / github . com / justin-[]napolitano / turkish-
-[]kurdish-[]con^^]ict / blob / main /
+[]kurdish-[]con^^]ict / blob /
  []
 
 
@@ -1057,10 +1063,10 @@ onts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gy
 re/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/
 texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on aneventdatabaseoftheturkish-kurdishconflictfrom1984to2018.pdf
- (33 pages, 214648 bytes).
+ (33 pages, 214774 bytes).
 PDF statistics:
- 1044 PDF objects out of 1200 (max. 8388607)
- 988 compressed objects within 10 object streams
+ 1045 PDF objects out of 1200 (max. 8388607)
+ 989 compressed objects within 10 object streams
  232 named destinations out of 1000 (max. 500000)
  1229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
