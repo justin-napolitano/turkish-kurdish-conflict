@@ -20,5 +20,6 @@ Contents
     introduction
     event_query_procedure
     database_schema
+    analysis
     pdf
     data
