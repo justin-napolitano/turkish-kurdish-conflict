@@ -18,8 +18,8 @@ Event Query Procedure
     :Author: **Justin Napolitano**
 
 
-.. contents:: 
-    :depth: 3
+.. contents:: Chapter Contents
+    :depth: 2
 
 
 Primary Search Procedure

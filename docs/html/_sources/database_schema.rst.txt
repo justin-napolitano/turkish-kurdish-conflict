@@ -1,4 +1,4 @@
-.. _coding_procedure:
+.. _Database Schema:
 
 
 
@@ -21,7 +21,7 @@ Database Schema
 
 
 .. contents:: 
-    :depth: 3
+    :depth: 2
 
 
 Schema Definitions
@@ -36,7 +36,7 @@ Schema Definitions
     :Author: **Justin Napolitano**
 
 .. contents:: :local:
-    :depth: 3
+    :depth: 2
 
 
 
