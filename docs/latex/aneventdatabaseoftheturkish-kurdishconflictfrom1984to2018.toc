@@ -1,0 +1,157 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Kurdish Issue}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Turkish Issue}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Intent of Research}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}The Data}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Scope}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Coding Procedure}{4}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {2}Event Query Procedure}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Primary Search Procedure}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Query Result Sorting Procedure}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Database Schema}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Schema Definitions}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Year}{7}{subsection.3.1.1}%
+\contentsline {subsubsection}{Definition}{7}{subsubsection*.13}%
+\contentsline {subsubsection}{Data Type}{7}{subsubsection*.14}%
+\contentsline {subsubsection}{Reference Table}{8}{subsubsection*.15}%
+\contentsline {subsection}{\numberline {3.1.2}Aggressor\_ID}{8}{subsection.3.1.2}%
+\contentsline {subsubsection}{Definition}{8}{subsubsection*.16}%
+\contentsline {subsubsection}{Data Type}{8}{subsubsection*.17}%
+\contentsline {subsubsection}{Reference Table}{8}{subsubsection*.18}%
+\contentsline {subsection}{\numberline {3.1.3}Aggressor\_Name}{8}{subsection.3.1.3}%
+\contentsline {subsubsection}{Definition}{8}{subsubsection*.19}%
+\contentsline {subsubsection}{Data Type}{8}{subsubsection*.20}%
+\contentsline {subsubsection}{Reference Table}{8}{subsubsection*.21}%
+\contentsline {subsection}{\numberline {3.1.4}Victim\_ID}{8}{subsection.3.1.4}%
+\contentsline {subsubsection}{Definition}{8}{subsubsection*.22}%
+\contentsline {subsubsection}{Data Type}{9}{subsubsection*.23}%
+\contentsline {subsubsection}{Reference Table}{9}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {3.1.5}Victim\_Name}{9}{subsection.3.1.5}%
+\contentsline {subsubsection}{Definition}{9}{subsubsection*.25}%
+\contentsline {subsubsection}{Data Type}{9}{subsubsection*.26}%
+\contentsline {subsubsection}{Reference Table}{9}{subsubsection*.27}%
+\contentsline {subsection}{\numberline {3.1.6}Source\_Article}{9}{subsection.3.1.6}%
+\contentsline {subsubsection}{Definition}{9}{subsubsection*.28}%
+\contentsline {subsubsection}{Data Type}{9}{subsubsection*.29}%
+\contentsline {subsubsection}{Reference Table}{9}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {3.1.7}Source\_Date}{9}{subsection.3.1.7}%
+\contentsline {subsubsection}{Definition}{9}{subsubsection*.31}%
+\contentsline {subsubsection}{Data Type}{10}{subsubsection*.32}%
+\contentsline {subsubsection}{Reference Table}{10}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {3.1.8}Source\_Headline}{10}{subsection.3.1.8}%
+\contentsline {subsubsection}{Definition}{10}{subsubsection*.34}%
+\contentsline {subsubsection}{Data Type}{10}{subsubsection*.35}%
+\contentsline {subsubsection}{Reference Table}{10}{subsubsection*.36}%
+\contentsline {subsection}{\numberline {3.1.9}Region\_Name}{10}{subsection.3.1.9}%
+\contentsline {subsubsection}{Defintion}{10}{subsubsection*.37}%
+\contentsline {subsubsection}{Data Type}{10}{subsubsection*.38}%
+\contentsline {subsubsection}{Reference Table}{10}{subsubsection*.39}%
+\contentsline {subsection}{\numberline {3.1.10}Region\_Code}{10}{subsection.3.1.10}%
+\contentsline {subsubsection}{Definition}{10}{subsubsection*.40}%
+\contentsline {subsubsection}{Data Type}{11}{subsubsection*.41}%
+\contentsline {subsubsection}{Reference Table}{11}{subsubsection*.42}%
+\contentsline {subsection}{\numberline {3.1.11}Kurdish\_Region}{11}{subsection.3.1.11}%
+\contentsline {subsubsection}{Definition}{11}{subsubsection*.43}%
+\contentsline {subsubsection}{Data Type}{11}{subsubsection*.44}%
+\contentsline {subsubsection}{Reference Table}{11}{subsubsection*.45}%
+\contentsline {subsection}{\numberline {3.1.12}Province\_Name}{11}{subsection.3.1.12}%
+\contentsline {subsubsection}{Definition}{11}{subsubsection*.46}%
+\contentsline {subsubsection}{Data Type}{11}{subsubsection*.47}%
+\contentsline {subsubsection}{Reference Table}{11}{subsubsection*.48}%
+\contentsline {subsection}{\numberline {3.1.13}Province\_Code}{11}{subsection.3.1.13}%
+\contentsline {subsubsection}{Definition}{11}{subsubsection*.49}%
+\contentsline {subsubsection}{Data Type}{12}{subsubsection*.50}%
+\contentsline {subsubsection}{Reference Table}{12}{subsubsection*.51}%
+\contentsline {subsection}{\numberline {3.1.14}Country}{12}{subsection.3.1.14}%
+\contentsline {subsubsection}{Definition}{12}{subsubsection*.52}%
+\contentsline {subsubsection}{Data Type}{12}{subsubsection*.53}%
+\contentsline {subsubsection}{Reference Table}{12}{subsubsection*.54}%
+\contentsline {subsection}{\numberline {3.1.15}Date\_Start}{12}{subsection.3.1.15}%
+\contentsline {subsubsection}{Definition}{12}{subsubsection*.55}%
+\contentsline {subsubsection}{Data Type}{12}{subsubsection*.56}%
+\contentsline {subsubsection}{Reference Table}{12}{subsubsection*.57}%
+\contentsline {subsection}{\numberline {3.1.16}Date\_End}{12}{subsection.3.1.16}%
+\contentsline {subsubsection}{Definition}{12}{subsubsection*.58}%
+\contentsline {subsubsection}{Data Type}{13}{subsubsection*.59}%
+\contentsline {subsubsection}{Reference Table}{13}{subsubsection*.60}%
+\contentsline {subsection}{\numberline {3.1.17}Women\_Killed}{13}{subsection.3.1.17}%
+\contentsline {subsubsection}{Definition}{13}{subsubsection*.61}%
+\contentsline {subsubsection}{Data Type}{13}{subsubsection*.62}%
+\contentsline {subsubsection}{Reference Table}{13}{subsubsection*.63}%
+\contentsline {subsection}{\numberline {3.1.18}Children\_Killed}{13}{subsection.3.1.18}%
+\contentsline {subsubsection}{Definition}{13}{subsubsection*.64}%
+\contentsline {subsubsection}{Data Type}{13}{subsubsection*.65}%
+\contentsline {subsubsection}{Reference Table}{13}{subsubsection*.66}%
+\contentsline {subsection}{\numberline {3.1.19}Total\_Killed}{13}{subsection.3.1.19}%
+\contentsline {subsubsection}{Definition}{13}{subsubsection*.67}%
+\contentsline {subsubsection}{Data Type}{14}{subsubsection*.68}%
+\contentsline {subsubsection}{Reference Table}{14}{subsubsection*.69}%
+\contentsline {subsection}{\numberline {3.1.20}Women\_Raped}{14}{subsection.3.1.20}%
+\contentsline {subsubsection}{Definition}{14}{subsubsection*.70}%
+\contentsline {subsubsection}{Data Type}{14}{subsubsection*.71}%
+\contentsline {subsubsection}{Reference Table}{14}{subsubsection*.72}%
+\contentsline {subsection}{\numberline {3.1.21}Illegal\_Arrests}{14}{subsection.3.1.21}%
+\contentsline {subsubsection}{Definition}{14}{subsubsection*.73}%
+\contentsline {subsubsection}{Data Type}{14}{subsubsection*.74}%
+\contentsline {subsubsection}{Reference Table}{14}{subsubsection*.75}%
+\contentsline {subsection}{\numberline {3.1.22}Illegal\_Detentions}{14}{subsection.3.1.22}%
+\contentsline {subsubsection}{Definition}{14}{subsubsection*.76}%
+\contentsline {subsubsection}{Data Type}{15}{subsubsection*.77}%
+\contentsline {subsubsection}{Reference Table}{15}{subsubsection*.78}%
+\contentsline {subsection}{\numberline {3.1.23}Illegal\_Imprisonments}{15}{subsection.3.1.23}%
+\contentsline {subsubsection}{Definition}{15}{subsubsection*.79}%
+\contentsline {subsubsection}{Data Type}{15}{subsubsection*.80}%
+\contentsline {subsubsection}{Reference Table}{15}{subsubsection*.81}%
+\contentsline {subsection}{\numberline {3.1.24}Human\_Rights\_Category\_Code}{15}{subsection.3.1.24}%
+\contentsline {subsubsection}{Definition}{15}{subsubsection*.82}%
+\contentsline {subsubsection}{Data Type}{15}{subsubsection*.83}%
+\contentsline {subsubsection}{Reference Table}{15}{subsubsection*.84}%
+\contentsline {subsection}{\numberline {3.1.25}Human\_Rights\_Category\_Name}{15}{subsection.3.1.25}%
+\contentsline {subsubsection}{Definition}{15}{subsubsection*.85}%
+\contentsline {subsubsection}{Data Type}{16}{subsubsection*.86}%
+\contentsline {subsubsection}{Reference Table}{16}{subsubsection*.87}%
+\contentsline {subsection}{\numberline {3.1.26}Human\_Rights\_Offense\_Code}{16}{subsection.3.1.26}%
+\contentsline {subsubsection}{Definition}{16}{subsubsection*.88}%
+\contentsline {subsubsection}{Data Type}{16}{subsubsection*.89}%
+\contentsline {subsubsection}{Reference Table}{16}{subsubsection*.90}%
+\contentsline {subsection}{\numberline {3.1.27}Human\_Rights\_Offense\_Name}{16}{subsection.3.1.27}%
+\contentsline {subsubsection}{Definition}{16}{subsubsection*.91}%
+\contentsline {subsubsection}{Data Type}{16}{subsubsection*.92}%
+\contentsline {subsubsection}{Reference Table}{16}{subsubsection*.93}%
+\contentsline {subsection}{\numberline {3.1.28}Is\_Women\_Event}{16}{subsection.3.1.28}%
+\contentsline {subsubsection}{Definition}{16}{subsubsection*.94}%
+\contentsline {subsubsection}{Data Type}{17}{subsubsection*.95}%
+\contentsline {subsubsection}{Reference Table}{17}{subsubsection*.96}%
+\contentsline {subsection}{\numberline {3.1.29}Is\_Children\_Event}{17}{subsection.3.1.29}%
+\contentsline {subsubsection}{Definition}{17}{subsubsection*.97}%
+\contentsline {subsubsection}{Data Type}{17}{subsubsection*.98}%
+\contentsline {subsubsection}{Reference Table}{17}{subsubsection*.99}%
+\contentsline {subsection}{\numberline {3.1.30}Description}{17}{subsection.3.1.30}%
+\contentsline {subsubsection}{Definition}{17}{subsubsection*.100}%
+\contentsline {subsubsection}{Data Type}{17}{subsubsection*.101}%
+\contentsline {subsubsection}{Reference Table}{17}{subsubsection*.102}%
+\contentsline {subsection}{\numberline {3.1.31}ID}{18}{subsection.3.1.31}%
+\contentsline {subsubsection}{Definition}{18}{subsubsection*.103}%
+\contentsline {subsubsection}{Data Type}{18}{subsubsection*.104}%
+\contentsline {subsubsection}{Reference Table}{18}{subsubsection*.105}%
+\contentsline {section}{\numberline {3.2}Reference Tables}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Overview Table}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Aggressor Table}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Victim Table}{20}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Human Rights Category Table}{21}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Human Rights Offense Table}{21}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Region Table}{23}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Province Table}{23}{subsection.3.2.7}%
+\contentsline {chapter}{\numberline {4}Analysis}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Current Data}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Archived Data}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}2019}{27}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}PDF}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Current Manual}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Archived Data}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Archived Data}{30}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Data}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Current Data}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Archived Data}{31}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}2019}{31}{subsection.6.2.1}%
