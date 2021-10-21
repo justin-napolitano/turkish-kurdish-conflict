@@ -14,11 +14,11 @@ Contents
 ########
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :numbered:
 
     introduction
     event_query_procedure
-    schema_tables
+    database_schema
     pdf
     data
