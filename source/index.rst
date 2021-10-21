@@ -20,5 +20,5 @@ Contents
     introduction
     event_query_procedure
     schema_tables
+    pdf
     data
-    

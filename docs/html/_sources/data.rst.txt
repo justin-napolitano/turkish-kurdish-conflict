@@ -19,7 +19,6 @@ Data
     :Author: **Justin Napolitano**
 
 
-
 .. contents:: 
     :depth: 3
 
@@ -27,8 +26,8 @@ Data
 Current Data
 ============
 
-:Excel:: :download:`Current Excel Document </data/current_data/august2019.xlsm>`
-
+:Excel Direct Download:: :download:`Current Excel Document </data/current_data/august2019.xlsm>`
+:Excel Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/main/FinalDataAugust21.xlsm
 
 Archived Data
 =============
@@ -36,4 +35,5 @@ Archived Data
 
 2019
 ----
-    :Excel:: :download:`Archived Excel Document </data/archived_data/august2019.xlsm>`  
+    :Excel Direct Download:: :download:`Archived Excel Document </data/archived_data/august2019.xlsm>`  
+    :Excel Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/main/FinalDataAugust21.xlsm    
