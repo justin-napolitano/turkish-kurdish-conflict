@@ -149,8 +149,7 @@
 \contentsline {subsection}{\numberline {4.2.1}2019}{27}{subsection.4.2.1}%
 \contentsline {chapter}{\numberline {5}PDF}{29}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Current Manual}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Archived Data}{30}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Archived Data}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Archived Data}{29}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Data}{31}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Current Data}{31}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Archived Data}{31}{section.6.2}%
