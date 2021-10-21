@@ -20,12 +20,8 @@ Database Schema
     :Author: **Justin Napolitano**
 
 
-.. contents::
-<<<<<<< HEAD
+.. contents:: 
     :depth: 2
-=======
-    :depth: 3
->>>>>>> gh-pages
 
 
 Schema Definitions
@@ -39,14 +35,11 @@ Schema Definitions
     :Date: |today|
     :Author: **Justin Napolitano**
 
-
-<<<<<<< HEAD
-=======
-.. contents::
-    :depth: 3
+.. contents:: :local:
+    :depth: 2
 
 
->>>>>>> gh-pages
+
 Year
 ====
     
@@ -478,11 +471,7 @@ Data Type
 Reference Table
 ---------------
 
-<<<<<<< HEAD
     `Overview Table`_
-=======
-    `Overview Table`_.
->>>>>>> gh-pages
 
 
 Human_Rights_Category_Code
@@ -523,11 +512,7 @@ Data Type
 Reference Table
 ---------------
 
-<<<<<<< HEAD
     `Human Rights Category Table`_
-=======
-    `Human Rights Category Table`_.
->>>>>>> gh-pages
 
 
 
@@ -572,11 +557,7 @@ Data Type
 Reference Table
 ---------------
 
-<<<<<<< HEAD
     `Human Rights Offense Table`_
-=======
-    `Human Rights Offense Table`_.
->>>>>>> gh-pages
 
 
 Is_Women_Event
@@ -699,7 +680,7 @@ Overview Table
 
 .. csv-table:: Overview Table
    :file: /csv/schema_overview.csv
-   :widths: 10, 10
+   :widths: 20, 70, 20
    :header-rows: 1
 
 
@@ -708,14 +689,14 @@ Aggressor Table
 
 .. csv-table:: Aggressor Table
    :file: /csv/side_a_table.csv
-   :widths: 3, 10
+   :widths: 20, 20
 
 Victim Table
 ============
 
 .. csv-table:: Victim Table
    :file: /csv/side_b_table.csv
-   :widths: 3, 10
+   :widths: 20, 20
    :header-rows: 1
 
 Human Rights Category Table
@@ -723,7 +704,7 @@ Human Rights Category Table
 
 .. csv-table:: Human Rights Category Table
    :file: /csv/human_rights_category_table.csv
-   :widths: 3, 10
+   :widths: 20, 20
    :header-rows: 1
 
 Human Rights Offense Table
@@ -731,7 +712,7 @@ Human Rights Offense Table
 
 .. csv-table:: Human Rights Offense Table
    :file: /csv/human_rights_offense_table.csv
-   :widths: 5, 20, 5, 5, 15, 15
+   :widths: 1, 10, 1, 1, 10, 15
    :header-rows: 1   
 
 Region Table
@@ -739,7 +720,7 @@ Region Table
 
 .. csv-table:: Region Table
    :file: /csv/region_code_table.csv
-   :widths: 3, 10
+   :widths: 20, 20
    :header-rows: 1
 
 Province Table
@@ -747,9 +728,5 @@ Province Table
 
 .. csv-table:: Province Table
    :file: /csv/province_code_table.csv
-   :widths: 3, 15
-<<<<<<< HEAD
+   :widths: 20, 20
    :header-rows: 1
-=======
-   :header-rows: 1
->>>>>>> gh-pages

@@ -19,13 +19,27 @@ PDF
 
 
 .. contents:: 
+<<<<<<< HEAD
     :depth: 2
+=======
+    :depth: 3
+>>>>>>> gh-pages
 
 
 Current Manual
 ==============
 
+<<<<<<< HEAD
     :PDF Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/2480c62b4e7e947adb346e938e28532e36d848b0/turkish-kurdish-conflict-event-databse-manual.pdf
 
 Archived Data
 =============
+=======
+:PDF Direct Download:: :download:`Current Manual </pdf/turkish-kurdish-conflict-event-database-manual.pdf>`
+    
+:PDF Download Link:: https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/2480c62b4e7e947adb346e938e28532e36d848b0/turkish-kurdish-conflict-event-databse-manual.pdf
+
+Archived Data
+=============
+
+>>>>>>> gh-pages

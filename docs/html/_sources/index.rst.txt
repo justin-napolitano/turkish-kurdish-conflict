@@ -20,7 +20,13 @@ Contents
     introduction
     event_query_procedure
     database_schema
+<<<<<<< HEAD
     pdf
     data
 
     
+=======
+    analysis
+    pdf
+    data
+>>>>>>> gh-pages

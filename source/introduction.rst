@@ -53,6 +53,10 @@ We do acknowledge that Kurdish factions within Turkey do no limit their range of
 Coding Procedure
 ----------------
 
-Our coding procedures adopt the coding methodology of selected variables from the UCDP/Prio conflict dataset to maximize interoperability.   Each variable selected from the dataset are labeled with a UCDP tag.  As such, we have recoded a number of variables found in the UCDP/Prio Dataset to fit the methodology of our research. 
+Our coding procedure adopt the coding methodology of selected variables from the UCDP/Prio conflict dataset to maximize interoperability.   Each variable selected from the dataset are labeled with a UCDP tag.  As such, we have recoded a number of variables found in the UCDP/Prio Dataset to fit the methodology of our research. 
 
-We further enhance the dataset by adding a human rights component to record violations according to international treaties.  These are reflected by the human_rights_1 and human_rights_2 variables.  As we chose to focus on women and children dichotomous variables have been added to designate whether any given event effects women and another to designate the same for children.  Also, variables have been added to account for deaths of women and of children. 
+We further enhance the dataset by adding a human rights component to record violations according to international treaties.  These are reflected by the Human_Rights_Category_Code and Human_Rights_Offense_Code variables.  
+
+As we chose to focus on women and children dichotomous variables have been added to designate whether any given event effects women and another to designate the same for children. 
+
+Variables have also been added to account for the deaths of women and of children. 

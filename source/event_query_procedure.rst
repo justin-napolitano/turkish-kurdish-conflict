@@ -31,7 +31,7 @@ Primary Search Procedure
 
 2. Select the filter results drop down menu.   
 
-3. Select appropriate date ranges
+3. Select appropriate date ranges.
    
 
 Query Result Sorting Procedure

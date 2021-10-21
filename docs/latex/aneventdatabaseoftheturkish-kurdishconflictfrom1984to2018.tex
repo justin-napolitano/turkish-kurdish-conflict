@@ -55,7 +55,11 @@
 
 
 \usepackage{sphinxmessages}
+<<<<<<< HEAD
 \setcounter{tocdepth}{2}
+=======
+\setcounter{tocdepth}{1}
+>>>>>>> gh-pages
 
 
 
@@ -210,7 +214,39 @@ Oct 20, 2021
 \end{sphinxShadowBox}
 
 \begin{sphinxShadowBox}
+<<<<<<< HEAD
 \sphinxstyletopictitle{Chapter Contents}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{event_query_procedure:id2}}{\hyperref[\detokenize{event_query_procedure:event-query-procedure}]{\sphinxcrossref{Event Query Procedure}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{event_query_procedure:id3}}{\hyperref[\detokenize{event_query_procedure:primary-search-procedure}]{\sphinxcrossref{Primary Search Procedure}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{event_query_procedure:id4}}{\hyperref[\detokenize{event_query_procedure:query-result-sorting-procedure}]{\sphinxcrossref{Query Result Sorting Procedure}}}
+
+\end{itemize}
+
+\end{itemize}
+\end{sphinxShadowBox}
+
+
+\section{Primary Search Procedure}
+\label{\detokenize{event_query_procedure:primary-search-procedure}}\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Paste the following into the search bar on the Nexis Uni home page:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+hlead(turkey) and women or rape or slavery or sexual or trafficking or child labor or child soldier or children or violence and publication(Agence France Presse \sphinxhyphen{} English or associated press international )
+=======
+\sphinxstyletopictitle{Contents}
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
@@ -245,6 +281,661 @@ hlead(turkey) and women or rape or slavery or sexual or trafficking or child lab
 
 \item {} 
 \sphinxAtStartPar
+Select the filter results drop down menu.
+
+\item {} 
+\sphinxAtStartPar
+Select appropriate date ranges
+
+\end{enumerate}
+
+
+\section{Query Result Sorting Procedure}
+\label{\detokenize{event_query_procedure:query-result-sorting-procedure}}\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Begin with the oldest listed resulted.  Then proceed chronologically.  For each story, determine if the information is relevant to the data project.  If not, discard the story.
+
+\item {} 
+\sphinxAtStartPar
+During periods of civil conflict, defined by the start and end dates in the Uppsala Armed Conflict Database, code violent events associated with the civil conflicts.
+
+\item {} 
+\sphinxAtStartPar
+Group duplicate articles together as a single event.  In the case of disputed information, cite the most common estimates, and/or the most recently cited.
+
+\item {} 
+\sphinxAtStartPar
+In the case that one article covers multiple events determine if the main actor(s), target(s), and issue(s) are different, and if so, code these as distinct events.
+
+\item {} 
+\sphinxAtStartPar
+Code a new event if the actor(s), target(s), and issue(s) are different or if there is substantial time that elapses between on event and another.  If the actors, targets, and issues are the same, but there is a brief lull in activity, code it as the same event, so long as there is significant “momentum” linking the time periods.
+
+\end{enumerate}
+
+
+\chapter{Database Schema}
+\label{\detokenize{schema_tables:database-schema}}\label{\detokenize{schema_tables:coding-procedure}}\label{\detokenize{schema_tables::doc}}
+\begin{sphinxShadowBox}
+\sphinxstyletopictitle{Overview}
+
+\sphinxAtStartPar
+This section documents the schema of the DB.
+
+\sphinxAtStartPar
+You will find the {\hyperref[\detokenize{schema_tables:schema-definitions}]{\sphinxcrossref{Schema Definitions}}} and the {\hyperref[\detokenize{schema_tables:reference-tables}]{\sphinxcrossref{Reference Tables}}} below.
+\begin{quote}\begin{description}
+\item[{Date}] \leavevmode
+\sphinxAtStartPar
+Oct 20, 2021
+
+\item[{Author}] \leavevmode
+\sphinxAtStartPar
+\sphinxstylestrong{Justin Napolitano}
+
+\end{description}\end{quote}
+\end{sphinxShadowBox}
+
+\begin{sphinxShadowBox}
+\sphinxstyletopictitle{Contents}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id99}}{\hyperref[\detokenize{schema_tables:database-schema}]{\sphinxcrossref{Database Schema}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id100}}{\hyperref[\detokenize{schema_tables:schema-definitions}]{\sphinxcrossref{Schema Definitions}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id101}}{\hyperref[\detokenize{schema_tables:year}]{\sphinxcrossref{Year}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id102}}{\hyperref[\detokenize{schema_tables:aggressor-id}]{\sphinxcrossref{Aggressor\_ID}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id103}}{\hyperref[\detokenize{schema_tables:aggressor-name}]{\sphinxcrossref{Aggressor\_Name}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id104}}{\hyperref[\detokenize{schema_tables:victim-id}]{\sphinxcrossref{Victim\_ID}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id105}}{\hyperref[\detokenize{schema_tables:victim-name}]{\sphinxcrossref{Victim\_Name}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id106}}{\hyperref[\detokenize{schema_tables:source-article}]{\sphinxcrossref{Source\_Article}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id107}}{\hyperref[\detokenize{schema_tables:source-date}]{\sphinxcrossref{Source\_Date}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id108}}{\hyperref[\detokenize{schema_tables:source-headline}]{\sphinxcrossref{Source\_Headline}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id109}}{\hyperref[\detokenize{schema_tables:region-name}]{\sphinxcrossref{Region\_Name}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id110}}{\hyperref[\detokenize{schema_tables:region-code}]{\sphinxcrossref{Region\_Code}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id111}}{\hyperref[\detokenize{schema_tables:kurdish-region}]{\sphinxcrossref{Kurdish\_Region}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id112}}{\hyperref[\detokenize{schema_tables:province-name}]{\sphinxcrossref{Province\_Name}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id113}}{\hyperref[\detokenize{schema_tables:province-code}]{\sphinxcrossref{Province\_Code}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id114}}{\hyperref[\detokenize{schema_tables:country}]{\sphinxcrossref{Country}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id115}}{\hyperref[\detokenize{schema_tables:date-start}]{\sphinxcrossref{Date\_Start}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id116}}{\hyperref[\detokenize{schema_tables:date-end}]{\sphinxcrossref{Date\_End}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id117}}{\hyperref[\detokenize{schema_tables:women-killed}]{\sphinxcrossref{Women\_Killed}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id118}}{\hyperref[\detokenize{schema_tables:children-killed}]{\sphinxcrossref{Children\_Killed}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id119}}{\hyperref[\detokenize{schema_tables:total-killed}]{\sphinxcrossref{Total\_Killed}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id120}}{\hyperref[\detokenize{schema_tables:women-raped}]{\sphinxcrossref{Women\_Raped}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id121}}{\hyperref[\detokenize{schema_tables:illegal-arrests}]{\sphinxcrossref{Illegal\_Arrests}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id122}}{\hyperref[\detokenize{schema_tables:illegal-detentions}]{\sphinxcrossref{Illegal\_Detentions}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id123}}{\hyperref[\detokenize{schema_tables:illegal-imprisonments}]{\sphinxcrossref{Illegal\_Imprisonments}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id124}}{\hyperref[\detokenize{schema_tables:human-rights-category-code}]{\sphinxcrossref{Human\_Rights\_Category\_Code}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id125}}{\hyperref[\detokenize{schema_tables:human-rights-category-name}]{\sphinxcrossref{Human\_Rights\_Category\_Name}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id126}}{\hyperref[\detokenize{schema_tables:human-rights-offense-code}]{\sphinxcrossref{Human\_Rights\_Offense\_Code}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id127}}{\hyperref[\detokenize{schema_tables:human-rights-offense-name}]{\sphinxcrossref{Human\_Rights\_Offense\_Name}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id128}}{\hyperref[\detokenize{schema_tables:is-women-event}]{\sphinxcrossref{Is\_Women\_Event}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id129}}{\hyperref[\detokenize{schema_tables:is-children-event}]{\sphinxcrossref{Is\_Children\_Event}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id130}}{\hyperref[\detokenize{schema_tables:description}]{\sphinxcrossref{Description}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id131}}{\hyperref[\detokenize{schema_tables:id}]{\sphinxcrossref{ID}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id132}}{\hyperref[\detokenize{schema_tables:reference-tables}]{\sphinxcrossref{Reference Tables}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id133}}{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id134}}{\hyperref[\detokenize{schema_tables:aggressor-table}]{\sphinxcrossref{Aggressor Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id135}}{\hyperref[\detokenize{schema_tables:victim-table}]{\sphinxcrossref{Victim Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id136}}{\hyperref[\detokenize{schema_tables:human-rights-category-table}]{\sphinxcrossref{Human Rights Category Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id137}}{\hyperref[\detokenize{schema_tables:human-rights-offense-table}]{\sphinxcrossref{Human Rights Offense Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id138}}{\hyperref[\detokenize{schema_tables:region-table}]{\sphinxcrossref{Region Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id139}}{\hyperref[\detokenize{schema_tables:province-table}]{\sphinxcrossref{Province Table}}}
+
+\end{itemize}
+
+\end{itemize}
+
+\end{itemize}
+\end{sphinxShadowBox}
+
+
+\section{Schema Definitions}
+\label{\detokenize{schema_tables:schema-definitions}}
+\begin{sphinxShadowBox}
+\sphinxstyletopictitle{Overview}
+
+\sphinxAtStartPar
+This section contains the definitions and descriptions for every variable recorded in the data set.
+\begin{quote}\begin{description}
+\item[{Date}] \leavevmode
+\sphinxAtStartPar
+Oct 20, 2021
+
+\item[{Author}] \leavevmode
+\sphinxAtStartPar
+\sphinxstylestrong{Justin Napolitano}
+
+\end{description}\end{quote}
+\end{sphinxShadowBox}
+
+\begin{sphinxShadowBox}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id140}}{\hyperref[\detokenize{schema_tables:year}]{\sphinxcrossref{Year}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id141}}{\hyperref[\detokenize{schema_tables:definition}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id142}}{\hyperref[\detokenize{schema_tables:data-type}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id143}}{\hyperref[\detokenize{schema_tables:reference-table}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id144}}{\hyperref[\detokenize{schema_tables:aggressor-id}]{\sphinxcrossref{Aggressor\_ID}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id145}}{\hyperref[\detokenize{schema_tables:id2}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id146}}{\hyperref[\detokenize{schema_tables:id3}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id147}}{\hyperref[\detokenize{schema_tables:id4}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id148}}{\hyperref[\detokenize{schema_tables:aggressor-name}]{\sphinxcrossref{Aggressor\_Name}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id149}}{\hyperref[\detokenize{schema_tables:id5}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id150}}{\hyperref[\detokenize{schema_tables:id6}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id151}}{\hyperref[\detokenize{schema_tables:id7}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id152}}{\hyperref[\detokenize{schema_tables:victim-id}]{\sphinxcrossref{Victim\_ID}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id153}}{\hyperref[\detokenize{schema_tables:id8}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id154}}{\hyperref[\detokenize{schema_tables:id9}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id155}}{\hyperref[\detokenize{schema_tables:id10}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id156}}{\hyperref[\detokenize{schema_tables:victim-name}]{\sphinxcrossref{Victim\_Name}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id157}}{\hyperref[\detokenize{schema_tables:id11}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id158}}{\hyperref[\detokenize{schema_tables:id12}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id159}}{\hyperref[\detokenize{schema_tables:id13}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id160}}{\hyperref[\detokenize{schema_tables:source-article}]{\sphinxcrossref{Source\_Article}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id161}}{\hyperref[\detokenize{schema_tables:id14}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id162}}{\hyperref[\detokenize{schema_tables:id15}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id163}}{\hyperref[\detokenize{schema_tables:id16}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id164}}{\hyperref[\detokenize{schema_tables:source-date}]{\sphinxcrossref{Source\_Date}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id165}}{\hyperref[\detokenize{schema_tables:id17}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id166}}{\hyperref[\detokenize{schema_tables:id18}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id167}}{\hyperref[\detokenize{schema_tables:id19}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id168}}{\hyperref[\detokenize{schema_tables:source-headline}]{\sphinxcrossref{Source\_Headline}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id169}}{\hyperref[\detokenize{schema_tables:id20}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id170}}{\hyperref[\detokenize{schema_tables:id21}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id171}}{\hyperref[\detokenize{schema_tables:id22}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id172}}{\hyperref[\detokenize{schema_tables:region-name}]{\sphinxcrossref{Region\_Name}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id173}}{\hyperref[\detokenize{schema_tables:defintion}]{\sphinxcrossref{Defintion}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id174}}{\hyperref[\detokenize{schema_tables:id23}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id175}}{\hyperref[\detokenize{schema_tables:id24}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id176}}{\hyperref[\detokenize{schema_tables:region-code}]{\sphinxcrossref{Region\_Code}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id177}}{\hyperref[\detokenize{schema_tables:id25}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id178}}{\hyperref[\detokenize{schema_tables:id26}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id179}}{\hyperref[\detokenize{schema_tables:id27}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id180}}{\hyperref[\detokenize{schema_tables:kurdish-region}]{\sphinxcrossref{Kurdish\_Region}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id181}}{\hyperref[\detokenize{schema_tables:id28}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id182}}{\hyperref[\detokenize{schema_tables:id29}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id183}}{\hyperref[\detokenize{schema_tables:id30}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id184}}{\hyperref[\detokenize{schema_tables:province-name}]{\sphinxcrossref{Province\_Name}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id185}}{\hyperref[\detokenize{schema_tables:id31}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id186}}{\hyperref[\detokenize{schema_tables:id32}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id187}}{\hyperref[\detokenize{schema_tables:id33}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id188}}{\hyperref[\detokenize{schema_tables:province-code}]{\sphinxcrossref{Province\_Code}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id189}}{\hyperref[\detokenize{schema_tables:id34}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id190}}{\hyperref[\detokenize{schema_tables:id35}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id191}}{\hyperref[\detokenize{schema_tables:id36}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id192}}{\hyperref[\detokenize{schema_tables:country}]{\sphinxcrossref{Country}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id193}}{\hyperref[\detokenize{schema_tables:id37}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id194}}{\hyperref[\detokenize{schema_tables:id38}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id195}}{\hyperref[\detokenize{schema_tables:id39}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id196}}{\hyperref[\detokenize{schema_tables:date-start}]{\sphinxcrossref{Date\_Start}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id197}}{\hyperref[\detokenize{schema_tables:id40}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id198}}{\hyperref[\detokenize{schema_tables:id41}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id199}}{\hyperref[\detokenize{schema_tables:id42}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id200}}{\hyperref[\detokenize{schema_tables:date-end}]{\sphinxcrossref{Date\_End}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id201}}{\hyperref[\detokenize{schema_tables:id43}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id202}}{\hyperref[\detokenize{schema_tables:id44}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id203}}{\hyperref[\detokenize{schema_tables:id45}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id204}}{\hyperref[\detokenize{schema_tables:women-killed}]{\sphinxcrossref{Women\_Killed}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id205}}{\hyperref[\detokenize{schema_tables:id46}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id206}}{\hyperref[\detokenize{schema_tables:id47}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id207}}{\hyperref[\detokenize{schema_tables:id48}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id208}}{\hyperref[\detokenize{schema_tables:children-killed}]{\sphinxcrossref{Children\_Killed}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id209}}{\hyperref[\detokenize{schema_tables:id49}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id210}}{\hyperref[\detokenize{schema_tables:id50}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id211}}{\hyperref[\detokenize{schema_tables:id51}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id212}}{\hyperref[\detokenize{schema_tables:total-killed}]{\sphinxcrossref{Total\_Killed}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id213}}{\hyperref[\detokenize{schema_tables:id52}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id214}}{\hyperref[\detokenize{schema_tables:id53}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id215}}{\hyperref[\detokenize{schema_tables:id54}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id216}}{\hyperref[\detokenize{schema_tables:women-raped}]{\sphinxcrossref{Women\_Raped}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id217}}{\hyperref[\detokenize{schema_tables:id55}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id218}}{\hyperref[\detokenize{schema_tables:id56}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id219}}{\hyperref[\detokenize{schema_tables:id57}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id220}}{\hyperref[\detokenize{schema_tables:illegal-arrests}]{\sphinxcrossref{Illegal\_Arrests}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id221}}{\hyperref[\detokenize{schema_tables:id58}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id222}}{\hyperref[\detokenize{schema_tables:id59}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id223}}{\hyperref[\detokenize{schema_tables:id60}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id224}}{\hyperref[\detokenize{schema_tables:illegal-detentions}]{\sphinxcrossref{Illegal\_Detentions}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id225}}{\hyperref[\detokenize{schema_tables:id61}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id226}}{\hyperref[\detokenize{schema_tables:id62}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id227}}{\hyperref[\detokenize{schema_tables:id63}]{\sphinxcrossref{Reference Table}}}
+>>>>>>> gh-pages
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+<<<<<<< HEAD
 Select the filter results drop down menu.
 
 \item {} 
@@ -340,14 +1031,184 @@ Oct 20, 2021
 \sphinxstylestrong{Justin Napolitano}
 
 \end{description}\end{quote}
+=======
+\phantomsection\label{\detokenize{schema_tables:id228}}{\hyperref[\detokenize{schema_tables:illegal-imprisonments}]{\sphinxcrossref{Illegal\_Imprisonments}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id229}}{\hyperref[\detokenize{schema_tables:id64}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id230}}{\hyperref[\detokenize{schema_tables:id65}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id231}}{\hyperref[\detokenize{schema_tables:id66}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id232}}{\hyperref[\detokenize{schema_tables:human-rights-category-code}]{\sphinxcrossref{Human\_Rights\_Category\_Code}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id233}}{\hyperref[\detokenize{schema_tables:id67}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id234}}{\hyperref[\detokenize{schema_tables:id68}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id235}}{\hyperref[\detokenize{schema_tables:id69}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id236}}{\hyperref[\detokenize{schema_tables:human-rights-category-name}]{\sphinxcrossref{Human\_Rights\_Category\_Name}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id237}}{\hyperref[\detokenize{schema_tables:id70}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id238}}{\hyperref[\detokenize{schema_tables:id71}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id239}}{\hyperref[\detokenize{schema_tables:id72}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id240}}{\hyperref[\detokenize{schema_tables:human-rights-offense-code}]{\sphinxcrossref{Human\_Rights\_Offense\_Code}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id241}}{\hyperref[\detokenize{schema_tables:id73}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id242}}{\hyperref[\detokenize{schema_tables:id74}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id243}}{\hyperref[\detokenize{schema_tables:id75}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id244}}{\hyperref[\detokenize{schema_tables:human-rights-offense-name}]{\sphinxcrossref{Human\_Rights\_Offense\_Name}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id245}}{\hyperref[\detokenize{schema_tables:id76}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id246}}{\hyperref[\detokenize{schema_tables:id77}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id247}}{\hyperref[\detokenize{schema_tables:id78}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id248}}{\hyperref[\detokenize{schema_tables:is-women-event}]{\sphinxcrossref{Is\_Women\_Event}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id249}}{\hyperref[\detokenize{schema_tables:id79}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id250}}{\hyperref[\detokenize{schema_tables:id80}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id251}}{\hyperref[\detokenize{schema_tables:id81}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id252}}{\hyperref[\detokenize{schema_tables:is-children-event}]{\sphinxcrossref{Is\_Children\_Event}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id253}}{\hyperref[\detokenize{schema_tables:id82}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id254}}{\hyperref[\detokenize{schema_tables:id83}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id255}}{\hyperref[\detokenize{schema_tables:id84}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id256}}{\hyperref[\detokenize{schema_tables:description}]{\sphinxcrossref{Description}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id257}}{\hyperref[\detokenize{schema_tables:id85}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id258}}{\hyperref[\detokenize{schema_tables:id86}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id259}}{\hyperref[\detokenize{schema_tables:id87}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id260}}{\hyperref[\detokenize{schema_tables:id}]{\sphinxcrossref{ID}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id261}}{\hyperref[\detokenize{schema_tables:id88}]{\sphinxcrossref{Definition}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id262}}{\hyperref[\detokenize{schema_tables:id89}]{\sphinxcrossref{Data Type}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id263}}{\hyperref[\detokenize{schema_tables:id90}]{\sphinxcrossref{Reference Table}}}
+
+\end{itemize}
+
+\end{itemize}
+>>>>>>> gh-pages
 \end{sphinxShadowBox}
 
 
 \subsection{Year}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:year}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:definition}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:year}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:definition}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Records the Year an event occurs.
@@ -355,7 +1216,11 @@ Records the Year an event occurs.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:data-type}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:data-type}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -363,18 +1228,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:reference-table}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:reference-table}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Aggressor\_ID}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:aggressor-id}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id2}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:aggressor-id}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id2}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Records the ID of the aggressor of an event; the agent or group that commits a human right violation.
@@ -382,7 +1261,11 @@ Records the ID of the aggressor of an event; the agent or group that commits a h
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id3}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id3}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Categorical Integer.
@@ -390,18 +1273,32 @@ Categorical Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id4}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:aggressor-table}]{\sphinxcrossref{Aggressor Table}}} .
+=======
+\label{\detokenize{schema_tables:id4}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:aggressor-table}]{\sphinxcrossref{Aggressor Table}}} .
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Aggressor\_Name}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:aggressor-name}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id5}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:aggressor-name}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id5}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Records the name of the aggressor of an event; the agent or group that commits a human right violation.
@@ -409,7 +1306,11 @@ Records the name of the aggressor of an event; the agent or group that commits a
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id6}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id6}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -417,18 +1318,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id7}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:aggressor-table}]{\sphinxcrossref{Aggressor Table}}}.
+=======
+\label{\detokenize{schema_tables:id7}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:aggressor-table}]{\sphinxcrossref{Aggressor Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Victim\_ID}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:victim-id}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id8}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:victim-id}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id8}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Records the ID of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
@@ -436,7 +1351,11 @@ Records the ID of the victim of an event; the agent or group that is victim to a
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id9}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id9}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Categorical integer.
@@ -444,18 +1363,32 @@ Categorical integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id10}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:victim-table}]{\sphinxcrossref{Victim Table}}}.
+=======
+\label{\detokenize{schema_tables:id10}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:victim-table}]{\sphinxcrossref{Victim Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Victim\_Name}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:victim-name}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id11}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:victim-name}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id11}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Records the name of the victim of an event; the agent or group that is victim to a human right violation commited by the aggressor.
@@ -463,7 +1396,11 @@ Records the name of the victim of an event; the agent or group that is victim to
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id12}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id12}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -471,18 +1408,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id13}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:victim-table}]{\sphinxcrossref{Victim Table}}}.
+=======
+\label{\detokenize{schema_tables:id13}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:victim-table}]{\sphinxcrossref{Victim Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Source\_Article}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:source-article}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id14}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:source-article}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id14}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A record of the name, data, and title of the source from which information on an event is gathered.
@@ -490,7 +1441,11 @@ A record of the name, data, and title of the source from which information on an
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id15}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id15}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -498,18 +1453,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id16}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id16}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Source\_Date}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:source-date}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id17}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:source-date}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id17}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The date the source material containing the information of an event record.
@@ -517,7 +1486,11 @@ The date the source material containing the information of an event record.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id18}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id18}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 DateStamp.
@@ -525,18 +1498,32 @@ DateStamp.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id19}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id19}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Source\_Headline}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:source-headline}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id20}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:source-headline}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id20}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The title of the source material containing the information of an event record.
@@ -544,7 +1531,11 @@ The title of the source material containing the information of an event record.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id21}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id21}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -552,18 +1543,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id22}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id22}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Region\_Name}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:region-name}}
 
 \subsubsection{Defintion}
 \label{\detokenize{database_schema:defintion}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:region-name}}
+
+\subsubsection{Defintion}
+\label{\detokenize{schema_tables:defintion}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The name of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.
@@ -571,7 +1576,11 @@ The name of the administrative region an event was recorded.  Regions are define
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id23}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id23}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -579,18 +1588,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id24}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:region-table}]{\sphinxcrossref{Region Table}}}.
+=======
+\label{\detokenize{schema_tables:id24}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:region-table}]{\sphinxcrossref{Region Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Region\_Code}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:region-code}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id25}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:region-code}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id25}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The code of the administrative region an event was recorded.  Regions are defined according the offical provincial and administrative regions of the Turkish State.
@@ -598,7 +1621,11 @@ The code of the administrative region an event was recorded.  Regions are define
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id26}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id26}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Categorical Integer.
@@ -606,18 +1633,32 @@ Categorical Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id27}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:region-table}]{\sphinxcrossref{Region Table}}}.
+=======
+\label{\detokenize{schema_tables:id27}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:region-table}]{\sphinxcrossref{Region Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Kurdish\_Region}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:kurdish-region}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id28}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:kurdish-region}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id28}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A boolean variable that indicates whether a region is predominantly Kurdish by population.
@@ -625,7 +1666,11 @@ A boolean variable that indicates whether a region is predominantly Kurdish by p
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id29}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id29}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Boolean.
@@ -633,18 +1678,32 @@ Boolean.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id30}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id30}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Province\_Name}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:province-name}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id31}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:province-name}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id31}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The name of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
@@ -652,7 +1711,11 @@ The name of the provincial level administrative region an event was recorded.  P
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id32}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id32}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -660,18 +1723,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id33}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:province-table}]{\sphinxcrossref{Province Table}}}.
+=======
+\label{\detokenize{schema_tables:id33}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:province-table}]{\sphinxcrossref{Province Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Province\_Code}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:province-code}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id34}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:province-code}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id34}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The code of the provincial level administrative region an event was recorded.  Provinces are defined according the offical provincial and administrative regions of the Turkish State.
@@ -679,7 +1756,11 @@ The code of the provincial level administrative region an event was recorded.  P
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id35}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id35}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Categorical Integer.
@@ -687,18 +1768,32 @@ Categorical Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id36}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:province-table}]{\sphinxcrossref{Province Table}}}.
+=======
+\label{\detokenize{schema_tables:id36}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:province-table}]{\sphinxcrossref{Province Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Country}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:country}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id37}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:country}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id37}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The state (country) where an event is recorded.
@@ -706,7 +1801,11 @@ The state (country) where an event is recorded.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id38}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id38}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -714,18 +1813,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id39}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id39}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Date\_Start}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:date-start}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id40}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:date-start}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id40}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A record of the day, month, and year in the DD/MM/YYYY format of when an event takes starts.
@@ -736,7 +1849,11 @@ If the exact datastamp cannot be determined the best possible date is estimated.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id41}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id41}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 DateStamp DD/MM/YYYY.
@@ -744,18 +1861,32 @@ DateStamp DD/MM/YYYY.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id42}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id42}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Date\_End}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:date-end}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id43}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:date-end}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id43}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A record of the day, month, and yearn in the DD/MM/YYYY format of when an event ends.
@@ -763,7 +1894,11 @@ A record of the day, month, and yearn in the DD/MM/YYYY format of when an event 
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id44}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id44}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 DateStamp DD/MM/YYYY.
@@ -771,18 +1906,32 @@ DateStamp DD/MM/YYYY.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id45}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id45}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Women\_Killed}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:women-killed}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id46}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:women-killed}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id46}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The best estimate of deaths of women recorded for an event.
@@ -790,7 +1939,11 @@ The best estimate of deaths of women recorded for an event.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id47}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id47}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -798,18 +1951,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id48}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id48}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Children\_Killed}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:children-killed}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id49}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:children-killed}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id49}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The best estimate of the number of deaths of children recorded for an event.
@@ -817,7 +1984,11 @@ The best estimate of the number of deaths of children recorded for an event.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id50}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id50}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -825,18 +1996,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id51}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id51}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Total\_Killed}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:total-killed}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id52}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:total-killed}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id52}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The sum of Women\_Killed, Children\_Killed, and any other deaths recorded for an event.
@@ -844,7 +2029,11 @@ The sum of Women\_Killed, Children\_Killed, and any other deaths recorded for an
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id53}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id53}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -852,18 +2041,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id54}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id54}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Women\_Raped}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:women-raped}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id55}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:women-raped}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id55}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The recorded number of women during an event.
@@ -871,7 +2074,11 @@ The recorded number of women during an event.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id56}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id56}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -879,18 +2086,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id57}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id57}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Illegal\_Arrests}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:illegal-arrests}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id58}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:illegal-arrests}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id58}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The recorded number of people illegally arrested during an event.
@@ -898,7 +2119,11 @@ The recorded number of people illegally arrested during an event.
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id59}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id59}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -906,18 +2131,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id60}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id60}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Illegal\_Detentions}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:illegal-detentions}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id61}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:illegal-detentions}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id61}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The recorded number of people illegally detained by any non\sphinxhyphen{}governmental agent or organization during an event.
@@ -925,7 +2164,11 @@ The recorded number of people illegally detained by any non\sphinxhyphen{}govern
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id62}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id62}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer
@@ -933,18 +2176,32 @@ Integer
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id63}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id63}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Illegal\_Imprisonments}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:illegal-imprisonments}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id64}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:illegal-imprisonments}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id64}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The recorded number of people illegally imprisoned by the Turkish State during an event.
@@ -952,7 +2209,11 @@ The recorded number of people illegally imprisoned by the Turkish State during a
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id65}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id65}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Integer.
@@ -960,18 +2221,32 @@ Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id66}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}
+=======
+\label{\detokenize{schema_tables:id66}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Human\_Rights\_Category\_Code}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:human-rights-category-code}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id67}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:human-rights-category-code}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id67}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The code of the category of Human Rights violation as defined by Justin Napolitano and Demet Mousseau. Insert a reference here.
@@ -979,7 +2254,11 @@ The code of the category of Human Rights violation as defined by Justin Napolita
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id68}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id68}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Categorical Integer.
@@ -987,18 +2266,32 @@ Categorical Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id69}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:human-rights-category-table}]{\sphinxcrossref{Human Rights Category Table}}}.
+=======
+\label{\detokenize{schema_tables:id69}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:human-rights-category-table}]{\sphinxcrossref{Human Rights Category Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Human\_Rights\_Category\_Name}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:human-rights-category-name}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id70}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:human-rights-category-name}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id70}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The name of the category of Human Rights violation as defined by Justin Napolitano and Demet Mousseau. Insert a reference here.
@@ -1006,7 +2299,11 @@ The name of the category of Human Rights violation as defined by Justin Napolita
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id71}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id71}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -1014,18 +2311,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id72}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:human-rights-category-table}]{\sphinxcrossref{Human Rights Category Table}}}
+=======
+\label{\detokenize{schema_tables:id72}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:human-rights-category-table}]{\sphinxcrossref{Human Rights Category Table}}}
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Human\_Rights\_Offense\_Code}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:human-rights-offense-code}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id73}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:human-rights-offense-code}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id73}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The code of the offence to Human Rights as defined by the United Nations or Comparable International Treaty Organization.
@@ -1033,7 +2344,11 @@ The code of the offence to Human Rights as defined by the United Nations or Comp
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id74}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id74}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Categorical Integer.
@@ -1041,18 +2356,32 @@ Categorical Integer.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id75}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:human-rights-offense-table}]{\sphinxcrossref{Human Rights Offense Table}}}.
+=======
+\label{\detokenize{schema_tables:id75}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:human-rights-offense-table}]{\sphinxcrossref{Human Rights Offense Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Human\_Rights\_Offense\_Name}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:human-rights-offense-name}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id76}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:human-rights-offense-name}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id76}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 The name of the offence to Human Rights as defined by the United Nations or Comparable International Treaty Organization.
@@ -1060,7 +2389,11 @@ The name of the offence to Human Rights as defined by the United Nations or Comp
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id77}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id77}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -1068,18 +2401,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id78}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:human-rights-offense-table}]{\sphinxcrossref{Human Rights Offense Table}}}
+=======
+\label{\detokenize{schema_tables:id78}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:human-rights-offense-table}]{\sphinxcrossref{Human Rights Offense Table}}}
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Is\_Women\_Event}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:is-women-event}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id79}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:is-women-event}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id79}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A boolean variable that designates if an event primarily affects males or females.
@@ -1093,7 +2440,11 @@ A boolean variable that designates if an event primarily affects males or female
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id80}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id80}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Boolean.
@@ -1101,18 +2452,32 @@ Boolean.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id81}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id81}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Is\_Children\_Event}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:is-children-event}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id82}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:is-children-event}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id82}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A boolean variable that designates if an event primarily affects adults or children.
@@ -1126,7 +2491,11 @@ A boolean variable that designates if an event primarily affects adults or child
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id83}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id83}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 Boolean.
@@ -1134,18 +2503,32 @@ Boolean.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id84}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}
+=======
+\label{\detokenize{schema_tables:id84}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{Description}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:description}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id85}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:description}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id85}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A description of an event that may contain information that could not be relayed in the coding.
@@ -1153,7 +2536,11 @@ A description of an event that may contain information that could not be relayed
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id86}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id86}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -1161,18 +2548,32 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id87}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id87}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \subsection{ID}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id}}
 
 \subsubsection{Definition}
 \label{\detokenize{database_schema:id88}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id}}
+
+\subsubsection{Definition}
+\label{\detokenize{schema_tables:id88}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 A unique identifier for a coded event
@@ -1209,7 +2610,11 @@ For instance, id 19981265 is an event that occurred in 1998 committed by the Tur
 
 
 \subsubsection{Data Type}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id89}}\begin{quote}
+=======
+\label{\detokenize{schema_tables:id89}}\begin{quote}
+>>>>>>> gh-pages
 
 \sphinxAtStartPar
 String.
@@ -1217,15 +2622,26 @@ String.
 
 
 \subsubsection{Reference Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:id90}}\begin{quote}
 
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}.
+=======
+\label{\detokenize{schema_tables:id90}}\begin{quote}
+
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}.
+>>>>>>> gh-pages
 \end{quote}
 
 
 \section{Reference Tables}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:reference-tables}}
+=======
+\label{\detokenize{schema_tables:reference-tables}}
+>>>>>>> gh-pages
 \begin{sphinxShadowBox}
 \sphinxstyletopictitle{Overview}
 
@@ -1247,6 +2663,7 @@ Oct 20, 2021
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
+<<<<<<< HEAD
 \phantomsection\label{\detokenize{database_schema:id102}}{\hyperref[\detokenize{database_schema:overview-table}]{\sphinxcrossref{Overview Table}}}
 
 \item {} 
@@ -1272,29 +2689,74 @@ Oct 20, 2021
 \item {} 
 \sphinxAtStartPar
 \phantomsection\label{\detokenize{database_schema:id108}}{\hyperref[\detokenize{database_schema:province-table}]{\sphinxcrossref{Province Table}}}
+=======
+\phantomsection\label{\detokenize{schema_tables:id264}}{\hyperref[\detokenize{schema_tables:overview-table}]{\sphinxcrossref{Overview Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id265}}{\hyperref[\detokenize{schema_tables:aggressor-table}]{\sphinxcrossref{Aggressor Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id266}}{\hyperref[\detokenize{schema_tables:victim-table}]{\sphinxcrossref{Victim Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id267}}{\hyperref[\detokenize{schema_tables:human-rights-category-table}]{\sphinxcrossref{Human Rights Category Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id268}}{\hyperref[\detokenize{schema_tables:human-rights-offense-table}]{\sphinxcrossref{Human Rights Offense Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id269}}{\hyperref[\detokenize{schema_tables:region-table}]{\sphinxcrossref{Region Table}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{schema_tables:id270}}{\hyperref[\detokenize{schema_tables:province-table}]{\sphinxcrossref{Province Table}}}
+>>>>>>> gh-pages
 
 \end{itemize}
 \end{sphinxShadowBox}
 
 
 \subsection{Overview Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:overview-table}}
 
 \begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|\X{10}{20}|\X{10}{20}|}
 \sphinxthelongtablecaptionisattop
 \caption{Overview Table\strut}\label{\detokenize{database_schema:id92}}\\*[\sphinxlongtablecapskipadjust]
+=======
+\label{\detokenize{schema_tables:overview-table}}
+
+\begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|\X{20}{110}|\X{70}{110}|\X{20}{110}|}
+\sphinxthelongtablecaptionisattop
+\caption{Overview Table\strut}\label{\detokenize{schema_tables:id92}}\\*[\sphinxlongtablecapskipadjust]
+>>>>>>> gh-pages
 \hline
 \sphinxstyletheadfamily 
 \sphinxAtStartPar
 Variable Name
 &\sphinxstyletheadfamily 
 \sphinxAtStartPar
+<<<<<<< HEAD
+=======
+Description
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+>>>>>>> gh-pages
 Data Type
 \\
 \hline
 \endfirsthead
 
+<<<<<<< HEAD
 \multicolumn{2}{c}%
+=======
+\multicolumn{3}{c}%
+>>>>>>> gh-pages
 {\makebox[0pt]{\sphinxtablecontinued{\tablename\ \thetable{} \textendash{} continued from previous page}}}\\
 \hline
 \sphinxstyletheadfamily 
@@ -1302,60 +2764,113 @@ Data Type
 Variable Name
 &\sphinxstyletheadfamily 
 \sphinxAtStartPar
+<<<<<<< HEAD
+=======
+Description
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+>>>>>>> gh-pages
 Data Type
 \\
 \hline
 \endhead
 
 \hline
+<<<<<<< HEAD
 \multicolumn{2}{r}{\makebox[0pt][r]{\sphinxtablecontinued{continues on next page}}}\\
+=======
+\multicolumn{3}{r}{\makebox[0pt][r]{\sphinxtablecontinued{continues on next page}}}\\
+>>>>>>> gh-pages
 \endfoot
 
 \endlastfoot
 
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:year}]{\sphinxcrossref{Year}}}
+=======
+{\hyperref[\detokenize{schema_tables:year}]{\sphinxcrossref{Year}}}
+&
+\sphinxAtStartPar
+Records the year of the event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:aggressor-id}]{\sphinxcrossref{Aggressor\_Id}}}
+=======
+{\hyperref[\detokenize{schema_tables:aggressor-id}]{\sphinxcrossref{Aggressor\_Id}}}
+&
+\sphinxAtStartPar
+The unique identifier of the aggressor in an event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Categorical Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:aggressor-name}]{\sphinxcrossref{Aggressor\_Name}}}
+=======
+{\hyperref[\detokenize{schema_tables:aggressor-name}]{\sphinxcrossref{Aggressor\_Name}}}
+&
+\sphinxAtStartPar
+The name of the aggressor in an event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:victim-id}]{\sphinxcrossref{Victim\_ID}}}
+=======
+{\hyperref[\detokenize{schema_tables:victim-id}]{\sphinxcrossref{Victim\_ID}}}
+&
+\sphinxAtStartPar
+The unique identifier of the Victim of an event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Categorical Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:victim-name}]{\sphinxcrossref{Victim\_Name}}}
+=======
+{\hyperref[\detokenize{schema_tables:victim-name}]{\sphinxcrossref{Victim\_Name}}}
+&
+\sphinxAtStartPar
+The class of the victim an event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:source-article}]{\sphinxcrossref{Source\_Article}}}
+=======
+{\hyperref[\detokenize{schema_tables:source-article}]{\sphinxcrossref{Source\_Article}}}
+&
+\sphinxAtStartPar
+Reference to the names, dates, and titles of the source material from which information on the event is gathered
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:source-date}]{\sphinxcrossref{Source\_Date}}}
 &
 \sphinxAtStartPar
@@ -1364,26 +2879,57 @@ DateString
 \hline
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:source-headline}]{\sphinxcrossref{Source\_Headline}}}
+=======
+{\hyperref[\detokenize{schema_tables:source-date}]{\sphinxcrossref{Source\_Date}}}
+&
+\sphinxAtStartPar
+The date the source material was published.
+&
+\sphinxAtStartPar
+DateString: DD/MM/YYYY
+\\
+\hline
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:source-headline}]{\sphinxcrossref{Source\_Headline}}}
+&
+\sphinxAtStartPar
+The titles of the source materials.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:region-name}]{\sphinxcrossref{Region\_Name}}}
+=======
+{\hyperref[\detokenize{schema_tables:region-name}]{\sphinxcrossref{Region\_Name}}}
+&
+\sphinxAtStartPar
+The name of the Turkish region in which an event took place.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:kurdish-region}]{\sphinxcrossref{Kurdish\_Region}}}
+=======
+{\hyperref[\detokenize{schema_tables:kurdish-region}]{\sphinxcrossref{Kurdish\_Region}}}
+&
+\sphinxAtStartPar
+Designates whether a region contains a sizable Kurdish population.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Boolean
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:region-code}]{\sphinxcrossref{Region\_Code}}}
 &
 \sphinxAtStartPar
@@ -1392,12 +2938,29 @@ Categorical
 \hline
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:province-name}]{\sphinxcrossref{Province\_Name}}}
+=======
+{\hyperref[\detokenize{schema_tables:region-code}]{\sphinxcrossref{Region\_Code}}}
+&
+\sphinxAtStartPar
+Region in Turkey where the event took place.
+&
+\sphinxAtStartPar
+Categorical Integer
+\\
+\hline
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:province-name}]{\sphinxcrossref{Province\_Name}}}
+&
+\sphinxAtStartPar
+The name of the Turkish Province in which an event took place.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:province-code}]{\sphinxcrossref{Province\_Code}}}
 &
 \sphinxAtStartPar
@@ -1406,75 +2969,155 @@ Categorical
 \hline
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:country}]{\sphinxcrossref{Country}}}
+=======
+{\hyperref[\detokenize{schema_tables:province-code}]{\sphinxcrossref{Province\_Code}}}
+&
+\sphinxAtStartPar
+Province in which the event in the event occurred.
+&
+\sphinxAtStartPar
+Categorical Integer
+\\
+\hline
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:country}]{\sphinxcrossref{Country}}}
+&
+\sphinxAtStartPar
+The state (country) where the event took place.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:date-start}]{\sphinxcrossref{Date\_Start}}}
+=======
+{\hyperref[\detokenize{schema_tables:date-start}]{\sphinxcrossref{Date\_Start}}}
+&
+\sphinxAtStartPar
+Lists the day, month, and year in DD/MM/YYYY format for when the event begins. If the exact day cannot be identified, this is the best approximation of the start date.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:date-end}]{\sphinxcrossref{Date\_End}}}
+=======
+{\hyperref[\detokenize{schema_tables:date-end}]{\sphinxcrossref{Date\_End}}}
+&
+\sphinxAtStartPar
+Lists the day, month, and year in DD/MM/YYYY format for when the event ends. If the exact day cannot be identified, this is the best approximation of the start date.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:women-killed}]{\sphinxcrossref{Women\_Killed}}}
+=======
+{\hyperref[\detokenize{schema_tables:women-killed}]{\sphinxcrossref{Women\_Killed}}}
+&
+\sphinxAtStartPar
+The best estimate of deaths of women.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:children-killed}]{\sphinxcrossref{Children\_Killed}}}
+=======
+{\hyperref[\detokenize{schema_tables:children-killed}]{\sphinxcrossref{Children\_Killed}}}
+&
+\sphinxAtStartPar
+The best estimate of deaths of children.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:total-killed}]{\sphinxcrossref{Total\_Killed}}}
+=======
+{\hyperref[\detokenize{schema_tables:total-killed}]{\sphinxcrossref{Total\_Killed}}}
+&
+\sphinxAtStartPar
+Always the sum of the Women\_Killed and Children\_Killed.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:women-raped}]{\sphinxcrossref{Women\_Raped}}}
+=======
+{\hyperref[\detokenize{schema_tables:women-raped}]{\sphinxcrossref{Women\_Raped}}}
+&
+\sphinxAtStartPar
+The number of women raped in a event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:illegal-imprisonments}]{\sphinxcrossref{Illegal\_Imprisonments}}}
+=======
+{\hyperref[\detokenize{schema_tables:illegal-imprisonments}]{\sphinxcrossref{Illegal\_Imprisonments}}}
+&
+\sphinxAtStartPar
+The number of people illegally imprisoned by the Turkish Government.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:illegal-arrests}]{\sphinxcrossref{Illegal\_Arrests}}}
+=======
+{\hyperref[\detokenize{schema_tables:illegal-arrests}]{\sphinxcrossref{Illegal\_Arrests}}}
+&
+\sphinxAtStartPar
+The number of illegal arrests committed by the Turkish Government in a single event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:illegal-detentions}]{\sphinxcrossref{Illegal\_Detentions}}}
+=======
+{\hyperref[\detokenize{schema_tables:illegal-detentions}]{\sphinxcrossref{Illegal\_Detentions}}}
+&
+\sphinxAtStartPar
+The number of illegal detentions committed by the PKK or non\sphinxhyphen{}governmental organization in a single event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:human-rights-category-code}]{\sphinxcrossref{Human\_Rights\_Category\_Code}}}
 &
 \sphinxAtStartPar
@@ -1483,12 +3126,29 @@ Categorical
 \hline
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:human-rights-category-name}]{\sphinxcrossref{Human\_Rights\_Category\_Name}}}
+=======
+{\hyperref[\detokenize{schema_tables:human-rights-category-code}]{\sphinxcrossref{Human\_Rights\_Category\_Code}}}
+&
+\sphinxAtStartPar
+Overarching human rights violation. See table 2.
+&
+\sphinxAtStartPar
+Categorical Integer
+\\
+\hline
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:human-rights-category-name}]{\sphinxcrossref{Human\_Rights\_Category\_Name}}}
+&
+\sphinxAtStartPar
+Overarching human rights violation. See table 2.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:human-rights-offense-code}]{\sphinxcrossref{Human\_Rights\_Offense\_Code}}}
 &
 \sphinxAtStartPar
@@ -1497,34 +3157,74 @@ Categorical
 \hline
 \sphinxAtStartPar
 {\hyperref[\detokenize{database_schema:human-rights-offense-name}]{\sphinxcrossref{Human\_Rights\_Offense\_Name}}}
+=======
+{\hyperref[\detokenize{schema_tables:human-rights-offense-code}]{\sphinxcrossref{Human\_Rights\_Offense\_Code}}}
+&
+\sphinxAtStartPar
+Subcategory of human rights violation. See table 2
+&
+\sphinxAtStartPar
+Categorical Integer
+\\
+\hline
+\sphinxAtStartPar
+{\hyperref[\detokenize{schema_tables:human-rights-offense-name}]{\sphinxcrossref{Human\_Rights\_Offense\_Name}}}
+&
+\sphinxAtStartPar
+Subcategory of human rights violation. See table 2
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:is-women-event}]{\sphinxcrossref{Is\_Women\_Event}}}
 &
+=======
+{\hyperref[\detokenize{schema_tables:is-women-event}]{\sphinxcrossref{Is\_Women\_Event}}}
+&&
+>>>>>>> gh-pages
 \sphinxAtStartPar
 Boolean
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:is-children-event}]{\sphinxcrossref{Is\_Children\_Event}}}
 &
+=======
+{\hyperref[\detokenize{schema_tables:is-children-event}]{\sphinxcrossref{Is\_Children\_Event}}}
+&&
+>>>>>>> gh-pages
 \sphinxAtStartPar
 Boolean
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:description}]{\sphinxcrossref{Description}}}
+=======
+{\hyperref[\detokenize{schema_tables:description}]{\sphinxcrossref{Description}}}
+&
+\sphinxAtStartPar
+A description of an event that may contain information that could not be relayed in the coding.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 String
 \\
 \hline
 \sphinxAtStartPar
+<<<<<<< HEAD
 {\hyperref[\detokenize{database_schema:id}]{\sphinxcrossref{ID}}}
+=======
+{\hyperref[\detokenize{schema_tables:id}]{\sphinxcrossref{ID}}}
+&
+\sphinxAtStartPar
+A unique identifier for a coded event.
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Integer
@@ -1534,15 +3234,25 @@ Integer
 
 
 \subsection{Aggressor Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:aggressor-table}}
+=======
+\label{\detokenize{schema_tables:aggressor-table}}
+>>>>>>> gh-pages
 
 \begin{savenotes}\sphinxattablestart
 \centering
 \sphinxcapstartof{table}
 \sphinxthecaptionisattop
+<<<<<<< HEAD
 \sphinxcaption{Aggressor Table}\label{\detokenize{database_schema:id93}}
 \sphinxaftertopcaption
 \begin{tabular}[t]{|\X{3}{13}|\X{10}{13}|}
+=======
+\sphinxcaption{Aggressor Table}\label{\detokenize{schema_tables:id93}}
+\sphinxaftertopcaption
+\begin{tabular}[t]{|\X{20}{40}|\X{20}{40}|}
+>>>>>>> gh-pages
 \hline
 
 \sphinxAtStartPar
@@ -1579,15 +3289,25 @@ PKK
 
 
 \subsection{Victim Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:victim-table}}
+=======
+\label{\detokenize{schema_tables:victim-table}}
+>>>>>>> gh-pages
 
 \begin{savenotes}\sphinxattablestart
 \centering
 \sphinxcapstartof{table}
 \sphinxthecaptionisattop
+<<<<<<< HEAD
 \sphinxcaption{Victim Table}\label{\detokenize{database_schema:id94}}
 \sphinxaftertopcaption
 \begin{tabular}[t]{|\X{3}{13}|\X{10}{13}|}
+=======
+\sphinxcaption{Victim Table}\label{\detokenize{schema_tables:id94}}
+\sphinxaftertopcaption
+\begin{tabular}[t]{|\X{20}{40}|\X{20}{40}|}
+>>>>>>> gh-pages
 \hline
 \sphinxstyletheadfamily 
 \sphinxAtStartPar
@@ -1638,15 +3358,25 @@ Turkish Soldiers
 
 
 \subsection{Human Rights Category Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:human-rights-category-table}}
+=======
+\label{\detokenize{schema_tables:human-rights-category-table}}
+>>>>>>> gh-pages
 
 \begin{savenotes}\sphinxattablestart
 \centering
 \sphinxcapstartof{table}
 \sphinxthecaptionisattop
+<<<<<<< HEAD
 \sphinxcaption{Human Rights Category Table}\label{\detokenize{database_schema:id95}}
 \sphinxaftertopcaption
 \begin{tabular}[t]{|\X{3}{13}|\X{10}{13}|}
+=======
+\sphinxcaption{Human Rights Category Table}\label{\detokenize{schema_tables:id95}}
+\sphinxaftertopcaption
+\begin{tabular}[t]{|\X{20}{40}|\X{20}{40}|}
+>>>>>>> gh-pages
 \hline
 \sphinxstyletheadfamily 
 \sphinxAtStartPar
@@ -1704,11 +3434,19 @@ Collective Developmental
 
 
 \subsection{Human Rights Offense Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:human-rights-offense-table}}
 
 \begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|\X{5}{65}|\X{20}{65}|\X{5}{65}|\X{5}{65}|\X{15}{65}|\X{15}{65}|}
 \sphinxthelongtablecaptionisattop
 \caption{Human Rights Offense Table\strut}\label{\detokenize{database_schema:id96}}\\*[\sphinxlongtablecapskipadjust]
+=======
+\label{\detokenize{schema_tables:human-rights-offense-table}}
+
+\begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|\X{1}{38}|\X{10}{38}|\X{1}{38}|\X{1}{38}|\X{10}{38}|\X{15}{38}|}
+\sphinxthelongtablecaptionisattop
+\caption{Human Rights Offense Table\strut}\label{\detokenize{schema_tables:id96}}\\*[\sphinxlongtablecapskipadjust]
+>>>>>>> gh-pages
 \hline
 \sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily \\
 \hline
@@ -1734,7 +3472,11 @@ Category
 Category Name
 &
 \sphinxAtStartPar
+<<<<<<< HEAD
 H\_R Category
+=======
+Categorical ID
+>>>>>>> gh-pages
 &
 \sphinxAtStartPar
 Unique ID
@@ -2396,15 +4138,25 @@ UN General Assembly Art 20, 1948
 
 
 \subsection{Region Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:region-table}}
+=======
+\label{\detokenize{schema_tables:region-table}}
+>>>>>>> gh-pages
 
 \begin{savenotes}\sphinxattablestart
 \centering
 \sphinxcapstartof{table}
 \sphinxthecaptionisattop
+<<<<<<< HEAD
 \sphinxcaption{Region Table}\label{\detokenize{database_schema:id97}}
 \sphinxaftertopcaption
 \begin{tabular}[t]{|\X{3}{13}|\X{10}{13}|}
+=======
+\sphinxcaption{Region Table}\label{\detokenize{schema_tables:id97}}
+\sphinxaftertopcaption
+\begin{tabular}[t]{|\X{20}{40}|\X{20}{40}|}
+>>>>>>> gh-pages
 \hline
 \sphinxstyletheadfamily 
 \sphinxAtStartPar
@@ -2504,11 +4256,19 @@ Southeast Anatolia
 
 
 \subsection{Province Table}
+<<<<<<< HEAD
 \label{\detokenize{database_schema:province-table}}
 
 \begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|\X{3}{18}|\X{15}{18}|}
 \sphinxthelongtablecaptionisattop
 \caption{Province Table\strut}\label{\detokenize{database_schema:id98}}\\*[\sphinxlongtablecapskipadjust]
+=======
+\label{\detokenize{schema_tables:province-table}}
+
+\begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|\X{20}{40}|\X{20}{40}|}
+\sphinxthelongtablecaptionisattop
+\caption{Province Table\strut}\label{\detokenize{schema_tables:id98}}\\*[\sphinxlongtablecapskipadjust]
+>>>>>>> gh-pages
 \hline
 \sphinxstyletheadfamily 
 \sphinxAtStartPar
@@ -3109,6 +4869,7 @@ Düzce
 \end{longtable}\sphinxatlongtableend\end{savenotes}
 
 
+<<<<<<< HEAD
 \chapter{PDF}
 \label{\detokenize{pdf:pdf}}\label{\detokenize{pdf:pdf-page}}\label{\detokenize{pdf::doc}}
 \begin{sphinxShadowBox}
@@ -3163,6 +4924,8 @@ Oct 20, 2021
 \section{Archived Data}
 \label{\detokenize{pdf:archived-data}}
 
+=======
+>>>>>>> gh-pages
 \chapter{Data}
 \label{\detokenize{data:data}}\label{\detokenize{data:data-page}}\label{\detokenize{data::doc}}
 \begin{sphinxShadowBox}
@@ -3214,9 +4977,19 @@ Oct 20, 2021
 
 \section{Current Data}
 \label{\detokenize{data:current-data}}\begin{quote}\begin{description}
+<<<<<<< HEAD
 \item[{Excel Download Link:}] \leavevmode
 \sphinxAtStartPar
 \sphinxurl{https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/2480c62b4e7e947adb346e938e28532e36d848b0/FinalDataAugust21.xlsm}
+=======
+\item[{Excel Direct Download:}] \leavevmode
+\sphinxAtStartPar
+\sphinxcode{\sphinxupquote{Current Excel Document}}
+
+\item[{Excel Download Link:}] \leavevmode
+\sphinxAtStartPar
+\sphinxurl{https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/main/FinalDataAugust21.xlsm}
+>>>>>>> gh-pages
 
 \end{description}\end{quote}
 
@@ -3227,9 +5000,19 @@ Oct 20, 2021
 \subsection{2019}
 \label{\detokenize{data:id1}}\begin{quote}
 \begin{quote}\begin{description}
+<<<<<<< HEAD
 \item[{Excel Download Link:}] \leavevmode
 \sphinxAtStartPar
 \sphinxurl{https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/2480c62b4e7e947adb346e938e28532e36d848b0/FinalDataAugust21.xlsm}
+=======
+\item[{Excel Direct Download:}] \leavevmode
+\sphinxAtStartPar
+\sphinxcode{\sphinxupquote{Archived Excel Document}}
+
+\item[{Excel Download Link:}] \leavevmode
+\sphinxAtStartPar
+\sphinxurl{https://github.com/justin-napolitano/turkish-kurdish-conflict/blob/main/FinalDataAugust21.xlsm}
+>>>>>>> gh-pages
 
 \end{description}\end{quote}
 \end{quote}
