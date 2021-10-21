@@ -926,7 +926,8 @@
 <span id="coding-procedure"></span><h1><a class="toc-backref" href="#id100"><span class="section-number">3. </span>Database Schema</a><a class="headerlink" href="#database-schema" title="Permalink to this headline">¶</a></h1>
 <div class="topic">
 <p class="topic-title">Overview</p>
-<p>This section documents the schema of the DB.  You will find the <a class="reference internal" href="#schema-definitions">Schema Definitions</a> and the <a class="reference internal" href="#reference-tables">Reference Tables</a> below.</p>
+<p>This section documents the schema of the DB.</p>
+<p>You will find the <a class="reference internal" href="#schema-definitions">Schema Definitions</a> and the <a class="reference internal" href="#reference-tables">Reference Tables</a> below.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Date</dt>
 <dd class="field-odd"><p>Oct 20, 2021</p>
@@ -1935,23 +1936,23 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Year</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#year">Year</a></p></td>
 <td><p>Records the year of the event.</p></td>
 <td><p>Integer</p></td>
 </tr>
-<tr class="row-odd"><td><p>Side_A_Id</p></td>
+<tr class="row-odd"><td><p>Aggressor_Id</p></td>
 <td><p>The unique identifier of the aggressor in an event.</p></td>
 <td><p>Categorical Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>Side_A</p></td>
+<tr class="row-even"><td><p>Aggressor_Name</p></td>
 <td><p>The name of the aggressor in an event.</p></td>
 <td><p>String</p></td>
 </tr>
-<tr class="row-odd"><td><p>Side_B_Id</p></td>
+<tr class="row-odd"><td><p>Victim_ID</p></td>
 <td><p>The unique identifier of the Victim of an event.</p></td>
 <td><p>Categorical Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>Side_B</p></td>
+<tr class="row-even"><td><p>Victim_Name</p></td>
 <td><p>The class of the victim an event.</p></td>
 <td><p>String</p></td>
 </tr>
@@ -2027,31 +2028,23 @@
 <td><p>The number of illegal detentions committed by the PKK or non-governmental organization in a single event.</p></td>
 <td><p>Integer</p></td>
 </tr>
-<tr class="row-odd"><td><p>Human_right_violation_1_Code</p></td>
+<tr class="row-odd"><td><p>Human_Right_Category_Code</p></td>
 <td><p>Overarching human rights violation. See table 2.</p></td>
 <td><p>Categorical Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>Human_right_violation_1_Name</p></td>
+<tr class="row-even"><td><p>Human_Right_Category_Name</p></td>
 <td><p>Overarching human rights violation. See table 2.</p></td>
 <td><p>String</p></td>
 </tr>
-<tr class="row-odd"><td><p>Human_right_violation_2_Code</p></td>
+<tr class="row-odd"><td><p>Human_Right_Offense_Code</p></td>
 <td><p>Subcategory of human rights violation. See table 2</p></td>
 <td><p>Categorical Integer</p></td>
 </tr>
-<tr class="row-even"><td><p>Human_right_violation_2_Name</p></td>
+<tr class="row-even"><td><p>Human_Right_Offense_Name</p></td>
 <td><p>Subcategory of human rights violation. See table 2</p></td>
 <td><p>String</p></td>
 </tr>
-<tr class="row-odd"><td><p>Is_Women_Event_Code</p></td>
-<td></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="row-even"><td><p>Is_Women_Event</p></td>
-<td></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="row-odd"><td><p>Is_Children_Event_Code</p></td>
+<tr class="row-odd"><td><p>Is_Women_Event</p></td>
 <td></td>
 <td><p>Boolean</p></td>
 </tr>

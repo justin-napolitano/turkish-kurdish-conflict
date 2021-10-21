@@ -20,5 +20,4 @@ Contents
     introduction
     search_procedure
     schema_tables
-    documentation
     

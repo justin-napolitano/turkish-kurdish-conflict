@@ -1,9 +1,9 @@
 Variable Name,Description,Data Type
-Year,Records the year of the event.,Integer
-Side_A_Id,The unique identifier of the aggressor in an event.,Categorical Integer
-Side_A,The name of the aggressor in an event.,String
-Side_B_Id,The unique identifier of the Victim of an event.,Categorical Integer
-Side_B,The class of the victim an event.,String
+`Year`_,Records the year of the event.,Integer
+Aggressor_Id,The unique identifier of the aggressor in an event.,Categorical Integer
+Aggressor_Name,The name of the aggressor in an event.,String
+Victim_ID,The unique identifier of the Victim of an event.,Categorical Integer
+Victim_Name,The class of the victim an event.,String
 Source_Article,"Reference to the names, dates, and titles of the source material from which information on the event is gathered",String
 Source_Date,The date the source material was published.,DateString: DD/MM/YYYY
 Source_Headline,The titles of the source materials.,String
@@ -22,13 +22,11 @@ Women_Raped,The number of women raped in a event.,Integer
 Illegal Imprisonments,The number of people illegally imprisoned by the Turkish Government.,Integer
 Illegal Arrests,The number of illegal arrests committed by the Turkish Government in a single event.,Integer
 Illegal Detentions,The number of illegal detentions committed by the PKK or non-governmental organization in a single event.,Integer
-Human_right_violation_1_Code,Overarching human rights violation. See table 2.,Categorical Integer
-Human_right_violation_1_Name,Overarching human rights violation. See table 2.,String
-Human_right_violation_2_Code,Subcategory of human rights violation. See table 2,Categorical Integer
-Human_right_violation_2_Name,Subcategory of human rights violation. See table 2,String
-Is_Women_Event_Code,,Boolean
+Human_Right_Category_Code,Overarching human rights violation. See table 2.,Categorical Integer
+Human_Right_Category_Name,Overarching human rights violation. See table 2.,String
+Human_Right_Offense_Code,Subcategory of human rights violation. See table 2,Categorical Integer
+Human_Right_Offense_Name,Subcategory of human rights violation. See table 2,String
 Is_Women_Event,,Boolean
-Is_Children_Event_Code,,Boolean
 Is_Children_Event,,Boolean
 Description,A description of an event that may contain information that could not be relayed in the coding.,String
 ID,A unique identifier for a coded event.,Integer

@@ -11,7 +11,9 @@ Database Schema
 
 .. topic:: Overview
 
-    This section documents the schema of the DB.  You will find the `Schema Definitions`_ and the `Reference Tables`_ below.
+    This section documents the schema of the DB.  
+    
+    You will find the `Schema Definitions`_ and the `Reference Tables`_ below.
 
 
     :Date: |today|
