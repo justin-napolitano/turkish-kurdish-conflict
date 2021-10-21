@@ -46,7 +46,7 @@ Year
 Definition
 ----------
   
-    Records the Year the event occurs.
+    Records the Year an event occurs.
 
 Data Type
 ---------

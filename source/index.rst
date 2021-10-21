@@ -18,7 +18,7 @@ Contents
     :numbered:
 
     introduction
-    search_procedure
+    event_query_procedure
     schema_tables
     data
     

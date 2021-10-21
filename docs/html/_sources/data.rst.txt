@@ -1,4 +1,4 @@
-.. _data:
+.. _data_page:
 
 
 
@@ -25,14 +25,15 @@ Data
 
 
 Current Data
-=================
+============
 
-:excel:: :download:`Current Excel Document </data/current_data/august2019.xlsm>`
+:Excel:: :download:`Current Excel Document </data/current_data/august2019.xlsm>`
 
 
 Archived Data
-=================
+=============
+
 
 2019
 ----
-    :excel:: :download:`Archived Excel Document </data/archived_data/august2019.xlsm>`  
+    :Excel:: :download:`Archived Excel Document </data/archived_data/august2019.xlsm>`  

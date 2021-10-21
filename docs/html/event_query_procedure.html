@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contents &#8212; Turkish-Kurdish Conflict Event Database 1984-2018</title>
+    <title>2. Event Query Procedure &#8212; Turkish-Kurdish Conflict Event Database 1984-2018</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -38,7 +38,8 @@
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1. Introduction" href="introduction.html" />
+    <link rel="next" title="3. Database Schema" href="schema_tables.html" />
+    <link rel="prev" title="1. Introduction" href="introduction.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -55,7 +56,7 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="#">
+    <a class="navbar-brand text-wrap" href="index.html">
       
       
       
@@ -68,20 +69,20 @@
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
    What is The Turkish-Kurdish Event Database ?
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="introduction.html">
    1. Introduction
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="event_query_procedure.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    2. Event Query Procedure
   </a>
  </li>
@@ -136,7 +137,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/index.rst.txt"><button type="button"
+        <a class="dropdown-buttons" href="_sources/event_query_procedure.rst.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.rst</button></a>
         <!-- Download PDF via print -->
@@ -174,6 +175,24 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#primary-search-procedure">
+   2.1. Primary Search Procedure
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#query-result-sorting-procedure">
+   2.2. Query Result Sorting Procedure
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -182,40 +201,54 @@
         
               <div>
                 
-  <div class="topic">
-<p class="topic-title">What is The Turkish-Kurdish Event Database ?</p>
-<p><cite>The Turkish-Kurdish Event Database</cite> is an agnostic archive of the human rights abuses commited in Anatolia by any group or agent.</p>
+  <div class="section" id="event-query-procedure">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2"><span class="section-number">2. </span>Event Query Procedure</a><a class="headerlink" href="#event-query-procedure" title="Permalink to this headline">¶</a></h1>
+<div class="topic">
+<p class="topic-title">Overview</p>
+<p>This section explaines the search procedures used to query the Lexis-Nexis database. It can be used by research assistants to code events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>Oct 20, 2021</p>
+</dd>
+<dt class="field-even">Author</dt>
+<dd class="field-even"><p><strong>Justin Napolitano</strong></p>
+</dd>
+</dl>
 </div>
-<p>The documentation will present to you the first version of a paper written by Dr. Demet Mousseau and Justin Napolitano, both of the University of Central Florida.</p>
-<p>It was presented at the Hague in 2019 at <cite>The Peace Economics Conference.</cite></p>
-<p>A follow up is currently in production which will migrate the data to a Graph DB that strictly adheres to the person, object, location, event (POLE) schema.  It will also implement an NLP algorithm to parse event data in real time.</p>
-<div class="section" id="contents">
-<h1>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#event-query-procedure" id="id2">Event Query Procedure</a></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#the-kurdish-issue">1.1. The Kurdish Issue</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#the-turkish-issue">1.2. The Turkish Issue</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#intent-of-research">1.3. Intent of Research</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#the-data">1.4. The Data</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="event_query_procedure.html">2. Event Query Procedure</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="event_query_procedure.html#primary-search-procedure">2.1. Primary Search Procedure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="event_query_procedure.html#query-result-sorting-procedure">2.2. Query Result Sorting Procedure</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="schema_tables.html">3. Database Schema</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="schema_tables.html#schema-definitions">3.1. Schema Definitions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="schema_tables.html#reference-tables">3.2. Reference Tables</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="data.html">4. Data</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="data.html#current-data">4.1. Current Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data.html#archived-data">4.2. Archived Data</a></li>
+<li><p><a class="reference internal" href="#primary-search-procedure" id="id3">Primary Search Procedure</a></p></li>
+<li><p><a class="reference internal" href="#query-result-sorting-procedure" id="id4">Query Result Sorting Procedure</a></p></li>
 </ul>
 </li>
 </ul>
+</div>
+<div class="section" id="primary-search-procedure">
+<h2><a class="toc-backref" href="#id3"><span class="section-number">2.1. </span>Primary Search Procedure</a><a class="headerlink" href="#primary-search-procedure" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Paste the following into the search bar on the Nexis Uni home page:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>hlead(turkey) and women or rape or slavery or sexual or trafficking or child labor or child soldier or children or violence and publication(Agence France Presse - English or associated press international )</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Select the filter results drop down menu.</p></li>
+<li><p>Select appropriate date ranges</p></li>
+</ol>
+</div>
+<div class="section" id="query-result-sorting-procedure">
+<h2><a class="toc-backref" href="#id4"><span class="section-number">2.2. </span>Query Result Sorting Procedure</a><a class="headerlink" href="#query-result-sorting-procedure" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Begin with the oldest listed resulted.  Then proceed chronologically.  For each story, determine if the information is relevant to the data project.  If not, discard the story.</p></li>
+<li><p>During periods of civil conflict, defined by the start and end dates in the Uppsala Armed Conflict Database, code violent events associated with the civil conflicts.</p></li>
+<li><p>Group duplicate articles together as a single event.  In the case of disputed information, cite the most common estimates, and/or the most recently cited.</p></li>
+<li><p>In the case that one article covers multiple events determine if the main actor(s), target(s), and issue(s) are different, and if so, code these as distinct events.</p></li>
+<li><p>Code a new event if the actor(s), target(s), and issue(s) are different or if there is substantial time that elapses between on event and another.  If the actors, targets, and issues are the same, but there is a brief lull in activity, code it as the same event, so long as there is significant “momentum” linking the time periods.</p></li>
+</ol>
 </div>
 </div>
 
@@ -229,11 +262,20 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="introduction.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title"><span class="section-number">1. </span>Introduction</p>
+            </div>
+        </a>
+    </div>
      <div id="next">
-        <a class="right-next" href="introduction.html" title="next page">
+        <a class="right-next" href="schema_tables.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title"><span class="section-number">1. </span>Introduction</p>
+                <p class="prevnext-title"><span class="section-number">3. </span>Database Schema</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

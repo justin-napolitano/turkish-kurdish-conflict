@@ -1,13 +1,13 @@
-.. _search_procedure:
+.. _event_query_procedure:
 
 
 
 
 
 
-##################
-Search Procedure
-##################
+#####################
+Event Query Procedure
+#####################
 
 .. topic:: Overview
 
@@ -34,8 +34,8 @@ Primary Search Procedure
 3. Select appropriate date ranges
    
 
-Sorting Procedure
-=================	
+Query Result Sorting Procedure
+==============================	
 
 1. Begin with the oldest listed resulted.  Then proceed chronologically.  For each story, determine if the information is relevant to the data project.  If not, discard the story. 
    
