@@ -180,7 +180,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Victim Table`_ for reference.
+    `Victim Table`_
 
 Victim_Name
 ===========
@@ -199,8 +199,7 @@ Data Type
 Reference Table
 ---------------
 
-    `Victim Table`_ for reference.
-
+    `Victim Table`_
 
 Source_Article
 ==============
@@ -232,7 +231,7 @@ Definition
 Data Type
 ---------
     
-    DateStamp
+    DateStamp.
 
 
 Reference Table
@@ -251,7 +250,7 @@ Definition
 Data Type
 ---------
     
-    String
+    String.
 
 Reference Table
 ---------------
@@ -270,7 +269,7 @@ Defintion
 Data Type
 ---------
     
-    String
+    String.
 
 Reference Table
 ---------------
@@ -308,7 +307,7 @@ Definition
 Data Type
 ---------
     
-    Boolean
+    Boolean.
 
 Reference Table
 ---------------
@@ -326,7 +325,7 @@ Definition
 Data Type
 ---------
   
-    String
+    String.
 
 Reference Table
 ---------------
@@ -345,7 +344,7 @@ Definition
 Data Type
 ----
     
-    Categorical Integer
+    Categorical Integer.
 
 
 Reference Table
@@ -405,7 +404,7 @@ Definition
 Data Type
 ---------
 
-    DateStamp DD/MM/YYYY
+    DateStamp DD/MM/YYYY.
 
 
 Reference Table
@@ -424,7 +423,7 @@ Definition
 Data Type
 ---------
 
-    Integer
+    Integer.
 
 Reference Table
 ---------------
@@ -442,7 +441,7 @@ Definition
 Data Type
 ---------
 
-    Integer
+    Integer.
 
 Reference Table
 ---------------
@@ -461,7 +460,7 @@ Definition
 Data Type
 ---------
 
-    Integer
+    Integer.
 
 
 Reference Table
@@ -480,7 +479,7 @@ Definition
 Data Type
 ---------
 
-    Integer
+    Integer.
 
 Reference Table
 ---------------
@@ -498,7 +497,7 @@ Definition
 Data Type
 ---------
 
-    Integer
+    Integer.
 
 Reference Table
 ---------------
@@ -535,7 +534,7 @@ Definition
 Data Type
 ---------
 
-    Integer
+    Integer.
 
 Reference Table
 ---------------
@@ -579,7 +578,7 @@ Definition
 Data Type
 ---------
 
-    String
+    String.
 
 
 Reference Table
@@ -624,7 +623,7 @@ Data Type
 ---------
 
 
-    String
+    String.
 
 
 Reference Table
@@ -648,7 +647,7 @@ Definition
 Data Type
 ---------
 
-    Boolean
+    Boolean.
 
 Reference Table
 ---------------
@@ -672,9 +671,7 @@ Definition
 Data Type
 ---------
 
-  ::
-
-    Boolean
+    Boolean.
 
 Reference Table
 ---------------
@@ -695,7 +692,7 @@ Definition
 Data Type
 ---------
 
-    String
+    String.
 
 
 Reference Table
@@ -727,7 +724,7 @@ Definition
 Data Type
 ---------
 
-    String
+    String.
 
 Reference Table
 ---------------
