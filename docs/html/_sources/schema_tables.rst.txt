@@ -22,6 +22,7 @@ Database Schema
 
 .. contents:: 
     :depth: 3
+    :numbered:
 
 Schema Definitions
 ##################
@@ -36,6 +37,7 @@ Schema Definitions
 
 .. contents:: :local:
     :depth: 3
+    :numbered:
 
 
 Year
@@ -672,6 +674,7 @@ Reference Tables
 
 .. contents:: :local:
     :depth: 3
+    :numbered:
 
 Overview Table
 ==============
@@ -687,10 +690,7 @@ Aggressor Table
 
 .. csv-table:: Aggressor Table
    :file: /csv/side_a_table.csv
-   :widths: 20, 20
-   :header-rows: 1
-
-Victim Table
+   :widths: 20, 20:numbered:
 ============
 
 .. csv-table:: Victim Table
