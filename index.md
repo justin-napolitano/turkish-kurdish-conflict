@@ -19,6 +19,12 @@ seoSecondaryKeywords:
   - event database
   - conflict data methodology
 seoOptimized: true
+topicFamily: datascience
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post focuses on systematic data collection, coding schemes, and methodology for conflict event
+  data, which aligns with data analysis project themes in the 'datascience' family; other families
+  like automation or latex are irrelevant to the content.
 ---
 
 # Turkish-Kurdish Conflict Event Database: Technical Overview
@@ -56,4 +62,5 @@ Conflict event data often suffers from inconsistency, lack of transparency, and 
 ## Summary
 
 This project provides a foundational resource for systematic event data collection on the Turkish-Kurdish conflict. It fills a methodological gap by codifying event definitions and coding schemes. While currently limited to documentation, it lays the groundwork for rigorous empirical analysis and future technical development in conflict data science.
+
 
