@@ -1,30 +1,42 @@
 ---
 slug: github-turkish-kurdish-conflict
-title: Turkish-Kurdish Conflict Event Database Manual for Systematic Data Collection
+title: Technical Overview of the Turkish-Kurdish Conflict Database
 repo: justin-napolitano/turkish-kurdish-conflict
 githubUrl: https://github.com/justin-napolitano/turkish-kurdish-conflict
 generatedAt: '2025-11-23T09:48:13.844763Z'
 source: github-auto
 summary: >-
-  Technical overview of a PDF manual providing standardized coding schemes and definitions for
-  Turkish-Kurdish conflict event data collection.
+  Explore the methodology and framework for cataloging events in the
+  Turkish-Kurdish conflict, aimed at researchers and analysts.
 tags:
   - conflict-data
   - event-database
   - political-violence
   - data-collection
   - methodology
-seoPrimaryKeyword: turkish-kurdish conflict
-seoSecondaryKeywords:
+  - conflict data
+  - data collection
+  - political violence
   - event database
+  - data reliability
+  - coding schemes
+seoPrimaryKeyword: turkish-kurdish conflict event database
+seoSecondaryKeywords:
   - conflict data methodology
+  - event coding procedures
+  - political conflict analysis
+  - data transparency
+  - empirical research in conflict studies
 seoOptimized: true
 topicFamily: datascience
 topicFamilyConfidence: 0.9
 topicFamilyNotes: >-
-  The post focuses on systematic data collection, coding schemes, and methodology for conflict event
-  data, which aligns with data analysis project themes in the 'datascience' family; other families
-  like automation or latex are irrelevant to the content.
+  The post focuses on systematic data collection, coding schemes, and
+  methodology for conflict event data, which aligns with data analysis project
+  themes in the 'datascience' family; other families like automation or latex
+  are irrelevant to the content.
+kind: project
+id: github-turkish-kurdish-conflict
 ---
 
 # Turkish-Kurdish Conflict Event Database: Technical Overview
