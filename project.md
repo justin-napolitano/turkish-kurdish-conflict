@@ -1,19 +1,28 @@
 ---
 slug: github-turkish-kurdish-conflict
 id: github-turkish-kurdish-conflict
-title: Turkish-Kurdish Conflict Event Database
+title: Dataset and Documentation for Turkish-Kurdish Conflict
 repo: justin-napolitano/turkish-kurdish-conflict
 githubUrl: https://github.com/justin-napolitano/turkish-kurdish-conflict
 generatedAt: '2025-11-24T21:36:42.945Z'
 source: github-auto
 summary: >-
-  This repository contains a dataset and accompanying documentation related to
-  the Turkish-Kurdish conflict. It provides a structured event database manual
-  to facilitate research and analysis on this political and social conflict.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore a structured dataset and documentation for analyzing the
+  Turkish-Kurdish conflict, including event database manuals and guidelines.
+tags:
+  - dataset
+  - conflict analysis
+  - PDF documentation
+  - data collection
+  - research resources
+seoPrimaryKeyword: turkish-kurdish conflict dataset
+seoSecondaryKeywords:
+  - event database manual
+  - conflict research tools
+  - data analysis guidelines
+  - repository documentation
+  - political conflict dataset
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
