@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/turkish-kurdish-conflict
 generatedAt: '2025-11-24T21:36:42.945Z'
 source: github-auto
 summary: >-
-  Explore a structured dataset and documentation for analyzing the
-  Turkish-Kurdish conflict, including event database manuals and guidelines.
+  Explore a structured dataset and documentation for analyzing the Turkish-Kurdish conflict,
+  including event database manuals and guidelines.
 tags:
   - dataset
   - conflict analysis
@@ -23,8 +23,8 @@ seoSecondaryKeywords:
   - repository documentation
   - political conflict dataset
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: datascience
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -88,4 +88,5 @@ turkish-kurdish-conflict-event-databse-manual.pdf
 - Provide metadata or summaries of the dataset
 - Develop tools for querying or visualizing the event data
 - Expand documentation with examples and use cases
+
 
